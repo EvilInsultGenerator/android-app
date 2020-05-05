@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">EvilInsultGenerate</string>
+    <string name="social_text">Social</string>
+    <string name="contact_text">Contact</string>
+    <string name="legal_text">Legal</string>
+    <string name="generate_text">Generate</string>
+    <string name="insult_text">This is some Ramdon Insult</string>
+    <string name="shared_text">share</string>
+    <string name="twitter">twitter</string>
+    <string name="newsletter">newsletter</string>
+    <string name="website">website</string>
+    <string name="proposal">proposal</string>
+    <string name="support">support</string>
+
+
 </resources>

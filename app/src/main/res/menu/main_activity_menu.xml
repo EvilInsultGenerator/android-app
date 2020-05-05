@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:title="@string/social_text">
+        <menu>
+            <item android:title="@string/twitter" />
+            <item android:title="@string/newsletter" />
+            <item android:title="@string/website" />
+        </menu>
+    </item>
+    <item android:title="@string/contact_text">
+        <menu>
+            <item android:title="@string/proposal"/>
+            <item android:title="@string/support"/>
+        </menu>
+    </item>
+    <item android:title="@string/legal_text"/>
+</menu>
