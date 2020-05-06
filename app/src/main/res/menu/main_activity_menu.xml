@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
+    <item
+        android:icon="@drawable/ic_translate"
+        android:title=""
+        app:showAsAction="ifRoom" />
     <item android:title="@string/social_text">
         <menu>
             <item android:title="@string/twitter" />
@@ -11,9 +16,9 @@
     </item>
     <item android:title="@string/contact_text">
         <menu>
-            <item android:title="@string/proposal"/>
-            <item android:title="@string/support"/>
+            <item android:title="@string/proposal" />
+            <item android:title="@string/support" />
         </menu>
     </item>
-    <item android:title="@string/legal_text"/>
+    <item android:title="@string/legal_text" />
 </menu>
