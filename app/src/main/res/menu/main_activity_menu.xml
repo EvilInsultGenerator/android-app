@@ -4,9 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
     <item
-        android:icon="@drawable/ic_translate"
-        android:title=""
+        android:icon="@drawable/ic_translate_black_24dp"
+        android:title="@string/language"
         app:showAsAction="ifRoom" />
+
     <item android:title="@string/social_text">
         <menu>
             <item android:title="@string/twitter" />
@@ -14,11 +15,13 @@
             <item android:title="@string/website" />
         </menu>
     </item>
+
     <item android:title="@string/contact_text">
         <menu>
             <item android:title="@string/proposal" />
             <item android:title="@string/support" />
         </menu>
     </item>
+
     <item android:title="@string/legal_text" />
 </menu>

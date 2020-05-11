@@ -3,64 +3,85 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        app:elevation="4dp"
+        tools:ignore="UnusedAttribute">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            style="?toolbarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="?colorPrimary"
+            android:minHeight="?actionBarSize"
+            app:title="@string/app_name" />
+
+    </com.google.android.material.appbar.AppBarLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-        <com.google.android.material.appbar.AppBarLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:clipChildren="false"
-            tools:ignore="UnusedAttribute">
+        android:orientation="vertical"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
-            <com.google.android.material.appbar.MaterialToolbar
-                style="?toolbarStyle"
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:overScrollMode="ifContentScrolls">
+
+            <TextView
+                android:id="@+id/insult_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="end"
-                android:minHeight="?actionBarSize"
-                app:menu="@menu/main_activity_menu"
-                app:title="@string/app_name" />
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="The insult support"
+                android:textSize="30sp" />
 
-        </com.google.android.material.appbar.AppBarLayout>
+        </ScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:orientation="vertical">
-
-            <TextView
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:paddingStart="16dp"
+            android:paddingTop="12dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="12dp">
+            <!-- Dan error los botones de mqaterial components
+            -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/share_btn"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="The insult support"
-                android:textSize="30sp" />
-        </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="end"
-        android:layout_gravity="bottom"
-        android:background="@color/design_default_color_on_primary">
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/shared_text"
-            android:layout_marginEnd="8dp"
-            android:layout_marginTop="4dp"/>
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/generate_text"
-            android:layout_marginEnd="12dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginTop="4dp"/>
-    </LinearLayout>
+                android:layout_marginEnd="16dp"
+                android:text="@string/shared_text"
+                android:textColor="?colorSecondary" />
 
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/generate_btn"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/generate_text"
+                android:textColor="?colorOnSecondary"
+                app:backgroundTint="?colorSecondary" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -5,12 +5,11 @@
     <string name="legal_text">Legal</string>
     <string name="generate_text">Generate</string>
     <string name="insult_text">This is some Random Insult</string>
-    <string name="shared_text">share</string>
-    <string name="twitter">twitter</string>
-    <string name="newsletter">newsletter</string>
-    <string name="website">website</string>
-    <string name="proposal">proposal</string>
-    <string name="support">support</string>
-
-
+    <string name="shared_text">Share</string>
+    <string name="twitter">Twitter</string>
+    <string name="newsletter">Newsletter</string>
+    <string name="website">Website</string>
+    <string name="proposal">Proposal</string>
+    <string name="support">Support</string>
+    <string name="language">Language</string>
 </resources>
