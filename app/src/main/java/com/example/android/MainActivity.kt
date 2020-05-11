@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
     private val toolbar: Toolbar? by lazy { findViewById<Toolbar?>(R.id.toolbar) }
 
     private val insultViewModel: InsultViewModel by viewModels()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
