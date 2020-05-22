@@ -25,12 +25,12 @@ class MainActivity : AppCompatActivity() {
         val btnGenerate: Button = findViewById(R.id.generate_btn)
         val textInsult: TextView = findViewById(R.id.insult_text)
         btnGenerate.setOnClickListener {
-            btnGenerate.isEnabled = false
+            btnGenerate.isVisible = false
             insultViewModel.generateInsult()
         }
         insultViewModel.observe(this) {
             textInsult.text = insultViewModel.insult
-            btnGenerate.isEnabled = true
+            btnGenerate.isVisible = true
         }
     }
 

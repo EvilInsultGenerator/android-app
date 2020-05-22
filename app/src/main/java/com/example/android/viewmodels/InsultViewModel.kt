@@ -1,12 +1,7 @@
 package com.example.android.viewmodels
 
-import android.app.Activity
-import android.content.Context
 import android.util.Log
-import android.widget.Button
 import androidx.lifecycle.*
-import com.example.android.MainActivity
-import com.example.android.R
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -22,15 +17,17 @@ class InsultViewModel : ViewModel() {
     val insult: String?
         get() = insultData.value
 
-    fun generateInsult() {
-        viewModelScope.launch { connectHttps() }
+    fun generateInsult(
+        urlData: String = "https://evilinsult.com/generate_insult.php?lang=es",
+        urlFailed: Boolean = false
+    ) {
+        viewModelScope.launch { connectHttps(urlData, urlFailed) }
     }
 
-    private suspend fun connectHttps() = withContext(IO) {
-        val url: URL
+    private suspend fun connectHttps(urlData: String, urlFailed: Boolean) = withContext(IO) {
+        val url = URL(urlData)
         var urlConnection: HttpURLConnection? = null
         try {
-            url = URL("https://evilinsult.com/generate_insult.php?lang=es")
             urlConnection = url
                 .openConnection() as HttpURLConnection
             val `in`: InputStream = urlConnection.inputStream
@@ -44,8 +41,10 @@ class InsultViewModel : ViewModel() {
             }
             insultData.postValue(aux)
         } catch (e: Exception) {
-            e.printStackTrace()
-            Log.d("daniel", "catch")
+            if(!urlFailed)
+                generateInsult("https://slave.evilinsult.com/generate_insult.php",true)
+            else
+                Log.d("daniel","The urls has a error")
         } finally {
             urlConnection?.disconnect()
         }
@@ -58,9 +57,4 @@ class InsultViewModel : ViewModel() {
     fun destroy(owner: LifecycleOwner) {
         insultData.removeObservers(owner)
     }
-
-    override fun onCleared() {
-        super.onCleared()
-    }
-
 }
