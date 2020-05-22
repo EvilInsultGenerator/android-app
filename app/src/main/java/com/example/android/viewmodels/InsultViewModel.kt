@@ -17,14 +17,21 @@ class InsultViewModel : ViewModel() {
     val insult: String?
         get() = insultData.value
 
-    fun generateInsult(
-        urlData: String = "https://evilinsult.com/generate_insult.php?lang=es",
-        urlFailed: Boolean = false
-    ) {
-        viewModelScope.launch { connectHttps(urlData, urlFailed) }
+    private val insultUrl: String
+        get() = "https://evilinsult.com/generate_insult.php?lang=es"
+
+    private val insultBackupUrl: String
+        get() = "https://slave.evilinsult.com/generate_insult.php"
+
+    fun generateInsult() {
+            try {
+                viewModelScope.launch { connectHttps(insultUrl) }
+            } catch (e: Exception) {
+                viewModelScope.launch { connectHttps(insultBackupUrl) }
+            }
     }
 
-    private suspend fun connectHttps(urlData: String, urlFailed: Boolean) = withContext(IO) {
+    private suspend fun connectHttps(urlData: String) = withContext(IO) {
         val url = URL(urlData)
         var urlConnection: HttpURLConnection? = null
         try {
@@ -41,10 +48,7 @@ class InsultViewModel : ViewModel() {
             }
             insultData.postValue(aux)
         } catch (e: Exception) {
-            if(!urlFailed)
-                generateInsult("https://slave.evilinsult.com/generate_insult.php",true)
-            else
-                Log.d("daniel","The urls has a error")
+                Log.d("daniel","Vaya F")
         } finally {
             urlConnection?.disconnect()
         }
