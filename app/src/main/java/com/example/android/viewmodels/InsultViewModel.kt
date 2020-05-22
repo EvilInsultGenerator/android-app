@@ -24,17 +24,20 @@ class InsultViewModel : ViewModel() {
         get() = "https://slave.evilinsult.com/generate_insult.php"
 
     fun generateInsult() {
+        viewModelScope.launch {
             try {
-                viewModelScope.launch { connectHttps(insultUrl) }
+                connectHttps(insultUrl)
             } catch (e: Exception) {
-                viewModelScope.launch { connectHttps(insultBackupUrl) }
+                connectHttps(insultBackupUrl)
             }
+        }
     }
 
     private suspend fun connectHttps(urlData: String) = withContext(IO) {
         val url = URL(urlData)
         var urlConnection: HttpURLConnection? = null
         try {
+            Log.d("daniel", "Checking with url: ${url.toString()}")
             urlConnection = url
                 .openConnection() as HttpURLConnection
             val `in`: InputStream = urlConnection.inputStream
@@ -48,7 +51,7 @@ class InsultViewModel : ViewModel() {
             }
             insultData.postValue(aux)
         } catch (e: Exception) {
-                Log.d("daniel","Vaya F")
+            Log.d("daniel", "Vaya F")
         } finally {
             urlConnection?.disconnect()
         }
