@@ -1,7 +1,11 @@
 package com.example.android.viewmodels
 
+import android.app.Application
+import android.content.Context
+import android.content.SharedPreferences
 import android.util.Log
 import androidx.lifecycle.*
+import com.example.android.MainActivity
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -10,12 +14,18 @@ import java.io.InputStreamReader
 import java.net.HttpURLConnection
 import java.net.URL
 
-class InsultViewModel : ViewModel() {
+class InsultViewModel(application: Application) : AndroidViewModel(application) {
 
     private val insultData: MutableLiveData<String> by lazy { MutableLiveData<String>() }
-
     val insult: String?
         get() = insultData.value
+
+    private val prefs: SharedPreferences by lazy {
+        application.getSharedPreferences(
+            LANGUAGE,
+            Context.MODE_PRIVATE
+        )
+    }
 
     private val insultUrl: String
         get() = "https://evilinsult.com/generate_insult.php?lang=es"
@@ -51,7 +61,7 @@ class InsultViewModel : ViewModel() {
             }
             insultData.postValue(aux)
         } catch (e: Exception) {
-            Log.d("daniel", "Vaya F")
+
         } finally {
             urlConnection?.disconnect()
         }
@@ -64,4 +74,9 @@ class InsultViewModel : ViewModel() {
     fun destroy(owner: LifecycleOwner) {
         insultData.removeObservers(owner)
     }
+
+    companion object {
+        private const val LANGUAGE = "LANGUAGE"
+    }
+
 }

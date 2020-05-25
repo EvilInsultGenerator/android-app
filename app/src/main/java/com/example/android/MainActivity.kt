@@ -1,6 +1,7 @@
 package com.example.android
 
 import android.os.Bundle
+import android.preference.PreferenceManager
 import android.util.Log
 import android.view.Menu
 import android.widget.Button
@@ -8,10 +9,7 @@ import android.widget.TextView
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import androidx.core.view.isVisible
-import androidx.lifecycle.ViewModelProvider
 import com.example.android.viewmodels.InsultViewModel
-
 class MainActivity : AppCompatActivity() {
 
     private val toolbar: Toolbar? by lazy { findViewById<Toolbar?>(R.id.toolbar) }
