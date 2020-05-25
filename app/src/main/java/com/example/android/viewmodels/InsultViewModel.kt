@@ -22,7 +22,7 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
 
     private val prefs: SharedPreferences by lazy {
         application.getSharedPreferences(
-            LANGUAGE,
+            LANGUAGES,
             Context.MODE_PRIVATE
         )
     }
@@ -47,7 +47,6 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
         val url = URL(urlData)
         var urlConnection: HttpURLConnection? = null
         try {
-            Log.d("daniel", "Checking with url: ${url.toString()}")
             urlConnection = url
                 .openConnection() as HttpURLConnection
             val `in`: InputStream = urlConnection.inputStream
@@ -76,7 +75,7 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
     }
 
     companion object {
-        private const val LANGUAGE = "LANGUAGE"
+        private const val LANGUAGES = "LANGUAGES"
     }
 
 }
