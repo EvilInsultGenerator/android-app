@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
     <item
+        android:id="@+id/btn_translate"
         android:icon="@drawable/ic_translate_black_24dp"
         android:title="@string/language"
         app:showAsAction="ifRoom" />
