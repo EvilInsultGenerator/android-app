@@ -20,18 +20,21 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
     val insult: String?
         get() = insultData.value
 
-    private val prefs: SharedPreferences by lazy {
+    val prefs: SharedPreferences by lazy {
         application.getSharedPreferences(
-            LANGUAGES,
+            LANGUAGE_KEY,
             Context.MODE_PRIVATE
         )
     }
 
+    private val currentLanguageCode: String
+        get() = prefs.getString(LANGUAGE_KEY, "en") ?: "en"
+
     private val insultUrl: String
-        get() = "https://evilinsult.com/generate_insult.php?lang=es"
+        get() = "https://evilinsult.com/generate_insult.php?lang=$currentLanguageCode"
 
     private val insultBackupUrl: String
-        get() = "https://slave.evilinsult.com/generate_insult.php"
+        get() = "https://slave.evilinsult.com/generate_insult.php?lang=$currentLanguageCode"
 
     fun generateInsult() {
         viewModelScope.launch {
@@ -75,7 +78,7 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
     }
 
     companion object {
-        private const val LANGUAGES = "LANGUAGES"
+        const val LANGUAGE_KEY = "LANGUAGES"
     }
 
 }

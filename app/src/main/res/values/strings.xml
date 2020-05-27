@@ -37,4 +37,9 @@
     <string name="czech">Czech</string>
     <string name="latin">Latin</string>
     <string name="lang">Lang</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+
+
 </resources>

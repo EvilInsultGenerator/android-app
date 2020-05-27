@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity() {
 
     private var alertDialog: AlertDialog? = null
 
+    private var itemSelected: Int = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -48,15 +50,28 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.btn_translate -> {
-                /*   for (userEnum in Language.values()) {
-                    Log.d("daniel", userEnum.name)
-                }*/
+                var aux: Int = 0
                 alertDialog = MaterialAlertDialogBuilder(this).setTitle("LANGUAGE")
-                    .setItems(
-                        //arrayOf(Language.values()).map { it[] }.toTypedArray(),
+                    .setSingleChoiceItems(
+                        Language.values().map { getString(it.languageId) }.toTypedArray(),
+                        itemSelected,
                         DialogInterface.OnClickListener { dialog, which ->
-
+                            with(insultViewModel.prefs.edit()) {
+                                putString(
+                                    InsultViewModel.LANGUAGE_KEY,
+                                    Language.values()[which].languageCode
+                                )
+                                apply()
+                            }
+                            aux = which
                         })
+                    .setPositiveButton(R.string.ok) { dialog, which ->
+                        itemSelected = aux
+                        insultViewModel.generateInsult()
+                    }
+                    .setNeutralButton(R.string.cancel) { dialog, which ->
+
+                    }
                     .show()
                 true
             }
