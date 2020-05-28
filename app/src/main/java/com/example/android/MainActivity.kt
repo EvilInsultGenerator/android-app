@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
                             it.languageCode == insultViewModel.currentLanguageCode
                         },
                         DialogInterface.OnClickListener { dialog, which ->
-                            insultViewModel.setPreference(which)
+                           
                         })
                     .setPositiveButton(R.string.ok) { dialog, which ->
                         val lw: ListView =
@@ -67,7 +67,6 @@ class MainActivity : AppCompatActivity() {
                         }
                     }
                     .setNeutralButton(R.string.cancel) { dialog, which ->
-
                     }
                     .show()
                 true
