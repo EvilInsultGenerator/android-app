@@ -50,25 +50,8 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.btn_translate -> {
-                alertDialog = MaterialAlertDialogBuilder(this).setTitle("LANGUAGE")
-                    .setSingleChoiceItems(
-                        Language.values().map { getString(it.languageId) }.toTypedArray(),
-                        Language.values().indexOfFirst { it ->
-                            it.languageCode == insultViewModel.currentLanguageCode
-                        },
-                        DialogInterface.OnClickListener { dialog, which ->
-                           
-                        })
-                    .setPositiveButton(R.string.ok) { dialog, which ->
-                        val lw: ListView =
-                            (dialog as AlertDialog).listView
-                        if (lw.checkedItemCount > 0) {
-                            insultViewModel.setPreference(lw.checkedItemPosition)
-                        }
-                    }
-                    .setNeutralButton(R.string.cancel) { dialog, which ->
-                    }
-                    .show()
+                dismissDialog()
+                showAlertDialogLanguage()
                 true
             }
             else -> super.onOptionsItemSelected(item)
@@ -78,6 +61,37 @@ class MainActivity : AppCompatActivity() {
     override fun onDestroy() {
         super.onDestroy()
         insultViewModel.destroy(this)
+        dismissDialog()
+    }
+
+    private fun showAlertDialogLanguage() {
+        alertDialog = MaterialAlertDialogBuilder(this).setTitle("LANGUAGE")
+            .setSingleChoiceItems(
+                Language.values().map { getString(it.languageId) }.toTypedArray(),
+                Language.values().indexOfFirst { it ->
+                    it.languageCode == insultViewModel.currentLanguageCode
+                },
+                DialogInterface.OnClickListener { dialog, which ->
+
+                })
+            .setPositiveButton(R.string.ok) { dialog, which ->
+                val lw: ListView =
+                    (dialog as AlertDialog).listView
+                if (lw.checkedItemCount > 0) {
+                    insultViewModel.setPreference(lw.checkedItemPosition)
+                }
+            }
+            .setNeutralButton(R.string.cancel) { dialog, which ->
+            }
+            .show()
+    }
+
+    private fun dismissDialog() {
+        try {
+            alertDialog?.dismiss()
+        } catch (e: Exception) {
+        }
+        alertDialog = null
     }
 
 }
