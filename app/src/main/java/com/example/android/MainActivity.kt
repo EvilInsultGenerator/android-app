@@ -7,6 +7,7 @@ import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
+import android.widget.ListView
 import android.widget.TextView
 import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
@@ -14,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import com.example.android.viewmodels.InsultViewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import java.lang.reflect.Array
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,8 +24,6 @@ class MainActivity : AppCompatActivity() {
     private val insultViewModel: InsultViewModel by viewModels()
 
     private var alertDialog: AlertDialog? = null
-
-    private var itemSelected: Int = 0
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -50,24 +50,21 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
             R.id.btn_translate -> {
-                var aux: Int = 0
                 alertDialog = MaterialAlertDialogBuilder(this).setTitle("LANGUAGE")
                     .setSingleChoiceItems(
                         Language.values().map { getString(it.languageId) }.toTypedArray(),
-                        itemSelected,
+                        Language.values().indexOfFirst { it ->
+                            it.languageCode == insultViewModel.currentLanguageCode
+                        },
                         DialogInterface.OnClickListener { dialog, which ->
-                            with(insultViewModel.prefs.edit()) {
-                                putString(
-                                    InsultViewModel.LANGUAGE_KEY,
-                                    Language.values()[which].languageCode
-                                )
-                                apply()
-                            }
-                            aux = which
+                            insultViewModel.setPreference(which)
                         })
                     .setPositiveButton(R.string.ok) { dialog, which ->
-                        itemSelected = aux
-                        insultViewModel.generateInsult()
+                        val lw: ListView =
+                            (dialog as AlertDialog).listView
+                        if (lw.checkedItemCount > 0) {
+                            insultViewModel.setPreference(lw.checkedItemPosition)
+                        }
                     }
                     .setNeutralButton(R.string.cancel) { dialog, which ->
 

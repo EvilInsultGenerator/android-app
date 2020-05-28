@@ -5,6 +5,7 @@ import android.content.Context
 import android.content.SharedPreferences
 import android.util.Log
 import androidx.lifecycle.*
+import com.example.android.Language
 import com.example.android.MainActivity
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch
@@ -27,7 +28,7 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
         )
     }
 
-    private val currentLanguageCode: String
+     val currentLanguageCode: String
         get() = prefs.getString(LANGUAGE_KEY, "en") ?: "en"
 
     private val insultUrl: String
@@ -66,6 +67,16 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
 
         } finally {
             urlConnection?.disconnect()
+        }
+    }
+
+    fun setPreference(selectedOption: Int) {
+        if (Language.values()[selectedOption].languageCode != currentLanguageCode) {
+            with(prefs.edit()) {
+                putString(LANGUAGE_KEY, Language.values()[selectedOption].languageCode)
+                apply()
+            }
+            generateInsult()
         }
     }
 
