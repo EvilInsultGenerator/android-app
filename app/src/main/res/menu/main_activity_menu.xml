@@ -11,18 +11,27 @@
 
     <item android:title="@string/social_text">
         <menu>
-            <item android:title="@string/twitter" />
-            <item android:title="@string/newsletter" />
-            <item android:title="@string/website" />
+            <item
+                android:id="@+id/twitter_item"
+                android:title="@string/twitter" />
+            <item
+                android:id="@+id/website_item"
+                android:title="@string/website" />
         </menu>
     </item>
 
     <item android:title="@string/contact_text">
         <menu>
-            <item android:title="@string/proposal" />
-            <item android:title="@string/support" />
+            <item
+                android:id="@+id/proposal_item"
+                android:title="@string/proposal" />
+            <item
+                android:id="@+id/support_item"
+                android:title="@string/support" />
         </menu>
     </item>
 
-    <item android:title="@string/legal_text" />
+    <item
+        android:id="@+id/legal_item"
+        android:title="@string/legal_text" />
 </menu>
