@@ -114,28 +114,21 @@ class MainActivity : AppCompatActivity() {
             btnGenerate.isEnabled = false
             insultViewModel.generateInsult()
         }
-        /*
-        *  Intent share=new Intent(Intent.ACTION_SEND);
-            share.setType("text/plain");
-            String shareBody=txtSubject.getText().toString()+"\n\nhttps://evilinsult.com/";
-            String shareSubject=txtSubject.getText().toString();
-            share.putExtra(Intent.EXTRA_SUBJECT,shareSubject);
-            share.putExtra(Intent.EXTRA_TEXT,shareBody);
-            startActivity(Intent.createChooser(share,"Share using"));
-        * */
         btnShareInsult.setOnClickListener {
-            if (!insultViewModel.insult.isNullOrEmpty()) {
-                val share: Intent = Intent(Intent.ACTION_SEND)
-                share.type = "text/plain"
-                share.putExtra(
-                    Intent.EXTRA_SUBJECT,
-                    insultViewModel.insult + "\n\nhttps://evilinsult.com/"
-                );
-                share.putExtra(Intent.EXTRA_TEXT, insultViewModel.insult)
-                startActivity(Intent.createChooser(share, "Share using"))
-            } else
-                Toast.makeText(this, "Please, you generate a insult", Toast.LENGTH_LONG).show()
+            shareListener()
         }
+    }
+
+    private fun shareListener() {
+        if (insultViewModel.insult.isNullOrEmpty()) return
+        val share: Intent = Intent(Intent.ACTION_SEND)
+        share.type = "text/plain"
+        share.putExtra(
+            Intent.EXTRA_SUBJECT,
+            insultViewModel.insult + "\n\nhttps://evilinsult.com/"
+        );
+        share.putExtra(Intent.EXTRA_TEXT, insultViewModel.insult)
+        startActivity(Intent.createChooser(share, "Share using"))
     }
 
     private fun showAlertDialogLanguage() {
