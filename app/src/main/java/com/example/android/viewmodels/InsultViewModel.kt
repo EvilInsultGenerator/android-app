@@ -3,10 +3,8 @@ package com.example.android.viewmodels
 import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
-import android.util.Log
 import androidx.lifecycle.*
 import com.example.android.Language
-import com.example.android.MainActivity
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -21,14 +19,14 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
     val insult: String?
         get() = insultData.value
 
-    val prefs: SharedPreferences by lazy {
+    private val prefs: SharedPreferences by lazy {
         application.getSharedPreferences(
             LANGUAGE_KEY,
             Context.MODE_PRIVATE
         )
     }
 
-     val currentLanguageCode: String
+    val currentLanguageCode: String
         get() = prefs.getString(LANGUAGE_KEY, "en") ?: "en"
 
     private val insultUrl: String

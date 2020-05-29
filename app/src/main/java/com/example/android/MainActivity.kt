@@ -1,17 +1,16 @@
 package com.example.android
 
 
-import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
+import android.text.Editable
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.Button
+import android.widget.EditText
 import android.widget.ListView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -104,14 +103,17 @@ class MainActivity : AppCompatActivity() {
 
     private fun initListeners() {
         val btnGenerate: Button = findViewById(R.id.generate_btn)
-        val textInsult: TextView = findViewById(R.id.insult_text)
+        val insultEditText: EditText = findViewById(R.id.insult_text)
         val btnShareInsult: Button = findViewById(R.id.share_btn)
+        insultEditText.keyListener = null
+        btnShareInsult.isEnabled = false
         insultViewModel.observe(this) {
-            textInsult.text = insultViewModel.insult
+            insultEditText.setText(insultViewModel.insult)
             btnGenerate.isEnabled = true
         }
         btnGenerate.setOnClickListener {
             btnGenerate.isEnabled = false
+            btnShareInsult.isEnabled = true
             insultViewModel.generateInsult()
         }
         btnShareInsult.setOnClickListener {
@@ -121,12 +123,12 @@ class MainActivity : AppCompatActivity() {
 
     private fun shareListener() {
         if (insultViewModel.insult.isNullOrEmpty()) return
-        val share: Intent = Intent(Intent.ACTION_SEND)
+        val share = Intent(Intent.ACTION_SEND)
         share.type = "text/plain"
         share.putExtra(
             Intent.EXTRA_SUBJECT,
             insultViewModel.insult + "\n\nhttps://evilinsult.com/"
-        );
+        )
         share.putExtra(Intent.EXTRA_TEXT, insultViewModel.insult)
         startActivity(Intent.createChooser(share, "Share using"))
     }
