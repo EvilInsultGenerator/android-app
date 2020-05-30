@@ -7,14 +7,12 @@ import android.os.Bundle
 import android.text.Editable
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Button
-import android.widget.EditText
-import android.widget.ListView
-import android.widget.TextView
+import android.widget.*
 import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+import androidx.core.view.isVisible
 import com.example.android.viewmodels.InsultViewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import openLink
@@ -105,15 +103,20 @@ class MainActivity : AppCompatActivity() {
         val btnGenerate: Button = findViewById(R.id.generate_btn)
         val insultEditText: EditText = findViewById(R.id.insult_text)
         val btnShareInsult: Button = findViewById(R.id.share_btn)
+        val insultProgress: ProgressBar = findViewById(R.id.insult_progress)
         insultEditText.keyListener = null
-        btnShareInsult.isEnabled = false
+        btnShareInsult.isEnabled = true
         insultViewModel.observe(this) {
             insultEditText.setText(insultViewModel.insult)
             btnGenerate.isEnabled = true
+            insultProgress.visibility = ProgressBar.GONE
+            insultEditText.isVisible = true
         }
         btnGenerate.setOnClickListener {
             btnGenerate.isEnabled = false
-            btnShareInsult.isEnabled = true
+            btnShareInsult.isEnabled = false
+            insultEditText.isVisible = false
+            insultProgress.visibility = ProgressBar.VISIBLE
             insultViewModel.generateInsult()
         }
         btnShareInsult.setOnClickListener {

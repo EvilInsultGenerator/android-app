@@ -35,20 +35,34 @@
             android:layout_weight="1"
             android:overScrollMode="ifContentScrolls">
 
-            <EditText
-                android:id="@+id/insult_text"
+            <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@android:color/transparent"
-                android:clipToPadding="false"
-                android:enabled="true"
-                android:gravity="center"
-                android:padding="24dp"
-                android:text="@string/insult_text"
-                android:textColor="#000000"
-                android:textIsSelectable="true"
-                android:textSize="30sp" />
+                android:layout_gravity="center">
+
+                <ProgressBar
+                    android:id="@+id/insult_progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="gone" />
+
+                <EditText
+                    android:id="@+id/insult_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:clipToPadding="false"
+                    android:enabled="true"
+                    android:gravity="center"
+                    android:padding="24dp"
+                    android:text="@string/insult_text"
+                    android:textColor="#000000"
+                    android:textIsSelectable="true"
+                    android:textSize="30sp" />
+
+            </FrameLayout>
+
 
         </ScrollView>
 

@@ -3,11 +3,14 @@ package com.example.android.viewmodels
 import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
+import android.util.Log
 import androidx.lifecycle.*
 import com.example.android.Language
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import org.jsoup.Jsoup
+import org.jsoup.nodes.Document
 import java.io.InputStream
 import java.io.InputStreamReader
 import java.net.HttpURLConnection
@@ -49,7 +52,8 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
         val url = URL(urlData)
         var urlConnection: HttpURLConnection? = null
         try {
-            urlConnection = url
+            val document: Document = Jsoup.connect(urlData).get()
+            /*urlConnection = url
                 .openConnection() as HttpURLConnection
             val `in`: InputStream = urlConnection.inputStream
             val isw = InputStreamReader(`in`)
@@ -59,8 +63,8 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
                 val current = data.toChar()
                 data = isw.read()
                 aux += current
-            }
-            insultData.postValue(aux)
+            }*/
+            insultData.postValue(document.text())
         } catch (e: Exception) {
 
         } finally {
