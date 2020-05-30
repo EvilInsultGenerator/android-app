@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.evilinsult.android.app.activities.MainActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <item
         android:id="@+id/btn_translate"
-        android:icon="@drawable/ic_translate_black_24dp"
+        android:icon="@drawable/ic_translate"
         android:title="@string/language"
         app:showAsAction="ifRoom" />
 
-    <item android:title="@string/social_text">
+    <item android:title="@string/social">
         <menu>
             <item
                 android:id="@+id/twitter_item"
@@ -20,7 +19,7 @@
         </menu>
     </item>
 
-    <item android:title="@string/contact_text">
+    <item android:title="@string/contact">
         <menu>
             <item
                 android:id="@+id/proposal_item"
@@ -33,5 +32,6 @@
 
     <item
         android:id="@+id/legal_item"
-        android:title="@string/legal_text" />
+        android:title="@string/legal" />
+
 </menu>
