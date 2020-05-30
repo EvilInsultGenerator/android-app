@@ -14,6 +14,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.isVisible
 import com.evilinsult.android.app.R
+import com.evilinsult.android.app.extensions.isNetworkAvailable
 import com.evilinsult.android.app.extensions.openLink
 import com.evilinsult.android.app.extensions.tintMenu
 import com.evilinsult.android.app.viewmodels.InsultViewModel
@@ -111,6 +112,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun generateInsult(force: Boolean = false) {
         if (generateBtn?.isEnabled == false && !force) return
+        if (!isNetworkAvailable) {
+            showInsult("")
+            showNetworkErrorDialog()
+            return
+        }
         generateBtn?.isEnabled = false
         shareBtn?.isEnabled = false
         insultEditText?.isVisible = false
@@ -133,7 +139,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun showLanguagePicker() {
         dismissDialog()
-        alertDialog = MaterialAlertDialogBuilder(this).setTitle("LANGUAGE")
+        alertDialog = MaterialAlertDialogBuilder(this)
+            .setTitle(R.string.language)
             .setSingleChoiceItems(
                 Language.values().map { getString(it.languageId) }.toTypedArray(),
                 Language.values().indexOfFirst {
@@ -145,8 +152,19 @@ class MainActivity : AppCompatActivity() {
                     val languageSet = insultViewModel.setLanguageCode(lw?.checkedItemPosition ?: -1)
                     if (languageSet) generateInsult(true)
                 }
+                dismissDialog()
             }
             .setNegativeButton(android.R.string.cancel) { _, _ -> dismissDialog() }
+            .create()
+        alertDialog?.show()
+    }
+
+    private fun showNetworkErrorDialog() {
+        dismissDialog()
+        alertDialog = MaterialAlertDialogBuilder(this)
+            .setTitle(R.string.error)
+            .setMessage(R.string.network_connection_required)
+            .setPositiveButton(android.R.string.ok) { _, _ -> dismissDialog() }
             .create()
         alertDialog?.show()
     }
