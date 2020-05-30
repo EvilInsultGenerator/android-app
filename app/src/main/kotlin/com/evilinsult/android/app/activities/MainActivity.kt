@@ -1,6 +1,5 @@
 package com.evilinsult.android.app.activities
 
-
 import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
@@ -15,20 +14,18 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.isVisible
+import com.evilinsult.android.app.R
+import com.evilinsult.android.app.extensions.openLink
 import com.evilinsult.android.app.viewmodels.InsultViewModel
 import com.evilinsult.android.app.viewmodels.Language
-import com.example.android.R
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import openLink
 import java.net.URLEncoder
 import java.nio.charset.StandardCharsets
 
 class MainActivity : AppCompatActivity() {
 
     private val toolbar: Toolbar? by lazy { findViewById<Toolbar?>(R.id.toolbar) }
-
     private val insultViewModel: InsultViewModel by viewModels()
-
     private var alertDialog: AlertDialog? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
