@@ -12,6 +12,7 @@ import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.jsoup.Jsoup
+import kotlin.math.roundToInt
 
 class InsultViewModel(application: Application) : AndroidViewModel(application) {
 
@@ -38,16 +39,21 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
             try {
                 connectHttps(insultUrl)
             } catch (e: Exception) {
+                e.printStackTrace()
                 try {
                     connectHttps(insultBackupUrl)
                 } catch (e: Exception) {
+                    e.printStackTrace()
+                    insultData.postValue("")
                 }
             }
         }
     }
 
     private suspend fun connectHttps(url: String) = withContext(IO) {
-        val insult: String? = Jsoup.connect(url).get().text()
+        val insult: String? = Jsoup.connect(url)
+            .timeout((TIMEOUT_IN_SECONDS * 1000).roundToInt())
+            .get().text()
         insultData.postValue(insult.orEmpty().trim())
     }
 
@@ -74,5 +80,6 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
     companion object {
         private const val PREFERENCES_NAME = "evil_insult_generator_prefs"
         private const val LANGUAGE_PREF_KEY = "current_lang"
+        private const val TIMEOUT_IN_SECONDS = 2.5
     }
 }

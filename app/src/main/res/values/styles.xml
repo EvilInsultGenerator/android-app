@@ -1,6 +1,6 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar" tools:ignore="NewApi">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -13,6 +13,11 @@
         <item name="colorOnSecondary">@color/onAccent</item>
 
         <item name="android:colorEdgeEffect">?colorSecondary</item>
+
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:navigationBarDividerColor">@color/divider_color</item>
+        <item name="android:windowLightNavigationBar">@bool/lightNavigationBar</item>
     </style>
 
     <style name="AppTheme.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
@@ -20,12 +25,14 @@
         <item name="rippleColor">@color/outlined_btn_ripple_color</item>
         <item name="strokeColor">@color/outlined_btn_stroke_color</item>
         <item name="android:textColor">@color/outlined_btn_stroke_color</item>
+        <item name="android:minHeight">48dp</item>
     </style>
 
     <style name="AppTheme.UnelevatedButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
         <item name="backgroundTint">@color/colored_btn_bg_color</item>
         <item name="rippleColor">@color/colored_btn_ripple_color</item>
         <item name="android:textColor">@color/colored_btn_text_color</item>
+        <item name="android:minHeight">48dp</item>
     </style>
 
 </resources>
