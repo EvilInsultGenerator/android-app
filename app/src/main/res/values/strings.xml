@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">Evil Insult Generator</string>
-
     <string name="social">Social</string>
     <string name="contact">Contact</string>
     <string name="legal">Legal</string>
