@@ -18,7 +18,7 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
     }
 
     val insult: String
-        get() = insultData.value.orEmpty()
+        get() = insultData.value.orEmpty().trim()
 
     val currentLanguageCode: String
         get() = prefs.getString(LANGUAGE_KEY, "en") ?: "en"
@@ -44,7 +44,7 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
 
     private suspend fun connectHttps(url: String) = withContext(IO) {
         val insult: String? = Jsoup.connect(url).get().text()
-        insultData.postValue(insult.orEmpty())
+        insultData.postValue(insult.orEmpty().trim())
     }
 
     fun setPreference(selectedOption: Int) {

@@ -50,9 +50,14 @@ class MainActivity : AppCompatActivity() {
                 URLEncoder.encode("Marvin,\bfuck\byou!", StandardCharsets.UTF_8.toString())
     }
 
-    private val toolbar: Toolbar? by lazy { findViewById(R.id.toolbar) }
-    private val insultViewModel: InsultViewModel by viewModels()
     private var alertDialog: AlertDialog? = null
+    private val insultViewModel: InsultViewModel by viewModels()
+
+    private val toolbar: Toolbar? by lazy { findViewById(R.id.toolbar) }
+    private val progressBar: ProgressBar? by lazy { findViewById(R.id.insult_progress) }
+    private val insultEditText: EditText? by lazy { findViewById(R.id.insult_text) }
+    private val generateBtn: Button? by lazy { findViewById(R.id.generate_btn) }
+    private val shareBtn: Button? by lazy { findViewById(R.id.share_btn) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -68,7 +73,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.translate -> showAlertDialogLanguage()
+            R.id.translate -> showLanguagePicker()
             R.id.website -> openLink(WEBSITE_URL)
             R.id.legal -> openLink(LEGAL_URL)
             R.id.twitter -> openLink(TWITTER_URL)
@@ -85,31 +90,30 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun initListeners() {
-        val btnGenerate: Button = findViewById(R.id.generate_btn)
-        val insultEditText: EditText = findViewById(R.id.insult_text)
-        val btnShareInsult: Button = findViewById(R.id.share_btn)
-        val insultProgress: ProgressBar = findViewById(R.id.insult_progress)
-        insultEditText.keyListener = null
-        btnShareInsult.isEnabled = true
-        insultViewModel.observe(this) {
-            insultEditText.setText(insultViewModel.insult)
-            btnGenerate.isEnabled = true
-            insultProgress.visibility = ProgressBar.GONE
-            insultEditText.isVisible = true
-        }
-        btnGenerate.setOnClickListener {
-            btnGenerate.isEnabled = false
-            btnShareInsult.isEnabled = false
-            insultEditText.isVisible = false
-            insultProgress.visibility = ProgressBar.VISIBLE
-            insultViewModel.generateInsult()
-        }
-        btnShareInsult.setOnClickListener {
-            shareListener()
-        }
+        insultEditText?.keyListener = null
+        shareBtn?.isEnabled = false
+        insultViewModel.observe(this, ::showInsult)
+        generateBtn?.setOnClickListener { generateInsult() }
+        shareBtn?.setOnClickListener { shareInsult() }
     }
 
-    private fun shareListener() {
+    private fun showInsult(insult: String) {
+        insultEditText?.setText(insult)
+        insultEditText?.isVisible = insult.isNotEmpty()
+        progressBar?.isVisible = false
+        shareBtn?.isEnabled = insult.isNotEmpty()
+        generateBtn?.isEnabled = true
+    }
+
+    private fun generateInsult() {
+        generateBtn?.isEnabled = false
+        shareBtn?.isEnabled = false
+        insultEditText?.isVisible = false
+        progressBar?.isVisible = true
+        insultViewModel.generateInsult()
+    }
+
+    private fun shareInsult() {
         if (insultViewModel.insult.isEmpty()) return
         val share = Intent(Intent.ACTION_SEND)
         share.type = "text/plain"
@@ -121,7 +125,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(Intent.createChooser(share, "Share using"))
     }
 
-    private fun showAlertDialogLanguage() {
+    private fun showLanguagePicker() {
         dismissDialog()
         alertDialog = MaterialAlertDialogBuilder(this).setTitle("LANGUAGE")
             .setSingleChoiceItems(
