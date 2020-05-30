@@ -1,6 +1,5 @@
 package com.evilinsult.android.app.activities
 
-import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
@@ -127,20 +126,17 @@ class MainActivity : AppCompatActivity() {
         alertDialog = MaterialAlertDialogBuilder(this).setTitle("LANGUAGE")
             .setSingleChoiceItems(
                 Language.values().map { getString(it.languageId) }.toTypedArray(),
-                Language.values().indexOfFirst { it ->
+                Language.values().indexOfFirst {
                     it.languageCode == insultViewModel.currentLanguageCode
-                },
-                DialogInterface.OnClickListener { dialog, which -> })
-            .setPositiveButton(android.R.string.ok) { dialog, which ->
-                val lw: ListView =
-                    (dialog as AlertDialog).listView
-                if (lw.checkedItemCount > 0) {
-                    insultViewModel.setPreference(lw.checkedItemPosition)
-                }
+                }) { _, _ -> }
+            .setPositiveButton(android.R.string.ok) { dialog, _ ->
+                val lw: ListView? = (dialog as? AlertDialog)?.listView
+                if ((lw?.checkedItemCount ?: 0) > 0)
+                    insultViewModel.setPreference(lw?.checkedItemPosition ?: -1)
             }
-            .setNeutralButton(android.R.string.cancel) { dialog, which ->
-            }
-            .show()
+            .setNeutralButton(android.R.string.cancel) { _, _ -> dismissDialog() }
+            .create()
+        alertDialog?.show()
     }
 
     private fun dismissDialog() {
@@ -156,5 +152,4 @@ class MainActivity : AppCompatActivity() {
         private const val LEGAL_URL = "https://evilinsult.com/legal.html"
         private const val TWITTER_URL = "https://twitter.com/__E__I__G__"
     }
-
 }
