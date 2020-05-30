@@ -24,6 +24,33 @@ import java.nio.charset.StandardCharsets
 
 class MainActivity : AppCompatActivity() {
 
+    private val proposalUrl: String by lazy {
+        "mailto:marvin@evilinsult.com?subject=" +
+                URLEncoder.encode(
+                    "Evil\bInsult\bGenerator\bProposal",
+                    StandardCharsets.UTF_8.toString()
+                ) +
+                "&body=" +
+                URLEncoder.encode(
+                    "Hej\bfuckers,\n\n" +
+                            "please\badd\bthis\bbeauty:\n\n" +
+                            "Insult: ...\n" +
+                            "Language: ...\n" +
+                            "Comment\b(optional):...\n\n...",
+                    StandardCharsets.UTF_8.toString()
+                )
+    }
+
+    private val supportUrl: String by lazy {
+        "mailto:marvin@evilinsult.com?subject=" +
+                URLEncoder.encode(
+                    "Evil\bInsult\bGenerator\bContact",
+                    StandardCharsets.UTF_8.toString()
+                ) +
+                "&body=" +
+                URLEncoder.encode("Marvin,\bfuck\byou!", StandardCharsets.UTF_8.toString())
+    }
+
     private val toolbar: Toolbar? by lazy { findViewById(R.id.toolbar) }
     private val insultViewModel: InsultViewModel by viewModels()
     private var alertDialog: AlertDialog? = null
@@ -46,36 +73,8 @@ class MainActivity : AppCompatActivity() {
             R.id.website -> openLink(WEBSITE_URL)
             R.id.legal -> openLink(LEGAL_URL)
             R.id.twitter -> openLink(TWITTER_URL)
-            R.id.proposal -> {
-                openLink(
-                    "mailto:marvin@evilinsult.com" +
-                            "?subject=" + URLEncoder.encode(
-                        "Evil\bInsult\bGenerator\bProposal",
-                        StandardCharsets.UTF_8.toString()
-                    ) +
-                            "&body=" + URLEncoder.encode(
-                        "Hej\bfuckers,\n\n" +
-                                "please\badd\bthis\bbeauty:\n\n" +
-                                "insult:...\n" +
-                                "language:...\n" +
-                                "comment\b(optional):...\n\n..."
-                        , StandardCharsets.UTF_8.toString()
-                    )
-                )
-            }
-            R.id.support -> {
-                openLink(
-                    "mailto:marvin@evilinsult.com" +
-                            "?subject=" + URLEncoder.encode(
-                        "Evil\bInsult\bGenerator\bContact",
-                        StandardCharsets.UTF_8.toString()
-                    ) +
-                            "&body=" + URLEncoder.encode(
-                        "Marvin,\bfuck\byou!",
-                        StandardCharsets.UTF_8.toString()
-                    )
-                )
-            }
+            R.id.proposal -> openLink(proposalUrl)
+            R.id.support -> openLink(supportUrl)
         }
         return super.onOptionsItemSelected(item)
     }
