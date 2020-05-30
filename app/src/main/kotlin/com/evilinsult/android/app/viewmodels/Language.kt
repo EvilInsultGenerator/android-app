@@ -1,6 +1,7 @@
-package com.example.android
+package com.evilinsult.android.app.viewmodels
 
 import androidx.annotation.StringRes
+import com.example.android.R
 
 enum class Language(@StringRes val languageId: Int, val languageCode: String) {
     ENGLISH(R.string.english, "en"),

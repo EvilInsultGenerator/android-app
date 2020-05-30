@@ -1,10 +1,9 @@
-package com.example.android
+package com.evilinsult.android.app.activities
 
 
 import android.content.DialogInterface
 import android.content.Intent
 import android.os.Bundle
-import android.text.Editable
 import android.view.Menu
 import android.view.MenuItem
 import android.widget.*
@@ -13,7 +12,9 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.isVisible
-import com.example.android.viewmodels.InsultViewModel
+import com.evilinsult.android.app.viewmodels.Language
+import com.evilinsult.android.app.viewmodels.InsultViewModel
+import com.example.android.R
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import openLink
 import java.net.URLEncoder
