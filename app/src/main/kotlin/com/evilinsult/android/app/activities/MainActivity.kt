@@ -139,8 +139,10 @@ class MainActivity : AppCompatActivity() {
                 }) { _, _ -> }
             .setPositiveButton(android.R.string.ok) { dialog, _ ->
                 val lw: ListView? = (dialog as? AlertDialog)?.listView
-                if ((lw?.checkedItemCount ?: 0) > 0)
-                    insultViewModel.setLanguageCode(lw?.checkedItemPosition ?: -1)
+                if ((lw?.checkedItemCount ?: 0) > 0) {
+                    val languageSet = insultViewModel.setLanguageCode(lw?.checkedItemPosition ?: -1)
+                    if (languageSet) generateInsult(true)
+                }
             }
             .setNegativeButton(android.R.string.cancel) { _, _ -> dismissDialog() }
             .create()

@@ -51,15 +51,16 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
         insultData.postValue(insult.orEmpty().trim())
     }
 
-    fun setLanguageCode(selectedOption: Int) {
+    fun setLanguageCode(selectedOption: Int): Boolean {
         val selectedLanguageCode = Language.values()[selectedOption].languageCode
         if (selectedLanguageCode != currentLanguageCode) {
             with(prefs.edit()) {
                 putString(LANGUAGE_PREF_KEY, selectedLanguageCode)
                 apply()
             }
-            generateInsult()
+            return true
         }
+        return false
     }
 
     fun observe(owner: LifecycleOwner, onUpdate: (String) -> Unit) {
