@@ -12,6 +12,7 @@ import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.jsoup.Jsoup
+import org.jsoup.nodes.Document
 import kotlin.math.roundToInt
 
 class InsultViewModel(application: Application) : AndroidViewModel(application) {
@@ -39,11 +40,9 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
             try {
                 connectHttps(insultUrl)
             } catch (e: Exception) {
-                e.printStackTrace()
                 try {
                     connectHttps(insultBackupUrl)
                 } catch (e: Exception) {
-                    e.printStackTrace()
                     insultData.postValue("")
                 }
             }
@@ -51,10 +50,12 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
     }
 
     private suspend fun connectHttps(url: String) = withContext(IO) {
-        val insult: String? = Jsoup.connect(url)
+        val doc: Document? = Jsoup.connect(url)
             .timeout((TIMEOUT_IN_SECONDS * 1000).roundToInt())
-            .get().text()
-        insultData.postValue(insult.orEmpty().trim())
+            .get()
+        doc?.let {
+            insultData.postValue(it.text().orEmpty().trim())
+        } ?: { insultData.postValue("") }()
     }
 
     fun setLanguageCode(selectedOption: Int): Boolean {

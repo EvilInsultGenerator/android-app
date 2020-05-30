@@ -113,7 +113,7 @@ class MainActivity : AppCompatActivity() {
     private fun generateInsult(force: Boolean = false) {
         if (generateBtn?.isEnabled == false && !force) return
         if (!isNetworkAvailable) {
-            showInsult("")
+            showInsult(insultViewModel.insult)
             showNetworkErrorDialog()
             return
         }
