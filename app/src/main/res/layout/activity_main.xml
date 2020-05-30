@@ -18,8 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
             android:background="?colorPrimary"
-            android:minHeight="?actionBarSize"
-            app:title="@string/app_name" />
+            android:minHeight="?actionBarSize" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -50,16 +49,19 @@
                 <EditText
                     android:id="@+id/insult_text"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
+                    android:autofillHints=""
                     android:background="@android:color/transparent"
                     android:clipToPadding="false"
                     android:enabled="true"
                     android:gravity="center"
+                    android:inputType="none"
                     android:padding="24dp"
-                    android:text="@string/insult_text"
                     android:textColor="#000000"
                     android:textIsSelectable="true"
-                    android:textSize="30sp" />
+                    android:textSize="28sp"
+                    android:visibility="gone"
+                    tools:ignore="LabelFor" />
 
             </FrameLayout>
 
@@ -80,15 +82,16 @@
             android:paddingTop="12dp"
             android:paddingEnd="16dp"
             android:paddingBottom="12dp">
-            <!-- Dan error los botones de mqaterial components
-            -->
+
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/share_btn"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
-                android:text="@string/shared_text"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/share"
                 android:textColor="?colorSecondary" />
 
             <com.google.android.material.button.MaterialButton
@@ -96,7 +99,9 @@
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/generate_text"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/generate"
                 android:textColor="?colorOnSecondary"
                 app:backgroundTint="?colorSecondary" />
 
