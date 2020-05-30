@@ -21,6 +21,7 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import java.net.URLEncoder
 import java.nio.charset.StandardCharsets
 
+@Suppress("RemoveExplicitTypeArguments")
 class MainActivity : AppCompatActivity() {
 
     private val proposalUrl: String by lazy {
@@ -53,17 +54,18 @@ class MainActivity : AppCompatActivity() {
     private var alertDialog: AlertDialog? = null
     private val insultViewModel: InsultViewModel by viewModels()
 
-    private val toolbar: Toolbar? by lazy { findViewById(R.id.toolbar) }
-    private val progressBar: ProgressBar? by lazy { findViewById(R.id.insult_progress) }
-    private val insultEditText: EditText? by lazy { findViewById(R.id.insult_text) }
-    private val generateBtn: Button? by lazy { findViewById(R.id.generate_btn) }
-    private val shareBtn: Button? by lazy { findViewById(R.id.share_btn) }
+    private val toolbar: Toolbar? by lazy { findViewById<Toolbar?>(R.id.toolbar) }
+    private val progressBar: ProgressBar? by lazy { findViewById<ProgressBar?>(R.id.progress_bar) }
+    private val insultEditText: EditText? by lazy { findViewById<EditText?>(R.id.insult_text_view) }
+    private val generateBtn: Button? by lazy { findViewById<Button?>(R.id.generate_btn) }
+    private val shareBtn: Button? by lazy { findViewById<Button?>(R.id.share_btn) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
         initListeners()
+        generateInsult(true)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -105,7 +107,8 @@ class MainActivity : AppCompatActivity() {
         generateBtn?.isEnabled = true
     }
 
-    private fun generateInsult() {
+    private fun generateInsult(force: Boolean = false) {
+        if (generateBtn?.isEnabled == false && !force) return
         generateBtn?.isEnabled = false
         shareBtn?.isEnabled = false
         insultEditText?.isVisible = false
@@ -114,6 +117,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun shareInsult() {
+        if (shareBtn?.isEnabled == false) return
         if (insultViewModel.insult.isEmpty()) return
         val share = Intent(Intent.ACTION_SEND)
         share.type = "text/plain"
@@ -136,9 +140,9 @@ class MainActivity : AppCompatActivity() {
             .setPositiveButton(android.R.string.ok) { dialog, _ ->
                 val lw: ListView? = (dialog as? AlertDialog)?.listView
                 if ((lw?.checkedItemCount ?: 0) > 0)
-                    insultViewModel.setPreference(lw?.checkedItemPosition ?: -1)
+                    insultViewModel.setLanguageCode(lw?.checkedItemPosition ?: -1)
             }
-            .setNeutralButton(android.R.string.cancel) { _, _ -> dismissDialog() }
+            .setNegativeButton(android.R.string.cancel) { _, _ -> dismissDialog() }
             .create()
         alertDialog?.show()
     }

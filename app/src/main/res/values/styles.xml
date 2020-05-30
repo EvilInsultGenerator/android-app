@@ -15,4 +15,17 @@
         <item name="android:colorEdgeEffect">?colorSecondary</item>
     </style>
 
+    <style name="AppTheme.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="backgroundTint">@color/outlined_btn_bg_color</item>
+        <item name="rippleColor">@color/outlined_btn_ripple_color</item>
+        <item name="strokeColor">@color/outlined_btn_stroke_color</item>
+        <item name="android:textColor">@color/outlined_btn_stroke_color</item>
+    </style>
+
+    <style name="AppTheme.UnelevatedButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="backgroundTint">@color/colored_btn_bg_color</item>
+        <item name="rippleColor">@color/colored_btn_ripple_color</item>
+        <item name="android:textColor">@color/colored_btn_text_color</item>
+    </style>
+
 </resources>

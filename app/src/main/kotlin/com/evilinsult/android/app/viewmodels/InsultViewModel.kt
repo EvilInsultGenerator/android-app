@@ -51,7 +51,7 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
         insultData.postValue(insult.orEmpty().trim())
     }
 
-    fun setPreference(selectedOption: Int) {
+    fun setLanguageCode(selectedOption: Int) {
         val selectedLanguageCode = Language.values()[selectedOption].languageCode
         if (selectedLanguageCode != currentLanguageCode) {
             with(prefs.edit()) {

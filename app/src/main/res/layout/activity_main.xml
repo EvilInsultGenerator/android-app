@@ -40,14 +40,14 @@
                 android:layout_gravity="center">
 
                 <ProgressBar
-                    android:id="@+id/insult_progress"
+                    android:id="@+id/progress_bar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:visibility="gone" />
 
                 <EditText
-                    android:id="@+id/insult_text"
+                    android:id="@+id/insult_text_view"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:autofillHints=""
@@ -56,22 +56,21 @@
                     android:enabled="true"
                     android:gravity="center"
                     android:inputType="none"
+                    android:lineSpacingMultiplier="1.2"
                     android:padding="24dp"
-                    android:textColor="#000000"
                     android:textIsSelectable="true"
-                    android:textSize="28sp"
+                    android:textSize="32sp"
                     android:visibility="gone"
                     tools:ignore="LabelFor" />
 
             </FrameLayout>
-
-
         </ScrollView>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/divider" />
+            android:alpha="0.12"
+            android:background="?colorSecondary" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -85,25 +84,24 @@
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/share_btn"
-                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                style="@style/AppTheme.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="16dp"
                 android:ellipsize="end"
+                android:enabled="false"
                 android:maxLines="1"
-                android:text="@string/share"
-                android:textColor="?colorSecondary" />
+                android:text="@string/share" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/generate_btn"
-                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                style="@style/AppTheme.UnelevatedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ellipsize="end"
+                android:enabled="false"
                 android:maxLines="1"
-                android:text="@string/generate"
-                android:textColor="?colorOnSecondary"
-                app:backgroundTint="?colorSecondary" />
+                android:text="@string/generate" />
 
         </LinearLayout>
 

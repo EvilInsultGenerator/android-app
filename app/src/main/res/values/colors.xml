@@ -6,4 +6,5 @@
     <color name="onPrimary">#fff</color>
     <color name="onAccent">#fff</color>
     <color name="divider">#1f000000</color>
+    <color name="transparent">#00000000</color>
 </resources>
