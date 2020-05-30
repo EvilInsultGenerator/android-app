@@ -15,6 +15,7 @@ import androidx.appcompat.widget.Toolbar
 import androidx.core.view.isVisible
 import com.evilinsult.android.app.R
 import com.evilinsult.android.app.extensions.openLink
+import com.evilinsult.android.app.extensions.tintMenu
 import com.evilinsult.android.app.viewmodels.InsultViewModel
 import com.evilinsult.android.app.viewmodels.Language
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
@@ -70,6 +71,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.main_activity_menu, menu)
+        toolbar?.tintMenu()
         return super.onCreateOptionsMenu(menu)
     }
 
