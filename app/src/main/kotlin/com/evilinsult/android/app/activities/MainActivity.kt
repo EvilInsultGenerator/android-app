@@ -41,20 +41,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
-            R.id.btn_translate -> {
-                showAlertDialogLanguage()
-                true
-            }
-            R.id.legal_item -> {
-                openLink(LEGAL)
-                true
-            }
-            R.id.twitter_item -> {
-                openLink(TWITTER)
-                true
-            }
-            R.id.proposal_item -> {
+        when (item.itemId) {
+            R.id.translate -> showAlertDialogLanguage()
+            R.id.website -> openLink(WEBSITE_URL)
+            R.id.legal -> openLink(LEGAL_URL)
+            R.id.twitter -> openLink(TWITTER_URL)
+            R.id.proposal -> {
                 openLink(
                     "mailto:marvin@evilinsult.com" +
                             "?subject=" + URLEncoder.encode(
@@ -70,9 +62,8 @@ class MainActivity : AppCompatActivity() {
                         , StandardCharsets.UTF_8.toString()
                     )
                 )
-                true
             }
-            R.id.support_item -> {
+            R.id.support -> {
                 openLink(
                     "mailto:marvin@evilinsult.com" +
                             "?subject=" + URLEncoder.encode(
@@ -84,14 +75,9 @@ class MainActivity : AppCompatActivity() {
                         StandardCharsets.UTF_8.toString()
                     )
                 )
-                true
             }
-            R.id.website_item -> {
-                openLink(WEBSITE)
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
         }
+        return super.onOptionsItemSelected(item)
     }
 
     override fun onDestroy() {
@@ -167,9 +153,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     companion object {
-        private const val TWITTER = "https://twitter.com/__E__I__G__"
-        private const val WEBSITE = "https://evilinsult.com/"
-        private const val LEGAL = "https://evilinsult.com/legal.html"
+        private const val WEBSITE_URL = "https://evilinsult.com/"
+        private const val LEGAL_URL = "https://evilinsult.com/legal.html"
+        private const val TWITTER_URL = "https://twitter.com/__E__I__G__"
     }
 
 }
