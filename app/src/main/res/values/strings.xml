@@ -12,7 +12,7 @@
     <string name="language">Language</string>
 
     <string name="error">Error</string>
-    <string name="network_connection_required">Evil Insult Generator requires an active internet connection. Please try again later.</string>
+    <string name="network_connection_required">%1$s requires an active internet connection. Please try again later.</string>
 
     <string name="spanish">Spanish</string>
     <string name="english">English</string>

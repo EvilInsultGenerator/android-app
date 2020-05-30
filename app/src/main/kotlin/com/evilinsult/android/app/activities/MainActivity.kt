@@ -163,7 +163,9 @@ class MainActivity : AppCompatActivity() {
         dismissDialog()
         alertDialog = MaterialAlertDialogBuilder(this)
             .setTitle(R.string.error)
-            .setMessage(R.string.network_connection_required)
+            .setMessage(
+                getString(R.string.network_connection_required, getString(R.string.app_name))
+            )
             .setPositiveButton(android.R.string.ok) { _, _ -> dismissDialog() }
             .create()
         alertDialog?.show()
