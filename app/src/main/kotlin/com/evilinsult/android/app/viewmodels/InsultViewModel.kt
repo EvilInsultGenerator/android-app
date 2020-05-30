@@ -8,9 +8,6 @@ import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.jsoup.Jsoup
-import org.jsoup.nodes.Document
-import java.net.HttpURLConnection
-import java.net.URL
 
 class InsultViewModel(application: Application) : AndroidViewModel(application) {
 
@@ -45,27 +42,8 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
     }
 
     private suspend fun connectHttps(urlData: String) = withContext(IO) {
-        val url = URL(urlData)
-        var urlConnection: HttpURLConnection? = null
-        try {
-            val document: Document = Jsoup.connect(urlData).get()
-            /*urlConnection = url
-                .openConnection() as HttpURLConnection
-            val `in`: InputStream = urlConnection.inputStream
-            val isw = InputStreamReader(`in`)
-            var data: Int = isw.read()
-            var aux = ""
-            while (data != -1) {
-                val current = data.toChar()
-                data = isw.read()
-                aux += current
-            }*/
-            insultData.postValue(document.text())
-        } catch (e: Exception) {
-
-        } finally {
-            urlConnection?.disconnect()
-        }
+        val insult: String? = Jsoup.connect(urlData).get().text()
+        insultData.postValue(insult.orEmpty())
     }
 
     fun setPreference(selectedOption: Int) {
