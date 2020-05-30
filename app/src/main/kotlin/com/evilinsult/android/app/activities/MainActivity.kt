@@ -24,7 +24,7 @@ import java.nio.charset.StandardCharsets
 
 class MainActivity : AppCompatActivity() {
 
-    private val toolbar: Toolbar? by lazy { findViewById<Toolbar?>(R.id.toolbar) }
+    private val toolbar: Toolbar? by lazy { findViewById(R.id.toolbar) }
     private val insultViewModel: InsultViewModel by viewModels()
     private var alertDialog: AlertDialog? = null
 
@@ -126,7 +126,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun shareListener() {
-        if (insultViewModel.insult.isNullOrEmpty()) return
+        if (insultViewModel.insult.isEmpty()) return
         val share = Intent(Intent.ACTION_SEND)
         share.type = "text/plain"
         share.putExtra(
@@ -146,14 +146,14 @@ class MainActivity : AppCompatActivity() {
                     it.languageCode == insultViewModel.currentLanguageCode
                 },
                 DialogInterface.OnClickListener { dialog, which -> })
-            .setPositiveButton(R.string.ok) { dialog, which ->
+            .setPositiveButton(android.R.string.ok) { dialog, which ->
                 val lw: ListView =
                     (dialog as AlertDialog).listView
                 if (lw.checkedItemCount > 0) {
                     insultViewModel.setPreference(lw.checkedItemPosition)
                 }
             }
-            .setNeutralButton(R.string.cancel) { dialog, which ->
+            .setNeutralButton(android.R.string.cancel) { dialog, which ->
             }
             .show()
     }
