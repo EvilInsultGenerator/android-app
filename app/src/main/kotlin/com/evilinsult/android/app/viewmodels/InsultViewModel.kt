@@ -12,15 +12,13 @@ import org.jsoup.Jsoup
 class InsultViewModel(application: Application) : AndroidViewModel(application) {
 
     private val insultData: MutableLiveData<String> by lazy { MutableLiveData<String>() }
-    val insult: String?
-        get() = insultData.value
 
     private val prefs: SharedPreferences by lazy {
-        application.getSharedPreferences(
-            LANGUAGE_KEY,
-            Context.MODE_PRIVATE
-        )
+        application.getSharedPreferences(LANGUAGE_KEY, Context.MODE_PRIVATE)
     }
+
+    val insult: String
+        get() = insultData.value.orEmpty()
 
     val currentLanguageCode: String
         get() = prefs.getString(LANGUAGE_KEY, "en") ?: "en"
@@ -36,20 +34,24 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
             try {
                 connectHttps(insultUrl)
             } catch (e: Exception) {
-                connectHttps(insultBackupUrl)
+                try {
+                    connectHttps(insultBackupUrl)
+                } catch (e: Exception) {
+                }
             }
         }
     }
 
-    private suspend fun connectHttps(urlData: String) = withContext(IO) {
-        val insult: String? = Jsoup.connect(urlData).get().text()
+    private suspend fun connectHttps(url: String) = withContext(IO) {
+        val insult: String? = Jsoup.connect(url).get().text()
         insultData.postValue(insult.orEmpty())
     }
 
     fun setPreference(selectedOption: Int) {
-        if (Language.values()[selectedOption].languageCode != currentLanguageCode) {
+        val selectedLanguageCode = Language.values()[selectedOption].languageCode
+        if (selectedLanguageCode != currentLanguageCode) {
             with(prefs.edit()) {
-                putString(LANGUAGE_KEY, Language.values()[selectedOption].languageCode)
+                putString(LANGUAGE_KEY, selectedLanguageCode)
                 apply()
             }
             generateInsult()
@@ -65,7 +67,6 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
     }
 
     companion object {
-        const val LANGUAGE_KEY = "LANGUAGES"
+        internal const val LANGUAGE_KEY = "LANGUAGES"
     }
-
 }
