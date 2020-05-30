@@ -3,5 +3,7 @@
     <color name="colorPrimary">#f44b3e</color>
     <color name="colorPrimaryDark">#dc4438</color>
     <color name="colorAccent">#EE7C2F</color>
+    <color name="onPrimary">#fff</color>
+    <color name="onAccent">#fff</color>
     <color name="divider">#1f000000</color>
 </resources>
