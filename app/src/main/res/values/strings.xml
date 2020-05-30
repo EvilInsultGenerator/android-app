@@ -1,17 +1,18 @@
 <resources>
-    <string name="app_name">EvilInsultGenerate</string>
-    <string name="social_text">Social</string>
-    <string name="contact_text">Contact</string>
-    <string name="legal_text">Legal</string>
-    <string name="generate_text">Generate</string>
-    <string name="insult_text">This is some Random Insult</string>
-    <string name="shared_text">Share</string>
+    <string name="app_name">Evil Insult Generator</string>
+
+    <string name="social">Social</string>
+    <string name="contact">Contact</string>
+    <string name="legal">Legal</string>
+    <string name="generate">Generate</string>
+    <string name="share">Share</string>
     <string name="twitter">Twitter</string>
     <string name="newsletter">Newsletter</string>
     <string name="website">Website</string>
     <string name="proposal">Proposal</string>
     <string name="support">Support</string>
     <string name="language">Language</string>
+
     <string name="spanish">Spanish</string>
     <string name="english">English</string>
     <string name="italian">Italian</string>
@@ -36,9 +37,4 @@
     <string name="greek">Greek</string>
     <string name="czech">Czech</string>
     <string name="latin">Latin</string>
-    <string name="lang">Lang</string>
-    <string name="ok">OK</string>
-    <string name="cancel">Cancel</string>
-
-
 </resources>
