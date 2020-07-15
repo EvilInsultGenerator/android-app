@@ -1,4 +1,4 @@
-package com.evilinsult.android.app.extensions
+package com.evilinsult.extensions
 
 import android.annotation.SuppressLint
 import android.view.View
@@ -6,7 +6,7 @@ import androidx.annotation.ColorInt
 import androidx.appcompat.widget.AppCompatImageView
 import androidx.appcompat.widget.Toolbar
 import androidx.core.content.ContextCompat
-import com.evilinsult.android.app.R
+import com.evilinsult.R
 
 fun Toolbar.tintMenu(
     @ColorInt color: Int =

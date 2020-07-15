@@ -1,4 +1,4 @@
-package com.evilinsult.android.app.viewmodels
+package com.evilinsult.viewmodels
 
 import android.app.Application
 import android.content.Context

@@ -1,4 +1,4 @@
-package com.evilinsult.android.app.activities
+package com.evilinsult.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -13,12 +13,12 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.isVisible
-import com.evilinsult.android.app.R
-import com.evilinsult.android.app.extensions.isNetworkAvailable
-import com.evilinsult.android.app.extensions.openLink
-import com.evilinsult.android.app.extensions.tintMenu
-import com.evilinsult.android.app.viewmodels.InsultViewModel
-import com.evilinsult.android.app.viewmodels.Language
+import com.evilinsult.R
+import com.evilinsult.extensions.isNetworkAvailable
+import com.evilinsult.extensions.openLink
+import com.evilinsult.extensions.tintMenu
+import com.evilinsult.viewmodels.InsultViewModel
+import com.evilinsult.viewmodels.Language
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import java.net.URLEncoder
 import java.nio.charset.StandardCharsets

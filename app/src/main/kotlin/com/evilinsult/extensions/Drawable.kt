@@ -1,4 +1,4 @@
-package com.evilinsult.android.app.extensions
+package com.evilinsult.extensions
 
 import android.graphics.drawable.Drawable
 import androidx.annotation.ColorInt
