@@ -13,3 +13,5 @@
 .externalNativeBuild
 .cxx
 app/debug
+.idea
+.vscode
