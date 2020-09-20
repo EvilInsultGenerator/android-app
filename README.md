@@ -1,7 +1,19 @@
 # Evil Insult Generator Android App
-[![Build Status](https://travis-ci.org/EvilInsultGenerator/android-app.svg?branch=master)](https://travis-ci.org/EvilInsultGenerator/android-app)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ded73a40a6e744ae90ab233704adf927)](https://www.codacy.com/app/EvilInsultGenerator/android-app?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=EvilInsultGenerator/android-app&amp;utm_campaign=Badge_Grade) 
+[![Travis Build Status](https://travis-ci.org/EvilInsultGenerator/android-app.svg?branch=master)](https://travis-ci.org/EvilInsultGenerator/android-app)
+![License](https://img.shields.io/github/license/EvilInsultGenerator/android-app.svg)
+[![Last commit](https://img.shields.io/github/last-commit/EvilInsultGenerator/android-app.svg?style=flat)](https://github.com/EvilInsultGenerator/android-app/commits)
+[![Releases](https://img.shields.io/github/downloads/EvilInsultGenerator/android-app/total.svg?style=flat)](https://github.com/EvilInsultGenerator/android-app/releases)
+[![Latest tag](https://img.shields.io/github/tag/EvilInsultGenerator/android-app.svg?style=flat)](https://github.com/EvilInsultGenerator/android-app/tags)
+[![Issues](https://img.shields.io/github/issues/EvilInsultGenerator/android-app.svg?style=flat)](https://github.com/EvilInsultGenerator/android-app/issues)
+[![Pull requests](https://img.shields.io/github/issues-pr/EvilInsultGenerator/android-app.svg?style=flat)](https://github.com/EvilInsultGenerator/android-app/pulls)
+[![Codacy](https://api.codacy.com/project/badge/Grade/ded73a40a6e744ae90ab233704adf927)](https://www.codacy.com/app/EvilInsultGenerator/android-app?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=EvilInsultGenerator/android-app&amp;utm_campaign=Badge_Grade) 
+[![codecov](https://codecov.io/gh/EvilInsultGenerator/android-app/branch/master/graph/badge.svg)](https://codecov.io/gh/EvilInsultGenerator/android-app)
 [![codebeat badge](https://codebeat.co/badges/3bd8e967-a081-4045-b363-6991220a2afe)](https://codebeat.co/projects/github-com-evilinsultgenerator-android-app-master)
+[![Crowdin](https://badges.crowdin.net/evil-insult-generator-android/localized.svg)](https://crowdin.com/project/evil-insult-generator-android)
+[![Known Vulnerabilities](https://snyk.io/test/github/EvilInsultGenerator/android-app/badge.svg?targetFile=app/build.gradle)](https://snyk.io/test/github/EvilInsultGenerator/android-app?targetFile=app/build.gradle)
+[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
+[![F-Droid](https://img.shields.io/f-droid/v/com.evilinsult.svg)](https://f-droid.org/app/com.evilinsult)
+[![Google Play](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)](https://play.google.com/store/apps/details?id=com.evilinsult)
 [![Website](https://img.shields.io/website-up-down-green-red/https/shields.io.svg)](https://evilinsult.com)
 
 Evil Insult Generator's goal is to offer the most evil insults. Please help us to reach this honorable purpose by submitting insults
@@ -32,7 +44,7 @@ We love to get in touch with you. Feel welcome to email your questions and feedb
 
 ### Translation
 
-Translations are hosted on [Transifex](https://www.transifex.com/evil-insult-generator/).
+Translations are hosted on [Crowdin](https://crowdin.com/project/evil-insult-generator-android) and in the ```fastlane``` folder.
 
 ### License
 > This is free and unencumbered software released into the public domain.
