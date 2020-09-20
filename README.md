@@ -11,10 +11,18 @@ via mail.
 
 ### Installation
 
-<a href="https://play.google.com/store/apps/details?id=com.evilinsult.android">
-  <img alt="Get it on Android"
-       src="https://cloud.githubusercontent.com/assets/23243656/19977341/8d6d4be6-a1f3-11e6-9f10-bf53a4e43bf1.png">
-</a>
+<p align="left">
+<a href="https://play.google.com/store/apps/details?id=com.evilinsult">
+    <img alt="Get it on Google Play"
+        height="80"
+        src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" />
+</a>  
+<a href="https://f-droid.org/app/com.evilinsult">
+    <img alt="Get it on F-Droid"
+        height="80"
+        src="https://f-droid.org/badge/get-it-on.png" />
+        </a>
+</p>
 
 Developers use [Android Studio](https://developer.android.com/studio/) to edit the source. 
 
