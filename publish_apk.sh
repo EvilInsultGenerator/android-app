@@ -51,7 +51,14 @@ if [ "$TRAVIS_PULL_REQUEST" = false ]; then
 
       if [[ ! -z "$url" && "$url" != " " && "$url" != "null" ]]; then
         printf "\nAPK url: $url"
-        printf "\n\nFinished uploading APK(s)\n"
+        message=$"*New ${repoName} update available! (${releaseName})* 🚀${ln}${ln}*Changes:*${ln}${changes}"
+        btns=$"{\"inline_keyboard\":[[[{\"text\":\"Download APK\",\"url\":\"${url}\"}]]}"
+
+        printf "\n\nSending message to Telegram channel…\n"
+        telegramUrl="https://api.telegram.org/bot${TEL_BOT_KEY}/sendMessage?chat_id=@EvilInsultGenerator&text=${message}&parse_mode=Markdown&reply_markup=${btns}"
+        curl -g "${telegramUrl}"
+
+        printf "\n\nFinished uploading APK(s) and sending notifications\n"
       else
         printf "\n\nNo file was uploaded\n"
       fi
