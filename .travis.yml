@@ -39,7 +39,7 @@ notifications:
   email:
     - marvin@evilinsult.com
   slack:
-    rooms: crazymarvin:PjTTJVdU59QRwHQ2Tln4DBPC
+    rooms: "$SLACK"
     template:
       - 'Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}: ''%{commit_subject}''>)  by
         %{author} for %{repository_name}@%{branch}, %{result} in %{duration}. <%{build_url}|Check
