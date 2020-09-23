@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="social">Social</string>
-    <string name="contact">Contact</string>
-    <string name="legal">Legal</string>
-    <string name="generate">Generate</string>
-    <string name="share">Share</string>
+    <string name="social">Sosyal</string>
+    <string name="contact">İletişim</string>
+    <string name="legal">Yasal</string>
+    <string name="generate">Oluştur</string>
+    <string name="share">Paylaş</string>
     <string name="twitter">Twitter</string>
-    <string name="newsletter">Newsletter</string>
-    <string name="website">Website</string>
+    <string name="newsletter">Haber Bülteni</string>
+    <string name="website">Web Sitesi</string>
     <string name="proposal">Proposal</string>
     <string name="support">Support</string>
     <string name="language">Language</string>
