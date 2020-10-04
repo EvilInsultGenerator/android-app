@@ -1,0 +1,39 @@
+L'application <b>Evil Insult Generator</b> est le générateur d'insulte le plus cool qu'il soit !
+C'est la meilleure application d'insulte que vous puissiez obtenir ! Le mieux, c'est que c'est gratuit !
+Êtes-vous à la recherche d'une application d'insulte maléfique ? Voulez-vous vous amuser avec les messages que vous envoyez à vos amis ? Peut-être que vous êtes à la recherche d'une insulte amusante qui pourrait faire éclater votre amie actuelle ou votre petit ami avec vous. Si vous manquez d'inspiration et vous pouvez de l'aide, cette application d'insultes est là pour vous ! L’application Evil Insult Generator est gratuite à télécharger et à installer. Vous vous profiterez non seulement des insultes qu'il génère, vous pouvez les partager aussi !
+Venez générer aléatoirement une insulte maléfique. Cette application est capable de générer des combinaisons d'insultes par milliers, et chacune se sent différente. Ces insultes maléfiques peuvent être partagées avec des amis si vous voulez leur faire rire. Les fans du jeu &quot;Cartes contre l'humanité&quot; apprécieront ce générateur d'insulte génial, totalement gratuit !
+Vous apprécierez insulter tout le monde. Attention, cette application d'insulte a été créé pour s'amuser - elle ne devrait pas être utiliser pour faire du mal <i>intentionnellement</i> à quelqu'un.
+Cette application d'insulte est la meilleure qui soit. Si vous n'arriver pas à trouver à une bonne insulte par vous-même.
+Besoin de trouver un terme offensant pour quelqu'un ? Vous pouvez accéder à des centaines d'insultes à utiliser. Les nouvelles insultes sont à un swipe. Appuyez simplement sur le bouton marqué &quot;Générer&quot; et une toute nouvelle insulte apparaîtra au milieu de votre écran.
+Vous serez en mesure de créer des insultes drôles en appuyant sur un bouton. Les insultes que vous utilisez seront originales.
+Grâce à cette application d'insultes, vous serez en mesure de vous défoulez comme vous le souhaitez. Vous pouvez envoyer des insultes en grec, hindi, russe, swahili, espagnol, allemand, français, chinois et, bien sûr, anglais.
+Pourquoi devriez-vous télécharger le générateur d'insulte maléfique ?
+
+<b>Simplicité</b>
+
+L'interface est conviviale et les graphiques sont tous de haute qualité. L'application a été développée pour vous offrir une expérience agréable.
+Sur l'écran principal de l'applications, vous aurez la possibilité de générer et de parcourir diverses insultes maléfiques. L'utilisation de l'application ne pourrait être plus simple et il ne faut qu'une seconde pour générer de nouvelles insultes. Vous pouvez les parcourir en un simple clic sur votre écran.
+
+<b>Gratuit</b>
+
+Cette application est entièrement gratuite à utiliser et restera pour toujours. Le code source est disponible sur GitHub. Vous n'avez pas à vous soucier des adhésions spéciales, des abonnements annuels ou des coûts cachés pour générer des résultats et les partager avec d'autres.
+
+<b>Partage</b>
+
+Nous avons aimé simplifier le processus d'utilisation de cette application. Vous pourrez partager gratuitement les insultes produites par le générateur d'insulte maléfique. Vos insultes peuvent être partagées avec des amis sur diverses applications. 
+
+<b>Mise à jour Régulièrement</b>
+
+L'équipe de développement qui a créé cette application y ajoute toujours de nouvelles insultes. Chaque insulte est facile à partager, et les autres peuvent l'utiliser, si vous le souhaitez. 
+Mais nous avons besoin de votre soutien. Envoyez-nous vos insultes et nous les examinerons. Si nous l'aimons, l'insulte sera notre nouvel ajout à l'application. 
+
+<b>Une énorme collection d'insultes</b>
+
+Cette application ne manque pas d'insultes que vous pouvez utiliser. Beaucoup d'entre eux ont une spécificité qui ne peut être trouvée nulle part ailleurs.
+Nous nous efforçons d'optimiser l'expérience utilisateur pour tout le monde. Les commentaires sont les bienvenus. Si vous avez une recommandation ou une suggestion, nous aimerions les entendre. N'hésitez pas à nous contacter à marvin@evilinsult.com. Ce faisant, nous serons en mesure d'optimiser votre expérience et de tenir l'application à jour avec des insultes de pointe.
+
+Remarque : Ce générateur d'insulte est un logiciel open-source. La source peut être trouvée ici : https://github.com/EvilInsultGenerator/.
+Votre aide pour la traduction de l'application est très appréciée : https://www.transifex.com/evil-insult-generator/.
+
+⚠️ Avertissement ⚠️
+Beaucoup d'insultes générées par l'application vont offenser certaines personnes, et en tant que tel, vous devriez être prudent avec qui vous utilisez ces insultes. Cette application est réservée aux utilisateurs adultes.
