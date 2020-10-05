@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="social">Social</string>
+    <string name="social">Redes Sociais</string>
     <string name="contact">Contato</string>
-    <string name="legal">Legal</string>
+    <string name="legal">Aspetos legais</string>
     <string name="generate">Gerar</string>
     <string name="share">Compartilhar</string>
     <string name="twitter">Twitter</string>
@@ -24,17 +24,17 @@
     <string name="russian">Russo</string>
     <string name="japanese">Japonês</string>
     <string name="javanese">Javanês</string>
-    <string name="swahili">Swahili</string>
+    <string name="swahili">Suaíli</string>
     <string name="german">Alemão</string>
     <string name="korean">Coreano</string>
     <string name="french">Francês</string>
     <string name="telugu">Telugu</string>
-    <string name="marathi">Marathi</string>
-    <string name="turkish">Turkish</string>
+    <string name="marathi">Marati</string>
+    <string name="turkish">Turco</string>
     <string name="tamil">Tamil</string>
     <string name="vietnamese">Vietnamita</string>
     <string name="urdu">Urdu</string>
     <string name="greek">Grego</string>
     <string name="czech">Tcheco</string>
-    <string name="latin">Latin</string>
+    <string name="latin">Latim</string>
 </resources>
