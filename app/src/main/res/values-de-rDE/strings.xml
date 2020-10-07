@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="social">Social</string>
+    <string name="social">Sozial</string>
     <string name="contact">Kontakt</string>
     <string name="legal">Rechtlich</string>
     <string name="generate">Erzeugen</string>
@@ -12,7 +12,7 @@
     <string name="support">Support</string>
     <string name="language">Sprache</string>
     <string name="error">Fehler</string>
-    <string name="network_connection_required">%1$s requires an active internet connection. Please try again later.</string>
+    <string name="network_connection_required">%1$s setzt eine Internetverbindung voraus. Bitte versuchen Sie es später erneut.</string>
     <string name="spanish">Spanisch</string>
     <string name="english">Englisch</string>
     <string name="italian">Italienisch</string>
