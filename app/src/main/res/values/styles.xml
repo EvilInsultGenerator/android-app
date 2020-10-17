@@ -16,8 +16,8 @@
         <item name="android:colorEdgeEffect">?colorSecondary</item>
 
         <item name="android:windowBackground">@color/background</item>
-        <item name="android:navigationBarColor">@color/background</item>
-        <item name="android:navigationBarDividerColor">@color/divider_color</item>
+        <item name="android:navigationBarColor">@color/navigationBarColor</item>
+        <item name="android:navigationBarDividerColor">@color/navigationBarDividerColor</item>
         <item name="android:windowLightNavigationBar">@bool/lightNavigationBar</item>
     </style>
 
