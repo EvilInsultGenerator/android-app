@@ -1,0 +1,37 @@
+Aplikace The Evil Insult Generator je nejlepší generátor urážek!
+Jedná se o nejlepší generátor co můžete sehnat! A nejlepší je, že je zcela zdarma!
+Hledáte zákeřnou aplikaci na nadávky? Chcete poslat svým kamarádům nějaké srandovní zprávy? Možná hledáte nějakou zábavnou nadávku kterou byste se mohli rozvést se svým současným přítelem/přítelkyní. Pokud vám chybí kreativita a hodilo by se vám trochu pomoci, tato aplikace vám pomůže! Je zdarma ke stažení a instalaci. Nejen že si sami užijete vytvořené nadávky, ale můžete je také sdílet!
+K vytvoření náhodné zlé nadávky roztočte kolo. Tato aplikace je schopná vytvořit tisíce možných kombinací nadávek, a každá zní trochu jinak. Můžete je sdílet s kamarády, pokud je chcete pobavit. Fanouškové hry "Karty proti lidskosti" zajisté ocení tento skvělý generátor urážek, který je k dispozici zcela zdarma!
+Zábavné je urážet jak protivníky, tak kamarády. Nenechte se mýlit, tato aplikace byla vytvořená pro srandu - neměla by se používat k tomu, aby se někdo opravdu cítil špatně.
+Pokud nejste schopni vymyslet nějakou vtipnou uražku, tato aplikace vám jistě přijde vhod. Jedná se o jednu z nejlepších svého druhu.
+Kdykoliv chcete někoho urazit, tato aplikace se podívá do své databáze šokujících stěrů! Některé reakce občas velmi těžké vymyslet spontánně. Když se to stane, tato aplikace vám zachrání krk.
+Potřebujete vymyslet nějaké ofenzivní pojmenování? Máme jich k dispozici stovky. Nové nadávky jsou jedno swajpnutí daleko. Jednoduše klikněte na tlačítko označené "Generovat" a zcela nová urážka se vám objeví uprostřed obrazovky.
+Můžete vymyslet vtipné a zábavné urážky stisknutím jednoho tlačítka - a budou originální.
+Díky této aplikaci můžete vždy pohotově zareagovat, když si to někdo zaslouží. Můžete vypouštět nadávky v řečtině, indštině, ruštině, svahilštině, španělštině, němčině, francouzštině, čínštině a samozřejmě angličtině.
+Tato aplikace zjednodušuje proces vymýšlení vhodné urážky, a můžete je sdílet i v jiných aplikacích. Nenechte si ujít tuto příležitost - stáhněte si tento generátor do svého zařízení! Snažíte se vymyslet skvělou odpověď? Promyšlenost těchto urážek vám umožní sdělit myšlenku ve velmi zábavné podobě. Dáte najevo co si myslíte velmi jasně!
+
+Proč byste si měli stáhnout právě tento generátor zákeřných nadávek namísto nějakého jiného?
+
+<b>Jednoduchost</b>
+Rozhraní je velmi uživatelsky přívětivé, a grafika je té nejvyšší kvality. Aplikace byla vyvíjena tak, aby její používání bylo příjemné. Na hlavní straně aplikace můžete generovat a prohlížet různé nadávky. Používání aplikace už nemůže být jednodušší, a trvá pouze vteřinu vygenerovat novou urážku. Můžete je prohlížet jednoduchým klepnutím na obrazovku.
+
+<b>Zdarma</b>
+Tato aplikace je zcela zdarma a zůstane tak navždy. Zdrojový kód je dostupný na GitHubu. Nemusíte se obávat nějakých speciálních členství, ročních předplatných, nebo jiných skrytých triků jak vás obrat o peníze. Můžete jednoduše generovat nadávky a sdílet je s ostatními.
+
+<b>Sdílení</b>
+Naším cílem bylo zjednošit použití této aplikace. Zcela zdarma můžete výsledné výtvory sdílet na různých platformách se svými přáteli.
+
+<b>Pravidelně aktualizované</b>
+Vývojářský tým který vytvořil tuto aplikaci neustále přidává nové a nové nadávky. Každá nadávka je lehce přeposlatelná a ostatní je také mohou používat, pokud chtějí. 
+Ale potřebujeme vaši podporu. Prosíme posílejte nám nějaké nadávky a my je postupně budeme recenzovat. Pokud se nám nějaká zalíbí, jistě najde cestu do této aplikace.
+
+<b>Obrovská kolekce urážek</b>
+Tato aplikace rozhodně netrpí nějakým nedostatkem nadávek. Velká většina z nich je hodně unikátní, a těžko by se sháněla někde jinde.
+Nečekejte - stáhněte si tuto aplikaci a jednoduše vytvářejte kreativní reakce které můžete použít skoro na každého!
+Snažíme se optimalizovat uživatelský zážitek pro každého. Feedback velmi vítáme. Pokud máte nějaké doporučení nebo tip, rádi ho uslyšíme. Nebojte se nás kontaktovat na marvin@evilinsult.com. Díky tomu poté budeme moci optimalizovat váš zážitek a udržovat aplikaci aktualizovanou s nejnovějšími urážkami.
+
+Poznámka: tento generátor využívá open-source software. Zdrojový kód naleznete zde: https://github.com/EvilInsultGenerator/.
+Vaše pomoc s překladem je velmi vítána na: https://www.transifex.com/evil-insult-generator/.
+
+<b>⚠️ Upozornění ⚠️</b>
+Hodně nadávek které tato aplikace vygeneruje by zajisté mohla nějaké lidi pobouřit, a proto byste měli být velmi opatrní s výběrem cílových osob. Tato aplikace je určena pouze vyzrálým osobnostem.
