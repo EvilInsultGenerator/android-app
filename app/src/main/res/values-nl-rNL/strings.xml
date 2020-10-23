@@ -32,9 +32,9 @@
     <string name="marathi">Marathi</string>
     <string name="turkish">Turks</string>
     <string name="tamil">Tamil</string>
-    <string name="vietnamese">Vietnamese</string>
+    <string name="vietnamese">Vietnamees</string>
     <string name="urdu">Urdu</string>
-    <string name="greek">Greek</string>
-    <string name="czech">Czech</string>
-    <string name="latin">Latin</string>
+    <string name="greek">Grieks</string>
+    <string name="czech">Tsjechisch</string>
+    <string name="latin">Latijns</string>
 </resources>
