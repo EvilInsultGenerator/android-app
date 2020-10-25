@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="social">Social</string>
-    <string name="contact">Contact</string>
+    <string name="social">Sosial</string>
+    <string name="contact">Kontak</string>
     <string name="legal">Legal</string>
-    <string name="generate">Generate</string>
+    <string name="generate">Menghasilkan</string>
     <string name="share">Share</string>
     <string name="twitter">Twitter</string>
     <string name="newsletter">Newsletter</string>
