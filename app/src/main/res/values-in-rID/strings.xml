@@ -13,8 +13,8 @@
     <string name="language">Bahasa</string>
     <string name="error">Kesalahan</string>
     <string name="network_connection_required">%1$s membutuhkan koneksi internet. Silahkan coba lagi nanti.</string>
-    <string name="spanish">Bahasa Spanyol</string>
-    <string name="english">Bahasa Inggris</string>
+    <string name="spanish">Spanyol</string>
+    <string name="english">Inggris</string>
     <string name="italian">Bahasa Itali</string>
     <string name="chinese">Bahasa mandarin</string>
     <string name="hindi">Hindi</string>
