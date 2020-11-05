@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="social">Social</string>
-    <string name="contact">Contact</string>
-    <string name="legal">Legal</string>
+    <string name="social">सामाजिक</string>
+    <string name="contact">संपर्क करें</string>
+    <string name="legal">कानूनी</string>
     <string name="generate">Generate</string>
     <string name="share">Share</string>
     <string name="twitter">Twitter</string>
-    <string name="newsletter">Newsletter</string>
-    <string name="website">Website</string>
-    <string name="proposal">Proposal</string>
-    <string name="support">Support</string>
-    <string name="language">Language</string>
-    <string name="error">Error</string>
+    <string name="newsletter">अखबार</string>
+    <string name="website">वेबसाइट</string>
+    <string name="proposal">प्रस्ताव</string>
+    <string name="support">सहयोग</string>
+    <string name="language">भाषा</string>
+    <string name="error">एरर!</string>
     <string name="network_connection_required">%1$s requires an active internet connection. Please try again later.</string>
     <string name="spanish">Spanish</string>
     <string name="english">English</string>
@@ -33,8 +33,8 @@
     <string name="turkish">Turkish</string>
     <string name="tamil">Tamil</string>
     <string name="vietnamese">Vietnamese</string>
-    <string name="urdu">Urdu</string>
-    <string name="greek">Greek</string>
-    <string name="czech">Czech</string>
-    <string name="latin">Latin</string>
+    <string name="urdu">उर्दू</string>
+    <string name="greek">यूनानी</string>
+    <string name="czech">चेक</string>
+    <string name="latin">लैटीन</string>
 </resources>
