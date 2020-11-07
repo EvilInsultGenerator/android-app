@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="social">सामाजिक</string>
+    <string name="contact">संपर्क करें</string>
+    <string name="legal">कानूनी</string>
+    <string name="generate">उत्पन्न</string>
+    <string name="share">शेयर</string>
+    <string name="twitter">Twitter</string>
+    <string name="newsletter">अखबार</string>
+    <string name="website">वेबसाइट</string>
+    <string name="proposal">प्रस्ताव</string>
+    <string name="support">सहयोग</string>
+    <string name="language">भाषा</string>
+    <string name="error">एरर!</string>
+    <string name="network_connection_required">%1$s को एक सक्रिय इंटरनेट कनेक्शन की आवश्यकता है। कृपया पुन: प्रयत्न करे</string>
+    <string name="spanish">स्पेनिश</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="italian">इटॅलियन</string>
+    <string name="chinese">चीनी</string>
+    <string name="hindi">हिंदी</string>
+    <string name="arabic">अरबी</string>
+    <string name="portuguese">पुर्तगाली</string>
+    <string name="bengali">बांग्ला</string>
+    <string name="russian">रूसी</string>
+    <string name="japanese">जापानी</string>
+    <string name="javanese">जावानीज़</string>
+    <string name="swahili">स्वाहिली</string>
+    <string name="german">जर्मन</string>
+    <string name="korean">कोरियाई</string>
+    <string name="french">फ्रांसिसी</string>
+    <string name="telugu">तेलुगू</string>
+    <string name="marathi">मराठी</string>
+    <string name="turkish">तुर्की</string>
+    <string name="tamil">तामिल</string>
+    <string name="vietnamese">वियतनामी</string>
+    <string name="urdu">उर्दू</string>
+    <string name="greek">यूनानी</string>
+    <string name="czech">चेक</string>
+    <string name="latin">लैटीन</string>
+</resources>
