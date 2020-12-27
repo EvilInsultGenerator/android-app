@@ -1,0 +1,8 @@
+- Fix Dark Theme
+- Fix Layout, especially for Android 6 Marshmallow
+- Add Indonesian Translation
+- Add German Translation
+- Add Spanish Translation
+- Add Bulgarian Translation
+- Add Brazilian Portuguese Translation
+- Under the hood improvements
