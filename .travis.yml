@@ -2,65 +2,52 @@ language: android
 dist: trusty
 sudo: false
 jdk: oraclejdk8
-
 env:
   global:
-    - ANDROID_API=30
-    - ANDROID_BUILD_TOOLS=30.0.2
-
+  - ANDROID_API=30
+  - ANDROID_BUILD_TOOLS=30.0.2
 android:
   components:
-    - tools
-    - platform-tools
-    - build-tools-$ANDROID_BUILD_TOOLS
-    - android-$ANDROID_API
-    - extra-android-support
-    - extra-google-m2repository
-    - extra-android-m2repository
+  - tools
+  - platform-tools
+  - build-tools-$ANDROID_BUILD_TOOLS
+  - android-$ANDROID_API
+  - extra-android-support
+  - extra-google-m2repository
+  - extra-android-m2repository
   licenses:
-    - '.+'
-
+  - ".+"
 before_install:
-  - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
-  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
-  - yes | sdkmanager "platforms;android-$ANDROID_API"
-  - yes | sdkmanager "build-tools;$ANDROID_BUILD_TOOLS"
-
-script: if [[ "$TRAVIS_TAG" ]]; then ./gradlew clean :app:assembleRelease --full-stacktrace; else ./gradlew clean test --full-stacktrace; fi
-
+- rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
+- rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+- yes | sdkmanager "platforms;android-$ANDROID_API"
+- yes | sdkmanager "build-tools;$ANDROID_BUILD_TOOLS"
+script: if [[ "$TRAVIS_TAG" ]]; then ./gradlew clean :app:assembleRelease --full-stacktrace;
+  else ./gradlew clean test --full-stacktrace; fi
 branches:
   except:
-    - images
-    - gh-pages
-    - travis-build
-    - i18n
-
+  - images
+  - gh-pages
+  - travis-build
+  - i18n
 notifications:
   email:
-    - marvin@evilinsult.com
+  - marvin@evilinsult.com
   slack:
-    rooms: "$SLACK"
-    template:
-      - 'Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}: ''%{commit_subject}''>)  by
-        %{author} for %{repository_name}@%{branch}, %{result} in %{duration}. <%{build_url}|Check
-        details>.'
-
+    secure: QM/CiW3k8dPKG9QidXldZU93MiZwQX48KgGBbz9qp041rX9VsxXtRGvad0L5uIvHwtLdjbL/hyiLRbqvRcqtnrTeIfmAjq32DWoUyZyb59S5aT9p9GekDOgMhZzTEj5NSMu6FA3rmddMpIG9ed6NMzuNDW19JqsUnw8bsbqCWnX5/EHuuyGbitL0UsqOS/g/iK5rGg/qU0+1D7tE1pR69UDMGt4PdcDMS3uuLjs1ym3IXSGC+ATD4VrYyyMQIZSkiQL9JIscMzElvbWfwh6h8sFV+/P0kxVTF+FgtuXJERzO7azfLRWWfqphkls/QO+pvR/+SYJizmiwSzJxuIV58dMkbIfdRRWQN6brL7ETFhuUsvGJI9QRRkHNqUUI8Qw+GhqSzy9eQXYeE5p6s1AvnJhR5sP3pp5ZhUH8TH07RMkhKNiRSZPE23Ho6FG5MyJwythKBtG+eyP7CH3CuLvKSAiU7Sj1FLkGKbyPR1sK1Idly7pRoKtmR10vga4kxfcg2eNyOGmlAY/LfovcCKksT9mAXGqkHX8xJYFokUAYCZD/yRefru+aVDcaX3ybGoHH4Acxm6LPgKUFVGfZTWvlwVT57cZ4jvt+JF76bijVkhs3gCVT39t3k04+soiYXxBHSqESJ63/LUdmaqfIopBCpxmC25pmZgal13XNiIEiiTA=
 before_cache:
-  - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
-  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
-
+- rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
+- rm -fr $HOME/.gradle/caches/*/plugin-resolution/
 cache:
   directories:
-    - "$HOME/.android/build-cache"
-    - "$HOME/.m2"
-    - "$HOME/.gradle"
-    - "$HOME/.gradle/caches/"
-    - "$HOME/.gradle/wrapper/"
-
+  - "$HOME/.android/build-cache"
+  - "$HOME/.m2"
+  - "$HOME/.gradle"
+  - "$HOME/.gradle/caches/"
+  - "$HOME/.gradle/wrapper/"
 before_script:
-  - rm -rf $TRAVIS_BUILD_DIR/app/build/outputs
-  - chmod +x gradlew
-  - chmod +x gradle/wrapper/gradle-wrapper.jar
-
+- rm -rf $TRAVIS_BUILD_DIR/app/build/outputs
+- chmod +x gradlew
+- chmod +x gradle/wrapper/gradle-wrapper.jar
 after_success:
-  - chmod +x ./publish_apk.sh; ./publish_apk.sh
+- chmod +x ./publish_apk.sh; ./publish_apk.sh
