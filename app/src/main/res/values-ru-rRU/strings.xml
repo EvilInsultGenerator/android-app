@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="social">Social</string>
-    <string name="contact">Contact</string>
-    <string name="legal">Legal</string>
-    <string name="generate">Generate</string>
-    <string name="share">Share</string>
+    <string name="social">Социальный</string>
+    <string name="contact">Контакт</string>
+    <string name="legal">Юридический</string>
+    <string name="generate">Создавать</string>
+    <string name="share">Поделиться</string>
     <string name="twitter">Twitter</string>
     <string name="newsletter">Newsletter</string>
     <string name="website">Website</string>
