@@ -17,21 +17,16 @@
         android:paddingTop="10dp"
         android:paddingStart="15dp"
         android:paddingEnd="15dp"
-        app:elevation="10dp"
-        android:outlineSpotShadowColor="?attr/colorOnSecondary"
-        android:backgroundTint="?colorOnBackground"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="UnusedAttribute">
+        app:layout_constraintTop_toTopOf="parent">
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
-            style="?toolbarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
-            app:titleTextColor="?colorOnPrimary" />
+            app:titleTextColor="?colorOnPrimary"
+            app:titleTextAppearance="@style/TextAppearance.MaterialComponents.Headline6" />
 
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -55,6 +50,7 @@
         android:overScrollMode="ifContentScrolls"
         android:paddingStart="10dp"
         android:paddingEnd="10dp"
+        android:layout_gravity="center"
         app:layout_constraintBottom_toTopOf="@+id/frame"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,17 +59,17 @@
 
         <EditText
             android:id="@+id/insult_text_view"
+            style="@style/TextAppearance.MaterialComponents.Body1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="0dp"
             android:autofillHints=""
+            android:gravity="center_vertical|center_horizontal|fill_vertical"
             android:background="@android:color/transparent"
             android:clipToPadding="false"
             android:inputType="none"
+            android:textAlignment="gravity"
             android:textColor="?colorOnPrimary"
-            android:textAlignment="center"
             android:textIsSelectable="true"
-            android:textSize="26sp"
-            android:visibility="visible"
             tools:ignore="LabelFor" />
 
     </ScrollView>
@@ -82,52 +78,52 @@
         android:id="@+id/frame"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
         android:layout_marginTop="5dp"
+        android:fitsSystemWindows="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
 
         <com.google.android.material.button.MaterialButton
-            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
             android:id="@+id/share_btn"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:background="@drawable/circle_shape"
-            android:enabled="false"
             android:gravity="center"
+            app:backgroundTint="?colorOnPrimary"
+            android:tooltipText="@string/share"
+            android:contentDescription="@string/share"
             app:icon="@drawable/ic_baseline_share_24"
             app:iconGravity="textStart"
             app:iconTint="?colorOnPrimary"
-            app:backgroundTint="?colorOnPrimary"
             app:iconPadding="0dp"
             android:layout_gravity="start"
             app:layout_constraintHorizontal_bias="0.25"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            android:fitsSystemWindows="true" />
+            tools:targetApi="o" />
 
         <com.google.android.material.button.MaterialButton
-            style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
             android:id="@+id/generate_btn"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
             android:background="@drawable/circle_shape"
-            android:enabled="false"
             android:gravity="center"
+            app:backgroundTint="?colorOnPrimary"
             app:icon="@drawable/ic_round_refresh_24"
+            android:tooltipText="@string/generate"
+            android:contentDescription="@string/generate"
             app:iconGravity="textStart"
-            android:fitsSystemWindows="true"
             app:iconPadding="0dp"
             android:layout_gravity="end"
             app:iconTint="?colorOnPrimary"
-            app:backgroundTint="?colorOnPrimary"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.75" />
+            app:layout_constraintHorizontal_bias="0.75"
+            tools:targetApi="o" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
