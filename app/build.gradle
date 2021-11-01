@@ -81,4 +81,5 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
     implementation 'org.jsoup:jsoup:1.13.1'
+    implementation "androidx.constraintlayout:constraintlayout:2.1.1"
 }
