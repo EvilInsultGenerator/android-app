@@ -19,6 +19,7 @@ android:
   licenses:
   - ".+"
 before_install:
+- export JAVA_OPTS='-XX:+IgnoreUnrecognizedVMOptions --add-modules java.xml.bind'
 - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
 - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
 - yes | sdkmanager "platforms;android-$ANDROID_API"
