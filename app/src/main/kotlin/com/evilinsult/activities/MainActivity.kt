@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
         generateInsult(true)
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+    override fun onCreateOptionsMenu(menu: Menu): Boolean {
         menuInflater.inflate(R.menu.main_activity_menu, menu)
         toolbar?.tintMenu()
         return super.onCreateOptionsMenu(menu)
