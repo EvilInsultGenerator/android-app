@@ -1,18 +1,21 @@
 package com.evilinsult.viewmodels
 
+import android.annotation.SuppressLint
 import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
-import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.LifecycleOwner
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.Observer
-import androidx.lifecycle.viewModelScope
+import androidx.lifecycle.*
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
+import java.security.SecureRandom
+import java.security.cert.X509Certificate
+import javax.net.ssl.SSLContext
+import javax.net.ssl.SSLSocketFactory
+import javax.net.ssl.TrustManager
+import javax.net.ssl.X509TrustManager
 import kotlin.math.roundToInt
 
 class InsultViewModel(application: Application) : AndroidViewModel(application) {
@@ -30,7 +33,7 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
         get() = prefs.getString(LANGUAGE_PREF_KEY, "en") ?: "en"
 
     private val insultUrl: String
-        get() = "https://evilinsult.com/generate_insult.php?lang=$currentLanguageCode"
+        get() = "https://www.evilinsult.com/generate_insult.php?lang=$currentLanguageCode"
 
     private val insultBackupUrl: String
         get() = "https://slave.evilinsult.com/generate_insult.php?lang=$currentLanguageCode"
@@ -40,22 +43,57 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
             try {
                 connectHttps(insultUrl)
             } catch (e: Exception) {
+                e.printStackTrace()
                 try {
                     connectHttps(insultBackupUrl)
                 } catch (e: Exception) {
+                    e.printStackTrace()
                     insultData.postValue("")
                 }
             }
         }
     }
 
+    private fun getSSLFactory(): SSLSocketFactory {
+        val trustAllCerts = arrayOf<TrustManager>(
+            @SuppressLint("CustomX509TrustManager")
+            object : X509TrustManager {
+                @SuppressLint("TrustAllX509TrustManager")
+                override fun checkClientTrusted(
+                    chain: Array<X509Certificate?>?,
+                    authType: String?
+                ) {
+                }
+
+                @SuppressLint("TrustAllX509TrustManager")
+                override fun checkServerTrusted(
+                    chain: Array<X509Certificate?>?,
+                    authType: String?
+                ) {
+                }
+
+                override fun getAcceptedIssuers(): Array<X509Certificate?>? {
+                    return arrayOf()
+                }
+            }
+        )
+
+        val sslContext = SSLContext.getInstance("SSL")
+        sslContext.init(null, trustAllCerts, SecureRandom())
+        return sslContext.socketFactory
+    }
+
+    @Suppress("BlockingMethodInNonBlockingContext")
     private suspend fun connectHttps(url: String) = withContext(IO) {
         val doc: Document? = Jsoup.connect(url)
             .timeout((TIMEOUT_IN_SECONDS * 1000).roundToInt())
+            .sslSocketFactory(getSSLFactory())
             .get()
         doc?.let {
             insultData.postValue(it.text().orEmpty().trim())
-        } ?: { insultData.postValue("") }()
+        } ?: run {
+            throw Exception("Unexpected response exception")
+        }
     }
 
     fun setLanguageCode(selectedOption: Int): Boolean {
@@ -81,6 +119,6 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
     companion object {
         private const val PREFERENCES_NAME = "evil_insult_generator_prefs"
         private const val LANGUAGE_PREF_KEY = "current_lang"
-        private const val TIMEOUT_IN_SECONDS = 2.5
+        private const val TIMEOUT_IN_SECONDS: Double = 10.0
     }
 }
