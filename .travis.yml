@@ -23,7 +23,7 @@ before_install:
 - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
 - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
 - touch $HOME/.android/repositories.cfg
-- wget "https://dl.google.com/android/repository/commandlinetools-linux-7302050_latest.zip" -O commandlinetools.zip
+- wget "https://dl.google.com/android/repository/commandlinetools-linux-7583922_latest.zip" -O commandlinetools.zip
 - unzip commandlinetools.zip -d $ANDROID_HOME/
 - yes | $ANDROID_HOME/cmdline-tools/bin/sdkmanager "platforms;android-${ANDROID_API}" --sdk_root=$ANDROID_HOME
 - yes | $ANDROID_HOME/cmdline-tools/bin/sdkmanager "build-tools;${ANDROID_BUILD_TOOLS}" --sdk_root=$ANDROID_HOME
