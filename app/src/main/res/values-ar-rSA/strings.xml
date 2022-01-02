@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="social">Social</string>
-    <string name="contact">Contact</string>
-    <string name="legal">Legal</string>
-    <string name="generate">Generate</string>
-    <string name="share">Share</string>
-    <string name="twitter">Twitter</string>
-    <string name="newsletter">Newsletter</string>
-    <string name="website">Website</string>
-    <string name="proposal">Proposal</string>
+    <string name="social">اجتماعي</string>
+    <string name="contact">اتصل</string>
+    <string name="legal">قانوني</string>
+    <string name="generate">يولد</string>
+    <string name="share">شارك</string>
+    <string name="twitter">تويتر</string>
+    <string name="newsletter">النشرة الإخبارية</string>
+    <string name="website">موقع إلكتروني</string>
+    <string name="proposal">عرض</string>
     <string name="support">Support</string>
     <string name="language">Language</string>
     <string name="error">Error</string>
