@@ -33,7 +33,7 @@ Cette application ne manque pas d'insultes que vous pouvez utiliser. Beaucoup d'
 Nous nous efforçons d'optimiser l'expérience utilisateur pour tout le monde. Les commentaires sont les bienvenus. Si vous avez une recommandation ou une suggestion, nous aimerions les entendre. N'hésitez pas à nous contacter à marvin@evilinsult.com. Ce faisant, nous serons en mesure d'optimiser votre expérience et de tenir l'application à jour avec des insultes de pointe.
 
 Remarque : Ce générateur d'insulte est un logiciel open-source. La source peut être trouvée ici : https://github.com/EvilInsultGenerator/.
-Votre aide pour la traduction de l'application est très appréciée : https://www.transifex.com/evil-insult-generator/.
+Votre aide pour la traduction de l'application est très appréciée : https://crowdin.com/project/evil-insult-generator-android.
 
 ⚠️ Avertissement ⚠️
 Beaucoup d'insultes générées par l'application vont offenser certaines personnes, et en tant que tel, vous devriez être prudent avec qui vous utilisez ces insultes. Cette application est réservée aux utilisateurs adultes.
