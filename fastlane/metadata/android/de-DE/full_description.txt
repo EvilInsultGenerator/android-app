@@ -30,9 +30,10 @@ Wir brauchen deine Unterstützung! Schick uns gerne deine Beleidigungen ein. Wen
 
 Der App gehen nie die Beleidigungen aus. Viele sind so einzigartig wie nirgendswo sonst.
 
- Feedback hören wir gerne. Wenn du eine Empfehlung oder einen Vorschlag hast, hören wie uns diesen gerne an. Schick uns einfach eine Email an marvin@evilinsult.com. Damit hilfst du die App noch besser zu machen.
+Feedback hören wir gerne. Wenn du eine Empfehlung oder einen Vorschlag hast, hören wie uns diesen gerne an. Schick uns einfach eine Email an marvin@evilinsult.com. Damit hilfst du die App noch besser zu machen.
+
 Hinweis: Dieser Beleidigungsgenerator is open-source Software. Der Quellcode is hier: https://github.com/EvilInsultGenerator/ verfügbar.
-Deine Hilfe bei der Übersetzung der app ist wirklich gerne gesehen. (https://www.transifex.com/evil-insult-generator/).
+Deine Hilfe bei der Übersetzung der App ist wirklich gerne gesehen. (https://crowdin.com/project/evil-insult-generator-android/).
 
 ⚠️ Achtung ⚠️
 Viele der Beleidigungen der App können (und werden) einige Menschen verletzen. Wenn du glaubst, dass jemand das hier nicht lustig finden würde, bitte überlege dir ob du ihm das auch wirklich schicken willst. Diese App ist nur für Erwachsene.</div>
