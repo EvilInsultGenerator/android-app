@@ -31,7 +31,7 @@ Não demore - baixe o aplicativo de insultos malignos e crie linhas criativas qu
 Nós nos esforçamos para otimizar as experiências do usuário para todos. O feedback é algo que agradecemos. Se você tiver uma recomendação ou sugestão, gostaríamos de ouvi-la. Não hesite em entrar em contato conosco em marvin@evilinsult.com. Dessa forma, poderemos otimizar sua experiência e manter o aplicativo atualizado com insultos de ponta.
 
 Nota: este gerador de insultos usa software de código aberto. A fonte pode ser encontrada aqui: https://github.com/EvilInsultGenerator/.
-Sua ajuda com a tradução do aplicativo é muito apreciada: https://www.transifex.com/evil-insult-generator/.
+Sua ajuda com a tradução do aplicativo é muito apreciada: https://crowdin.com/project/evil-insult-generator-android.
 
 <b> ⚠️ Aviso ⚠️ </b>
 Muitos insultos gerados pelo aplicativo ofenderão algumas pessoas e, como tal, você deve ter cuidado com quem usa esses insultos. Este aplicativo é apenas para usuários maduros.
