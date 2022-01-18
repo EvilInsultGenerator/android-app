@@ -77,7 +77,7 @@ Aarzel niet om contact met ons op te nemen via marvin@evilinsult.com.
 Op die manier kunnen we je ervaring optimaliseren en de app up-to-date houden met geavanceerde beledigingen.
 Opmerking: Deze beledigingsgenerator is open-source software.
 De bron is hier te vinden: https://github.com/EvilInsultGenerator/.
-Je hulp bij de vertaling van de app wordt zeer op prijs gesteld: https://www.transifex.com/evil-insult-generator/.
+Je hulp bij de vertaling van de app wordt zeer op prijs gesteld: https://crowdin.com/project/evil-insult-generator-android.
 
 ⚠️ Waarschuwing ⚠️
 De meeste beledigingen die door de app worden gegenereerd zullen sommige mensen beledigen, en daarom moet je voorzichtig zijn bij wie je deze beledigingen gebruikt.
