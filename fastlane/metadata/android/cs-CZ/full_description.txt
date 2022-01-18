@@ -31,7 +31,7 @@ Nečekejte - stáhněte si tuto aplikaci a jednoduše vytvářejte kreativní re
 Snažíme se optimalizovat uživatelský zážitek pro každého. Feedback velmi vítáme. Pokud máte nějaké doporučení nebo tip, rádi ho uslyšíme. Nebojte se nás kontaktovat na marvin@evilinsult.com. Díky tomu poté budeme moci optimalizovat váš zážitek a udržovat aplikaci aktualizovanou s nejnovějšími urážkami.
 
 Poznámka: tento generátor využívá open-source software. Zdrojový kód naleznete zde: https://github.com/EvilInsultGenerator/.
-Vaše pomoc s překladem je velmi vítána na: https://www.transifex.com/evil-insult-generator/.
+Vaše pomoc s překladem je velmi vítána na: https://crowdin.com/project/evil-insult-generator-android.
 
 <b>⚠️ Upozornění ⚠️</b>
 Hodně nadávek které tato aplikace vygeneruje by zajisté mohla nějaké lidi pobouřit, a proto byste měli být velmi opatrní s výběrem cílových osob. Tato aplikace je určena pouze vyzrálým osobnostem.
