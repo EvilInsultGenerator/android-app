@@ -32,7 +32,7 @@ Jangan tunda - unduh aplikasi penghinaan jahat dan buat garis kreatif yang dapat
 Kami berusaha untuk mengoptimalkan pengalaman pengguna untuk semua orang. Umpan balik adalah sesuatu yang kami terima. Jika Anda memiliki rekomendasi atau saran, kami ingin mendengarnya. Jangan ragu untuk menghubungi kami di marvin@evilinsult.com. Dengan melakukan itu, kami akan dapat mengoptimalkan pengalaman Anda dan terus memperbarui aplikasi dengan penghinaan mutakhir.
 
 Catatan: generator penghinaan ini menggunakan perangkat lunak sumber terbuka. Sumbernya dapat ditemukan di sini: https://github.com/EvilInsultGenerator/.
-Bantuan Anda untuk terjemahan aplikasi sangat dihargai: https://www.transifex.com/evil-insult-generator/.
+Bantuan Anda untuk terjemahan aplikasi sangat dihargai: https://crowdin.com/project/evil-insult-generator-android.
 
 <b>⚠️ Perhatian ⚠️</b>
 Banyak penghinaan yang dihasilkan oleh aplikasi akan menyinggung beberapa orang, dan oleh karena itu, Anda harus berhati-hati dengan siapa Anda menggunakan penghinaan ini. Aplikasi ini hanya untuk pengguna dewasa.
