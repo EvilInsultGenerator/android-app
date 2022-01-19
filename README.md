@@ -6,7 +6,7 @@
 [![Latest tag](https://img.shields.io/github/tag/EvilInsultGenerator/android-app.svg?style=flat)](https://github.com/EvilInsultGenerator/android-app/tags)
 [![Issues](https://img.shields.io/github/issues/EvilInsultGenerator/android-app.svg?style=flat)](https://github.com/EvilInsultGenerator/android-app/issues)
 [![Pull requests](https://img.shields.io/github/issues-pr/EvilInsultGenerator/android-app.svg?style=flat)](https://github.com/EvilInsultGenerator/android-app/pulls)
-[![Codacy](https://api.codacy.com/project/badge/Grade/ded73a40a6e744ae90ab233704adf927)](https://www.codacy.com/app/EvilInsultGenerator/android-app?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=EvilInsultGenerator/android-app&amp;utm_campaign=Badge_Grade) 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/9f8809cd694c4d609d9c13592f5fb090)](https://www.codacy.com/gh/EvilInsultGenerator/android-app/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=EvilInsultGenerator/android-app&amp;utm_campaign=Badge_Grade)
 [![codecov](https://codecov.io/gh/EvilInsultGenerator/android-app/branch/master/graph/badge.svg)](https://codecov.io/gh/EvilInsultGenerator/android-app)
 [![codebeat badge](https://codebeat.co/badges/3bd8e967-a081-4045-b363-6991220a2afe)](https://codebeat.co/projects/github-com-evilinsultgenerator-android-app-master)
 [![Crowdin](https://badges.crowdin.net/evil-insult-generator-android/localized.svg)](https://crowdin.com/project/evil-insult-generator-android)
