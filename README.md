@@ -38,6 +38,16 @@ via mail.
 
 Developers use [Android Studio](https://developer.android.com/studio/) to edit the source. 
 
+### Contributing
+
+The `development` or a feature branch is used while developing the code, and pushed into the master branch `master` afterwards for releases. PRs to the `master` need at least one approving review before getting merged.
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+Check out the [contribution guidelines](https://github.com/EvilInsultGenerator/android-app/tree/master/.github/CONTRIBUTING.md) for details please.
+
 ### Contact
 
 We love to get in touch with you. Feel welcome to email your questions and feedback to [marvin@evilinsult.com](mailto:marvin@evilinsult.com).
