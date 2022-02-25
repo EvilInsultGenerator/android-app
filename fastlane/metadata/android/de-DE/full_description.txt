@@ -1,39 +1,28 @@
-<div>Der <b> Bösartige Beleidigungsgenerator </b> ist der coolste unter den Beleidigungsgeneratoren!
-
-Es gibt einfach keinen besseren! Und er ist sogar umsonst! Möchtest du mit den Nachrichten haben, die du deinen Freunden schickst? Vielleicht suchst du nach einer lustigen Beleidigung, die deinen Freund oder Freundin dazu bringt, mit dir Schuss zu machen. Fehlt dir dir nötige Kreativität und du brauchst etwas Hilfe? Wir machen das für dich! Der Böse Beleidigungsgenerator ist sowieso umsonst. Diese Beleidigungen wirst du sogar deinen Freuden schicken. Diese App erzeugt tausende Beeidigungen und jede davon ist einzigartig. Du kannst diese auch mit deinen Freunden teilen wenn du möchtest. Wer "Cards against Humanity" mag, wir auch diese App mögen. Freunde sowie Feinde, du hast immer einen Spruch parat. Hey, vergiss nicht! Diese App ist nicht sonderlich ernst gemeint. Verwende sie nicht ernsthaft um mit Menschen zu reden.
-
- Diese App ist wirklich praktisch wenn dir einfach nichts einfallen will.
-
- Möchtest du gerade jemand beleidigen? Hier bekommst du tausende von ihnen. Jeder Spruch nur einen swipe entfernt. Tipp einfach auf den Knopf mit &quot;Neuer Spruch&quot; und bekommst direkt eine neue Beleidigung. So hast du immer eine neue und kreative Beleidigung.
-
-Dank dieser app kannst du so ganz einfach Dampf ablassen. Du kannst Beleidigungen in Griechisch, Hindi, Russisch, Swahili, Spanisch, Deutsch, Französisch, Chinesisch und natürlich Englisch erzeugen.
-
 Warum solltest du den Bösartigen Beleidigungsgenerator herunterladen?
 
 <b>Ganz einfach</b>
-
-Die App ist benutzerfreundlich und die sieht gut aus. 
-In der App hast du die Möglichkeit, verschiedene bösartige Beleidigungen zu generieren und zu dir andere anzusehen. Alles geht ganz einfach und so hast du Sekunden schnelle neue originelle Sprüche. </b>
-
-Diese App ist völlig kostenlos und wird es auch für immer bleiben. Der Quellcode ist auf GitHub verfügbar. Du musst dir keine Sorgen über spezielle Abos oder versteckte Kosten machen, um Ergebnisse zu generieren und sie mit anderen zu teilen.
+The interface is user-friendly, and the insults are all of high quality. The app was developed to provide you with a pleasurable experience.
+In der App hast du die Möglichkeit, verschiedene bösartige Beleidigungen zu generieren und zu dir andere anzusehen. Alles geht ganz einfach und so hast du Sekunden schnelle neue originelle Sprüche. Wir haben uns bemüht, die app einfach zu machen. Du kannst die Beleidigungen völlig um sonst teilen. You can browse through them with a simple tap of your screen.
 
 <b>Teilen</b>
+Diese App ist völlig kostenlos und wird es auch für immer bleiben. Der Quellcode ist auf GitHub verfügbar. Du musst dir keine Sorgen über spezielle Abos oder versteckte Kosten machen, um Ergebnisse zu generieren und sie mit anderen zu teilen.
 
-Wir haben uns bemüht, die app einfach zu machen. Du kannst die Beleidigungen völlig um sonst teilen. Du kannst sie auch deinen Freunden über andere Apps schicken. 
+</b>
+We endeavored to simplify the process of using this app. You will be able to share insults produced by the Evil Insult Generator at no charge. Du kannst sie auch deinen Freunden über andere Apps schicken. 
 
 <b>Regelmäßige Updates</b>
-
-Das Entwicklerteam fügt ständig neue Sprüche.   
+Das Entwicklerteam fügt ständig neue Sprüche. Each insult is easy to share, and others can use them, if desired. 
 Wir brauchen deine Unterstützung! Schick uns gerne deine Beleidigungen ein. Wenn er uns gefällt, wird er in die App hinzugefügt. 
 
 <b>Eine Riesige Sammlung an Beleidigungen</b>
-
 Der App gehen nie die Beleidigungen aus. Viele sind so einzigartig wie nirgendswo sonst.
-
-Feedback hören wir gerne. Wenn du eine Empfehlung oder einen Vorschlag hast, hören wie uns diesen gerne an. Schick uns einfach eine Email an marvin@evilinsult.com. Damit hilfst du die App noch besser zu machen.
-
-Hinweis: Dieser Beleidigungsgenerator is open-source Software. Der Quellcode is hier: https://github.com/EvilInsultGenerator/ verfügbar.
-Deine Hilfe bei der Übersetzung der App ist wirklich gerne gesehen. (https://crowdin.com/project/evil-insult-generator-android/).
+Don't delay – download the evil insults app and come up with creative lines that you can use on just about anybody!
+We endeavor to optimize user experiences for everyone. Feedback hören wir gerne. Wenn du eine Empfehlung oder einen Vorschlag hast, hören wie uns diesen gerne an. Schick uns einfach eine Email an marvin@evilinsult.com. In doing so, we will be able to optimize your experience and keep the app updated with cutting-edge insults.
 
 ⚠️ Achtung ⚠️
-Viele der Beleidigungen der App können (und werden) einige Menschen verletzen. Wenn du glaubst, dass jemand das hier nicht lustig finden würde, bitte überlege dir ob du ihm das auch wirklich schicken willst. Diese App ist nur für Erwachsene.</div>
+Der Quellcode is hier: https://github.com/EvilInsultGenerator/ verfügbar.
+(https://crowdin.com/project/evil-insult-generator-android/).
+- Feel very welcome to send me your favorite insults so that I can add them
+
+<b>⚠️ Warning ⚠️</b>
+Viele der Beleidigungen der App können (und werden) einige Menschen verletzen. Diese App ist nur für Erwachsene.</div>
