@@ -13,14 +13,14 @@
     <string name="language">Bahasa</string>
     <string name="error">Kesalahan</string>
     <string name="network_connection_required">%1$s membutuhkan koneksi internet. Silahkan coba lagi nanti.</string>
-    <string name="spanish">Spanyol</string>
-    <string name="english">Inggris</string>
+    <string name="spanish">Bahasa Spanyol</string>
+    <string name="english">Bahasa Inggris</string>
     <string name="italian">Bahasa Itali</string>
     <string name="chinese">Bahasa mandarin</string>
-    <string name="hindi">Hindi</string>
+    <string name="hindi">Bahasa Hindi</string>
     <string name="arabic">Bahasa Arab</string>
     <string name="portuguese">Bahasa Portugis</string>
-    <string name="bengali">Bengal</string>
+    <string name="bengali">Bahasa Benggala</string>
     <string name="russian">Bahasa Rusia</string>
     <string name="japanese">Bahasa Jepang</string>
     <string name="javanese">Bahasa Jawa</string>
@@ -36,5 +36,5 @@
     <string name="urdu">Bahasa Urdu</string>
     <string name="greek">Bahasa Yunani</string>
     <string name="czech">Bahasa Ceko</string>
-    <string name="latin">Latin</string>
+    <string name="latin">Bahasa Latin</string>
 </resources>
