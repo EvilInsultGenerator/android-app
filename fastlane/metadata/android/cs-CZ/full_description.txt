@@ -1,37 +1,28 @@
-Aplikace The Evil Insult Generator je nejlepší generátor urážek!
-Jedná se o nejlepší generátor co můžete sehnat! A nejlepší je, že je zcela zdarma!
-Hledáte zákeřnou aplikaci na nadávky? Chcete poslat svým kamarádům nějaké srandovní zprávy? Možná hledáte nějakou zábavnou nadávku kterou byste se mohli rozvést se svým současným přítelem/přítelkyní. Pokud vám chybí kreativita a hodilo by se vám trochu pomoci, tato aplikace vám pomůže! Je zdarma ke stažení a instalaci. Nejen že si sami užijete vytvořené nadávky, ale můžete je také sdílet!
-K vytvoření náhodné zlé nadávky roztočte kolo. Tato aplikace je schopná vytvořit tisíce možných kombinací nadávek, a každá zní trochu jinak. Můžete je sdílet s kamarády, pokud je chcete pobavit. Fanouškové hry "Karty proti lidskosti" zajisté ocení tento skvělý generátor urážek, který je k dispozici zcela zdarma!
-Zábavné je urážet jak protivníky, tak kamarády. Nenechte se mýlit, tato aplikace byla vytvořená pro srandu - neměla by se používat k tomu, aby se někdo opravdu cítil špatně.
-Pokud nejste schopni vymyslet nějakou vtipnou uražku, tato aplikace vám jistě přijde vhod. Jedná se o jednu z nejlepších svého druhu.
-Kdykoliv chcete někoho urazit, tato aplikace se podívá do své databáze šokujících stěrů! Některé reakce občas velmi těžké vymyslet spontánně. Když se to stane, tato aplikace vám zachrání krk.
-Potřebujete vymyslet nějaké ofenzivní pojmenování? Máme jich k dispozici stovky. Nové nadávky jsou jedno swajpnutí daleko. Jednoduše klikněte na tlačítko označené "Generovat" a zcela nová urážka se vám objeví uprostřed obrazovky.
-Můžete vymyslet vtipné a zábavné urážky stisknutím jednoho tlačítka - a budou originální.
-Díky této aplikaci můžete vždy pohotově zareagovat, když si to někdo zaslouží. Můžete vypouštět nadávky v řečtině, indštině, ruštině, svahilštině, španělštině, němčině, francouzštině, čínštině a samozřejmě angličtině.
-Tato aplikace zjednodušuje proces vymýšlení vhodné urážky, a můžete je sdílet i v jiných aplikacích. Nenechte si ujít tuto příležitost - stáhněte si tento generátor do svého zařízení! Snažíte se vymyslet skvělou odpověď? Promyšlenost těchto urážek vám umožní sdělit myšlenku ve velmi zábavné podobě. Dáte najevo co si myslíte velmi jasně!
+Why should you download the Evil Insult Generator, as opposed to another insult app?
 
-Proč byste si měli stáhnout právě tento generátor zákeřných nadávek namísto nějakého jiného?
+<b>Simplicity</b>
+The interface is user-friendly, and the insults are all of high quality. The app was developed to provide you with a pleasurable experience.
+On the app's main screen, you'll have the ability to generate and browse various evil insults. Using the app couldn't be easier, and it only takes a second to generate new insults. You can browse through them with a simple tap of your screen.
 
-<b>Jednoduchost</b>
-Rozhraní je velmi uživatelsky přívětivé, a grafika je té nejvyšší kvality. Aplikace byla vyvíjena tak, aby její používání bylo příjemné. Na hlavní straně aplikace můžete generovat a prohlížet různé nadávky. Používání aplikace už nemůže být jednodušší, a trvá pouze vteřinu vygenerovat novou urážku. Můžete je prohlížet jednoduchým klepnutím na obrazovku.
+<b>Free & Open Source</b>
+This app is completely free to use and will stay that way forever. The source code is available on GitHub. You do not have to worry about special memberships, annual subscriptions, or hidden costs to generate results and share them with others.
 
-<b>Zdarma</b>
-Tato aplikace je zcela zdarma a zůstane tak navždy. Zdrojový kód je dostupný na GitHubu. Nemusíte se obávat nějakých speciálních členství, ročních předplatných, nebo jiných skrytých triků jak vás obrat o peníze. Můžete jednoduše generovat nadávky a sdílet je s ostatními.
+<b>Sharing</b>
+We endeavored to simplify the process of using this app. You will be able to share insults produced by the Evil Insult Generator at no charge. Your insults can be shared with friends on various apps. 
 
-<b>Sdílení</b>
-Naším cílem bylo zjednošit použití této aplikace. Zcela zdarma můžete výsledné výtvory sdílet na různých platformách se svými přáteli.
+<b>Updated Regularly</b>
+The development team that created this app are always adding new insults to it. Each insult is easy to share, and others can use them, if desired. 
+But we need your support. Please send us your insults and we will review it. If we like it, the insult will be the newest addition to the app. 
 
-<b>Pravidelně aktualizované</b>
-Vývojářský tým který vytvořil tuto aplikaci neustále přidává nové a nové nadávky. Každá nadávka je lehce přeposlatelná a ostatní je také mohou používat, pokud chtějí. 
-Ale potřebujeme vaši podporu. Prosíme posílejte nám nějaké nadávky a my je postupně budeme recenzovat. Pokud se nám nějaká zalíbí, jistě najde cestu do této aplikace.
+<b>A Huge Collection of Insults</b>
+This app does not have any shortage of insults that you can use. Many of them have a uniqueness that can’t be found anywhere else.
+Don't delay – download the evil insults app and come up with creative lines that you can use on just about anybody!
+We endeavor to optimize user experiences for everyone. Feedback is something we welcome. If you have a recommendation or suggestion, we would like to hear them. Don't hesitate to get in touch with us at marvin@evilinsult.com. In doing so, we will be able to optimize your experience and keep the app updated with cutting-edge insults.
 
-<b>Obrovská kolekce urážek</b>
-Tato aplikace rozhodně netrpí nějakým nedostatkem nadávek. Velká většina z nich je hodně unikátní, a těžko by se sháněla někde jinde.
-Nečekejte - stáhněte si tuto aplikaci a jednoduše vytvářejte kreativní reakce které můžete použít skoro na každého!
-Snažíme se optimalizovat uživatelský zážitek pro každého. Feedback velmi vítáme. Pokud máte nějaké doporučení nebo tip, rádi ho uslyšíme. Nebojte se nás kontaktovat na marvin@evilinsult.com. Díky tomu poté budeme moci optimalizovat váš zážitek a udržovat aplikaci aktualizovanou s nejnovějšími urážkami.
+<b>ℹ️ Note ℹ️</b>
+- The source can be found here: https://github.com/EvilInsultGenerator/android-app/
+- Your assistance with app translation is very much appreciated: https://crowdin.com/project/evil-insult-generator-android/
+- Feel very welcome to send me your favorite insults so that I can add them
 
-Poznámka: tento generátor využívá open-source software. Zdrojový kód naleznete zde: https://github.com/EvilInsultGenerator/.
-Vaše pomoc s překladem je velmi vítána na: https://crowdin.com/project/evil-insult-generator-android.
-
-<b>⚠️ Upozornění ⚠️</b>
-Hodně nadávek které tato aplikace vygeneruje by zajisté mohla nějaké lidi pobouřit, a proto byste měli být velmi opatrní s výběrem cílových osob. Tato aplikace je určena pouze vyzrálým osobnostem.
+<b>⚠️ Warning ⚠️</b>
+Many insults that are generated by the app will offend some people, and as such, you should be careful with whom you use these insults on. This app is for mature users only.
