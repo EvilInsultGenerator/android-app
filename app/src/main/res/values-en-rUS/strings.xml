@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="social">Social</string>
+    <string name="social">Socials</string>
     <string name="contact">Contact</string>
     <string name="legal">Legal</string>
     <string name="generate">Generate</string>
