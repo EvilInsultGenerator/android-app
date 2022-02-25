@@ -1,85 +1,28 @@
+Why should you download the Evil Insult Generator, as opposed to another insult app?
 
-De Gemene Beledigingsgeneratorapp is de meest hippe beledigingen generator die er bestaat!
+<b>Simplicity</b>
+The interface is user-friendly, and the insults are all of high quality. The app was developed to provide you with a pleasurable experience.
+On the app's main screen, you'll have the ability to generate and browse various evil insults. Using the app couldn't be easier, and it only takes a second to generate new insults. You can browse through them with a simple tap of your screen.
 
-Dit is de beste beledigingen app die je kan vinden!
-Het beste van alles is dat het gratis is om te gebruiken!
+<b>Free & Open Source</b>
+This app is completely free to use and will stay that way forever. The source code is available on GitHub. You do not have to worry about special memberships, annual subscriptions, or hidden costs to generate results and share them with others.
 
-Ben je op zoek naar een gemene beledigingen app?
-Wil je wat plezier hebben met de berichten die je naar vrienden stuurt?
-Misschien ben jij op zoek naar een grappige belediging waardoor je huidige vriendin of vriendje het met jou wil uitmaken.
-Als het je aan creativiteit ontbreekt en je wat hulp zou kunnen gebruiken, dan zal deze beledigingen app je helpen!
-De gemene beledigingsgenerator app is gratis te downloaden en te installeren.
-Je zal niet alleen plezier beleven aan de beledigingen die het genereert, maar je zal ze ook delen!
+<b>Sharing</b>
+We endeavored to simplify the process of using this app. You will be able to share insults produced by the Evil Insult Generator at no charge. Your insults can be shared with friends on various apps. 
 
-Om een gemene belediging te genereren, draai je aan de hendel.
-Deze app is in staat om beledigende combinaties te genereren met duizenden tegelijk, en elk van hen voelt anders aan.
-Deze gemene beledigingen kunnen worden gedeeld met vrienden als je hen wilt laten lachen.
-Fans van het spel "Cards Against Humanity" zullen deze geweldige beledigingsgenerator waarderen, die volledig gratis te gebruiken is!
-Je zal genieten van het beledigen van zowel vijanden als vrienden.
-Let wel, de beledigingen app is gemaakt voor het plezier - het mag gebruikt worden om iemand een slecht gevoel te gevenmet opzet.
+<b>Updated Regularly</b>
+The development team that created this app are always adding new insults to it. Each insult is easy to share, and others can use them, if desired. 
+But we need your support. Please send us your insults and we will review it. If we like it, the insult will be the newest addition to the app. 
 
-De beledigingen app is uniek in zijn soort.
-Het kan echt van pas komen als je in je eentje geen geschikte belediging kan bedenken.
+<b>A Huge Collection of Insults</b>
+This app does not have any shortage of insults that you can use. Many of them have a uniqueness that can’t be found anywhere else.
+Don't delay – download the evil insults app and come up with creative lines that you can use on just about anybody!
+We endeavor to optimize user experiences for everyone. Feedback is something we welcome. If you have a recommendation or suggestion, we would like to hear them. Don't hesitate to get in touch with us at marvin@evilinsult.com. In doing so, we will be able to optimize your experience and keep the app updated with cutting-edge insults.
 
-Moet je met een beledigende term komen om met iemand een grap uit te halen?
-Je hebt toegang tot honderden beledigingen om te gebruiken.
-Nieuwe beledigingen zijn slechts een swipe verwijderd.
-Tik gewoon op de knop met de naam "Genereer," en er verschijnt een gloednieuwe belediging in het midden van je scherm.
+<b>ℹ️ Note ℹ️</b>
+- The source can be found here: https://github.com/EvilInsultGenerator/android-app/
+- Your assistance with app translation is very much appreciated: https://crowdin.com/project/evil-insult-generator-android/
+- Feel very welcome to send me your favorite insults so that I can add them
 
-Je kan grappige beledigingen maken met een druk op de knop.
-De beledigingen die je gebruikt zullen origineel zijn.
-
-Dankzij deze beledigingen app kun je wat stoom afblazen indien gewenst.
-Je kan beledigingen uitspuwen in het Grieks, Hindi, Russisch, Swahili, Spaans, Duits, Frans, Chinees en natuurlijk Engels.
-
-Waarom zou je de Gemene Beledigingsgenerator downloaden?
-
-Eenvoudigheid
-
-De interface is gebruiksvriendelijk en de graphics zijn allemaal van hoge kwaliteit.
-De app is ontwikkeld om je een aangename ervaring te bezorgen.
-Op het hoofdscherm van de app's heb je de mogelijkheid om verschillende gemene beledigingen te genereren en te doorbladeren.
-Het gebruik van de app kon niet gemakkelijker zijn, en het duurt maar een seconde om nieuwe beledigingen te genereren.
-Je kan er doorheen bladeren met een simpele tik op je scherm.
-
-Gratis
-
-Deze app is volledig gratis te gebruiken en zal dat voor altijd blijven.
-De broncode is beschikbaar op GitHub.
-Je hoeft je geen zorgen te maken over speciale lidmaatschappen, jaarabonnementen of verborgen kosten om resultaten te genereren en met anderen te delen.
-
-Delen
-
-We hebben geprobeerd het proces van het gebruik van deze app te vereenvoudigen.
-Je kan gratis beledigingen delen die door de gemene beledigingsgenerator zijn geproduceerd.
-Je beledigingen kunnen worden gedeeld met vrienden op verschillende apps.
-
-
-Regelmatig bijgewerkt
-
-Het ontwikkelingsteam dat deze app heeft gemaakt, voegt er altijd nieuwe beledigingen aan toe.
-Elke belediging is gemakkelijk te delen, en anderen kunnen ze ook gebruiken, als ze dat willen.
-
-Maar we hebben je steun nodig.
-Stuur ons je beledigingen en we zullen ze beoordelen.
-Als we het leuk vinden, zal de belediging de nieuwste toevoeging aan de app zijn.
-
-
-Een enorme verzameling beledigingen
-
-Deze app heeft geen tekort aan beledigingen die je kan gebruiken.
-Velen van hen hebben een uniek karakter dat nergens anders te vinden is.
-
-We proberen de gebruikerservaring voor iedereen te optimaliseren.
-Feedback is iets waar we dankbaar voor zijn.
-Als je een aanbeveling of suggestie hebt, willen we die graag horen.
-Aarzel niet om contact met ons op te nemen via marvin@evilinsult.com.
-Op die manier kunnen we je ervaring optimaliseren en de app up-to-date houden met geavanceerde beledigingen.
-Opmerking: Deze beledigingsgenerator is open-source software.
-De bron is hier te vinden: https://github.com/EvilInsultGenerator/.
-Je hulp bij de vertaling van de app wordt zeer op prijs gesteld: https://crowdin.com/project/evil-insult-generator-android.
-
-⚠️ Waarschuwing ⚠️
-De meeste beledigingen die door de app worden gegenereerd zullen sommige mensen beledigen, en daarom moet je voorzichtig zijn bij wie je deze beledigingen gebruikt.
-Deze app is alleen voor volwassen gebruikers.
-
+<b>⚠️ Warning ⚠️</b>
+Many insults that are generated by the app will offend some people, and as such, you should be careful with whom you use these insults on. This app is for mature users only.
