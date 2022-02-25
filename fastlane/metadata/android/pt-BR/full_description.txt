@@ -1,14 +1,3 @@
-O aplicativo Evil Insult Generator é o gerador de insultos mais legal que existe!
-Este é o melhor aplicativo de insultos que você pode conseguir! E o melhor de tudo: é de uso gratuito!
-Você está procurando um aplicativo de insulto maligno? Quer se divertir com as mensagens que envia aos amigos? Talvez você esteja procurando um insulto divertido que possa fazer sua namorada ou namorado atual terminar com você. Se você não tem criatividade e precisa de ajuda, este aplicativo de insultos vai te ajudar! O aplicativo de geração de insultos malignos é gratuito para baixar e instalar. Você não apenas desfrutará dos insultos que isso gera, mas também os compartilhará!To generate an evil insult randomly, spin its handle. This app is capable of generating insult combinations by the thousands, and each one feels different. These evil insults can be shared with friends if you want to make them laugh. Fans of the game "Cards Against Humanity" will appreciate this awesome insult generator, which is totally free to use!
-Você vai gostar de insultar inimigos e amigos. Veja bem, o aplicativo de insultos foi criado para se divertir - não deve ser usado para fazer ninguém se sentir mal intencionalmente.
-O aplicativo de insultos é um dos melhores do gênero. Pode realmente acontecer se você não conseguir pensar em um insulto bom o suficiente sozinho.
-Interessado em difamar alguém? Este aplicativo irá mergulhar em sua coleção de zoações ofensivas e chocantes! Algumas palavras às vezes são difíceis de encontrar no local. Quando isso acontece, este aplicativo vai à frente.
-Precisa encontrar um termo ofensivo para ligar para alguém? Você pode acessar centenas de insultos para usar. Novos insultos estão a um golpe de distância. Basta tocar no botão "Gerar" e um novo insulto aparecerá no meio da tela.
-Você será capaz de criar insultos engraçados com o pressionar de um botão. Os insultos que você usar serão originais.
-Graças a este aplicativo de insultos, você será capaz de desabafar quando necessário. Você pode cuspir insultos em grego, hindi, russo, suaíli, espanhol, alemão, francês, chinês e, claro, inglês.
-O aplicativo simplifica o processo de insultos e você pode compartilhar seus insultos em outros aplicativos também. Não deixe essa oportunidade escapar por entre seus dedos - baixe este gerador de insultos para o(s) seu(s) dispositivo(s)! Você está tentando criar uma ótima frase para usar em alguém? Essa variedade de insultos fará com que sua mensagem seja transmitida de maneira bem-humorada. Você será ouvido em alto e bom som!
-
 Por que você deve baixar o Evil Insult Generator, em oposição a outro aplicativo de insulto?
 
 <b> Simplicidade </b>
@@ -19,19 +8,21 @@ Na tela principal do aplicativo, você terá a capacidade de gerar e navegar vá
 Este aplicativo é totalmente gratuito e permanecerá assim para sempre. O código-fonte está disponível no GitHub. Você não precisa se preocupar com associações especiais, assinaturas anuais ou custos ocultos para gerar resultados e compartilhá-los com outras pessoas.
 
 <b> Compartilhando </b>
-Nós nos esforçamos para simplificar o processo de uso deste aplicativo. Você poderá compartilhar insultos produzidos pelo Evil Insult Generator sem nenhum custo. Seus insultos podem ser compartilhados com amigos em vários aplicativos.
+Você poderá compartilhar insultos produzidos pelo Evil Insult Generator sem nenhum custo. Seus insultos podem ser compartilhados com amigos em vários aplicativos. 
 
 <b> Atualizado regularmente </b>
-A equipe de desenvolvimento que criou este aplicativo está sempre adicionando novos insultos a ele. Cada insulto é fácil de compartilhar e outras pessoas podem usá-los, se desejar.
-Mas precisamos do seu apoio. Envie-nos os seus insultos e iremos analisá-los. Se gostarmos, o insulto será a mais nova adição ao aplicativo.
+A equipe de desenvolvimento que criou este aplicativo está sempre adicionando novos insultos a ele. Cada insulto é fácil de compartilhar e outras pessoas podem usá-los, se desejar. 
+Mas precisamos do seu apoio. Envie-nos os seus insultos e iremos analisá-los. Se gostarmos, o insulto será a mais nova adição ao aplicativo. 
 
 <b> Uma enorme coleção de insultos </b>
 Este aplicativo não tem falta de insultos que você possa usar. Muitos deles têm uma singularidade que não pode ser encontrada em nenhum outro lugar.
 Não demore - baixe o aplicativo de insultos malignos e crie linhas criativas que você pode usar em qualquer pessoa!
 Nós nos esforçamos para otimizar as experiências do usuário para todos. O feedback é algo que agradecemos. Se você tiver uma recomendação ou sugestão, gostaríamos de ouvi-la. Não hesite em entrar em contato conosco em marvin@evilinsult.com. Dessa forma, poderemos otimizar sua experiência e manter o aplicativo atualizado com insultos de ponta.
 
-Nota: este gerador de insultos usa software de código aberto. A fonte pode ser encontrada aqui: https://github.com/EvilInsultGenerator/.
-Sua ajuda com a tradução do aplicativo é muito apreciada: https://crowdin.com/project/evil-insult-generator-android.
-
 <b> ⚠️ Aviso ⚠️ </b>
+A fonte pode ser encontrada aqui: https://github.com/EvilInsultGenerator/.
+Sua ajuda com a tradução do aplicativo é muito apreciada: https://crowdin.com/project/evil-insult-generator-android.
+- Feel very welcome to send me your favorite insults so that I can add them
+
+<b>⚠️ Warning ⚠️</b>
 Muitos insultos gerados pelo aplicativo ofenderão algumas pessoas e, como tal, você deve ter cuidado com quem usa esses insultos. Este aplicativo é apenas para usuários maduros.
