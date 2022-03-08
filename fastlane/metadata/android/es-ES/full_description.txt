@@ -24,5 +24,5 @@ La fuente se puede encontrar aquí: https://github.com/EvilInsultGenerator/.
 Se agradece mucho su ayuda con la traducción de la aplicación: https://crowdin.com/project/evil-insult-generator-android.
 - Feel very welcome to send me your favorite insults so that I can add them
 
-<b>⚠️ Warning ⚠️</b>
+<b>⚠️ Advertencia ⚠️</b>
 Muchos insultos que genera la aplicación ofenderán a algunas personas y, como tal, debes tener cuidado con quién usas estos insultos. Esta aplicación es solo para usuarios maduros.
