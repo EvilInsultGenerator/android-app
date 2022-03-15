@@ -1,14 +1,14 @@
-Why should you download the Evil Insult Generator, as opposed to another insult app?
+Kwa nini unafaa kutumia jenereta la matusi mbaya, ukilinganisha na programu zingine za matusi?
 
-<b>Simplicity</b>
-The interface is user-friendly, and the insults are all of high quality. The app was developed to provide you with a pleasurable experience.
-On the app's main screen, you'll have the ability to generate and browse various evil insults. Using the app couldn't be easier, and it only takes a second to generate new insults. You can browse through them with a simple tap of your screen.
+<b>usahili</b>
+kiolesura chake ni rahisi kutumia, na pia uonevu wake ni wa hali ya juu. Programu hili lilitengenezwa ili liwezeshe mtumizi awe na uzoefu wenye furaha.
+kwenye programu'skrini kuu, wewe' nitakuwa na uwezo wa kuunda na kutafuta matusi mabaya kadhaa. Kutumia programu hili' inahakikisha yakuwa ni rahisi, na pia itatumia sekunde moja kuunda matusi mapya. Unaweza yapitia kwa urahisi kwa kuguza skrini yako.
 
-<b>Free & Open Source</b>
-This app is completely free to use and will stay that way forever. The source code is available on GitHub. You do not have to worry about special memberships, annual subscriptions, or hidden costs to generate results and share them with others.
+<b>bure& chanzo wazi</b>
+programu hili ni bure kabisa kutumia na itaishi kuwa hivyo milele. Chanzo wazi pia kinapatikana GitHub(source code). Hautahitaji kujali kuhusu uanachama maalum, malipo ya kila mwaka, ama gharama imefichwa kutengeneza matokeo na kuyagawa na wengine.
 
-<b>Sharing</b>
-We endeavored to simplify the process of using this app. You will be able to share insults produced by the Evil Insult Generator at no charge. Your insults can be shared with friends on various apps. 
+<b>kugawa</b>
+tumejitahidi kurahisisha njia ya kutumia programu hili. Utakuwa na uwezo wa kugawa matusi ambayo yametolewa na jenereta la matusi mbaya bila malipo yoyote. Matusi yako yanaweza gawika(shared) na marafiki zako kwenye programu zingine. 
 
 <b>Updated Regularly</b>
 The development team that created this app are always adding new insults to it. Each insult is easy to share, and others can use them, if desired. 
