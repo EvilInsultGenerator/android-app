@@ -22,7 +22,7 @@ Nós nos esforçamos para otimizar as experiências do usuário para todos. O fe
 <b> ⚠️ Aviso ⚠️ </b>
 A fonte pode ser encontrada aqui: https://github.com/EvilInsultGenerator/.
 Sua ajuda com a tradução do aplicativo é muito apreciada: https://crowdin.com/project/evil-insult-generator-android.
-- Feel very welcome to send me your favorite insults so that I can add them
+- Sinta-se muito bem vindo para me enviar seus insultos favoritos para que eu possa adicioná-los
 
-<b>⚠️ Warning ⚠️</b>
+<b>⚠️ Aviso ⚠️</b>
 Muitos insultos gerados pelo aplicativo ofenderão algumas pessoas e, como tal, você deve ter cuidado com quem usa esses insultos. Este aplicativo é apenas para usuários maduros.
