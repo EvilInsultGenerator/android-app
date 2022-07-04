@@ -8,11 +8,11 @@
     <string name="twitter">ට්විටර්</string>
     <string name="newsletter">පුවත් පත්‍රිකා</string>
     <string name="website">අඩවිය</string>
-    <string name="proposal">Proposal</string>
+    <string name="proposal">යෝජනාව</string>
     <string name="support">සහාය</string>
     <string name="language">භාෂාව</string>
     <string name="error">දෝෂයකි</string>
-    <string name="network_connection_required">%1$s requires an active internet connection. Please try again later.</string>
+    <string name="network_connection_required">%1$s සඳහා අන්තර්ජාල සම්බන්ධතාවක් වුවමනාය. යළි බලන්න.</string>
     <string name="spanish">ස්පාඤ්ඤ</string>
     <string name="english">ඉංග්‍රීසි</string>
     <string name="italian">ඉතාලි</string>
@@ -34,7 +34,7 @@
     <string name="tamil">දෙමළ</string>
     <string name="vietnamese">වියට්නාම්</string>
     <string name="urdu">උර්දු</string>
-    <string name="greek">Greek</string>
-    <string name="czech">Czech</string>
-    <string name="latin">Latin</string>
+    <string name="greek">ග්‍රීක</string>
+    <string name="czech">චෙක්</string>
+    <string name="latin">ලතින්</string>
 </resources>
