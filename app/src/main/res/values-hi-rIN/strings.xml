@@ -5,14 +5,14 @@
     <string name="legal">कानूनी</string>
     <string name="generate">उत्पन्न</string>
     <string name="share">शेयर</string>
-    <string name="twitter">Twitter</string>
+    <string name="twitter">ट्विटर</string>
     <string name="newsletter">अखबार</string>
     <string name="website">वेबसाइट</string>
     <string name="proposal">प्रस्ताव</string>
     <string name="support">सहयोग</string>
     <string name="language">भाषा</string>
     <string name="error">एरर!</string>
-    <string name="network_connection_required">%1$s को एक सक्रिय इंटरनेट कनेक्शन की आवश्यकता है। कृपया पुन: प्रयत्न करे</string>
+    <string name="network_connection_required">%1$s को एक सक्रिय इंटरनेट कनेक्शन की आवश्यकता है। कृपया बाद में पुन: प्रयत्न करे</string>
     <string name="spanish">स्पेनिश</string>
     <string name="english">अंग्रेज़ी</string>
     <string name="italian">इटॅलियन</string>
