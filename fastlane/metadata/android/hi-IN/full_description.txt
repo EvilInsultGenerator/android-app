@@ -1,17 +1,17 @@
-Why should you download the Evil Insult Generator, as opposed to another insult app?
+दुसरे इन्सल्ट ऐप के विपरीत, आपको इविल इन्सल्ट जनरेटर क्यों डाउनलोड करना चाहिए?
 
-<b>Simplicity</b>
-The interface is user-friendly, and the insults are all of high quality. The app was developed to provide you with a pleasurable experience.
-On the app's main screen, you'll have the ability to generate and browse various evil insults. Using the app couldn't be easier, and it only takes a second to generate new insults. You can browse through them with a simple tap of your screen.
+<b>सादगी</b>
+ईंटरफेस उपयोगकर्ता के अनुकूल है, और सभी इन्सल्ट्स उच्च गुणवत्ता वाले है| आपको एक सुखद अनुभव प्रदान करने के लिए इस ऐप को विकसित किया गया था|
+ऐप के मुख्य स्क्रीन पर, आपके पास विभन्न दुष्ट अपमान उत्पन्न करने और ब्राउज करने की क्षमता होगी| ऐप का उपयोग करना आसान नहीं हो सकता है, और नए अपमान उत्पन्न करने में इसे केवल एक सेकंड का समय लगता है| आप अपनी स्क्रीन पर एक टैप करके उनके माध्यम से ब्राउज कर सकते है|
 
-<b>Free & Open Source</b>
-This app is completely free to use and will stay that way forever. The source code is available on GitHub. You do not have to worry about special memberships, annual subscriptions, or hidden costs to generate results and share them with others.
+<b>फ्री एंड ओपन सोर्स</b>
+यह ऐप उपयोग करने के लिए पूरी तरह से निः शुल्क है और हमेशा के लिए ऐसे ही रहेगी| सोर्स कोड गिटहब पर उपलब्ध है| आपको परिणाम उत्पन्न करने और उन्हें दूसरों के साथ साझा करने के लिए विशेष सदस्यता, वार्षिक सदस्यता, या छिपी हुई लागतों के बारे में चिंता करने की आवश्यकता नहीं है|
 
-<b>Sharing</b>
-We endeavored to simplify the process of using this app. You will be able to share insults produced by the Evil Insult Generator at no charge. Your insults can be shared with friends on various apps. 
+<b>शेयरिंग</b>
+हमने इस ऐप का उपयोग करने की प्रक्रिया को सरल बनाने का प्रयास किया है|आप इविल इन्सल्ट जनरेटर द्वारा किए गए अपमान को बिना किसी शुल्क के साझा कर सकेंगे| आपके अपमान विभिन्न ऐप्स पर दोस्तों के साथ साझा किये जा सकते है| 
 
-<b>Updated Regularly</b>
-The development team that created this app are always adding new insults to it. Each insult is easy to share, and others can use them, if desired. 
+<b>नियमित रूप से अपडेट किया जाता है|</b>
+इस ऐप को बनाने वाली डेवलपमेंट टीम इसमें हमेशा नए नए अपमान जोड़ रही है| प्रत्येक अपमान को साझा करना आसान है, और अन्य लोग चाहें तो उनका उपयोग कर सकते है| 
 But we need your support. Please send us your insults and we will review it. If we like it, the insult will be the newest addition to the app. 
 
 <b>A Huge Collection of Insults</b>
