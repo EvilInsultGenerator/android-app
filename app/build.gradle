@@ -31,8 +31,8 @@ android {
         applicationId "com.evilinsult"
         minSdkVersion 21
         targetSdkVersion 31
-        versionCode 34
-        versionName "3.4"
+        versionCode 35
+        versionName "3.5"
         vectorDrawables.useSupportLibrary true
     }
 
