@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 हे अ‍ॅप तुम्हाला सर्वात अपमान करणारे अ‍ॅप आहे!
-=======
-This is the greatest insults app you can get!
->>>>>>> origin/master
