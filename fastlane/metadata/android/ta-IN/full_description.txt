@@ -1,28 +1,28 @@
-மற்றொரு இன்சல்ட் செயலிக்கு எதிராக, ஈவில் இன்சல்ட் ஜெனரேட்டரை ஏன் பதிவிறக்கம் செய்ய வேண்டும்?
+Why should you download the Evil Insult Generator, as opposed to another insult app?
 
-<b>எளிமையானது</b>
-இடைத்தளம் பயனர் நட்பானது, மற்றும் இன்சல்ட்ஸ் அனைத்தும் நல்ல தரத்தில் உள்ளன. உங்களுக்கு மகிழ்ச்சியான அனுபவத்தை வழங்குவதற்காக இந்த செயலி உருவாக்கப்பட்டது.
-செயலியின் முதன்மைத் திரையில், பலவிதமான ஈவில் இன்சல்ட்ஸ் ஐ உருவாக்கி உலாவக்கூடிய திறன் உங்களுக்கு இருக்கும். செயலியைப் பயன்படுத்துவது என்பது அவ்வளவு எளிதானது கிடையாது, மேலும் புதிய இன்சல்ட்ஸ் ஐ உருவாக்க ஒரு நொடி மட்டுமே ஆகும். உங்களுடைய திரையைத் தட்டுவதன் மூலம் அவற்றில் நீங்கள் உலாவலாம்.
+<b>Simplicity</b>
+The interface is user-friendly, and the insults are all of high quality. The app was developed to provide you with a pleasurable experience.
+On the app's main screen, you'll have the ability to generate and browse various evil insults. Using the app couldn't be easier, and it only takes a second to generate new insults. You can browse through them with a simple tap of your screen.
 
-<b>இலவசமானது & திறந்த நிலையில் இருக்கும் ஆதாரம்</b>
-இந்த செயலி பயன்படுத்துவதற்கு முற்றிலும் இலவசமானது மற்றும் எப்போதும் அப்படியே இருக்கும். ஆதாரத்திற்கான குறியீடு கிட்ஹப் இல் கிடைக்கிறது. சிறப்பு உறுப்பினர் உரிமை, வருடாந்திர சந்தாக்கள் அல்லது மறைக்கப்பட்ட செலவுகளைப் பற்றி நீங்கள் கவலைப்பட வேண்டியதில்லை.
+<b>Free & Open Source</b>
+This app is completely free to use and will stay that way forever. The source code is available on GitHub. You do not have to worry about special memberships, annual subscriptions, or hidden costs to generate results and share them with others.
 
-<b>பகிர்தல்</b>
-இந்த செயலியைப் பயன்படுத்துவதற்கான செயல்முறையை நாங்கள் எளிதாக்குவதற்கு முயற்சித்தோம். ஈவில் இன்சல்ட் ஜெனரேட்டரால் செய்யப்படும் இன்சல்ட்ஸ் ஐ நீங்கள் எந்தவித கட்டணமும் இல்லாமல் பகிர்ந்து கொள்ள முடியும். உங்களுடைய இன்சல்ட்ஸ் ஐ பல்வேறு செயலிகளின் மூலமாக, நீங்கள் உங்கள் நண்பர்களுடன் பகிர்ந்து கொள்ளலாம். 
+<b>Sharing</b>
+We endeavored to simplify the process of using this app. You will be able to share insults produced by the Evil Insult Generator at no charge. Your insults can be shared with friends on various apps. 
 
-<b>முறைப்படி புதுப்பிக்கப்பட்டது</b>
-இந்த செயலியை உருவாக்கிய உருவாக்கக் குழு எப்போதும் புதிய இன்சல்ட்ஸ் ஐச் சேர்க்கிறது. ஒவ்வொரு இன்சல்ட்டையும் பகிர்ந்து கொள்வது எளிதானது, மேலும் மற்றவர்கள் விரும்பினால், அவர்கள் அதைப் பயன்படுத்தலாம். 
-ஆனால் எங்களுக்கு உங்கள் ஆதரவு தேவை. உங்களுடைய இன்சல்ட்ஸ் ஐ தயவு செய்து எங்களுக்கு அனுப்பவும், நாங்கள் அதை மதிப்பாய்வு செய்கிறோம். எங்களுக்கு அது பிடித்திருந்தால், அந்த இன்சல்ட் ஆனது செயலியில் புதிய கூடுதலாக இருக்கும். 
+<b>Updated Regularly</b>
+The development team that created this app are always adding new insults to it. Each insult is easy to share, and others can use them, if desired. 
+But we need your support. Please send us your insults and we will review it. If we like it, the insult will be the newest addition to the app. 
 
-<b>இன்சல்ட்ஸ் இன் ஒரு பெரிய தொகுப்பு</b>
-இந்த செயலியில் நீங்கள் பயன்படுத்தக்கூடிய இன்சல்ட்ஸ் க்கு எந்தவிதப் பற்றாக்குறையும் இல்லை. அவர்களில் பலருக்கு ஒவ்வொரு தனித்துவம் உண்டு அதை வேறு எங்கும் காண முடியாது.
-தாமதிக்க வேண்டாம் - ஈவில் இன்சல்ட்ஸ் செயலியைப் பதிவிறக்கி, நீங்கள் யாரைப் பற்றியாவது பயன்படுத்தக்கூடிய ஆக்கப்பூர்வமான வரிகளைக் கொண்டு வாருங்கள்!
-அனைவருக்குமான பயனர் அனுபவங்களை மேம்படுத்துவதற்கு நாங்கள் முயற்சி செய்கிறோம். பின்னூட்டம் என்ற ஒன்றை நாங்கள் வரவேற்கிறோம். உங்களிடம் யோசனை அல்லது பரிந்துரை ஏதாவது இருந்தால், அவற்றைக் நாங்கள் கேட்க விரும்புகிறோம். Marvin@evilinsult.com என்ற மின்னஞ்சல் முகவரியில் எங்களுடன் தொடர்பு கொள்வதற்குத் தயங்க வேண்டாம். அப்படி செய்வதால், உங்களுடைய அனுபவத்தை எங்களால் மேம்படுத்த முடியும் மற்றும் அதிநவீன இன்சல்ட்ஸ் உடன் செயலியையும் புதுப்பிக்க முடியும்.
+<b>A Huge Collection of Insults</b>
+This app does not have any shortage of insults that you can use. Many of them have a uniqueness that can’t be found anywhere else.
+Don't delay – download the evil insults app and come up with creative lines that you can use on just about anybody!
+We endeavor to optimize user experiences for everyone. Feedback is something we welcome. If you have a recommendation or suggestion, we would like to hear them. Don't hesitate to get in touch with us at marvin@evilinsult.com. In doing so, we will be able to optimize your experience and keep the app updated with cutting-edge insults.
 
-<b>ℹ குறிப்பு ℹ </b>
-ஆதாரத்தை இங்கே பார்க்கலாம்: https://github.com/EvilInsultGenerator/android-app/
-செயலிக்கான மொழிபெயர்ப்பில் உங்களுடைய உதவியானது மிகவும் பாராட்டப்படுகிறது: https://crowdin.com/project/evil-insult-generator-android/
-உங்களுக்குப் பிடித்த இன்சல்ட்ஸ் ஐ எனக்கு அனுப்புவதை வரவேற்கிறேன், அதனால் நான் அவற்றைச் சேர்க்க முடியும்
+<b>ℹ️ Note ℹ️</b>
+- The source can be found here: https://github.com/EvilInsultGenerator/android-app/
+- Your assistance with app translation is very much appreciated: https://crowdin.com/project/evil-insult-generator-android/
+- Feel very welcome to send me your favorite insults so that I can add them
 
-<b>⚠️ எச்சரிக்கை ⚠️</b>
-செயலியினால் உருவாக்கப்படும் பல இன்சல்ட்ஸ் ஆனது சிலரைப் புண்படுத்தும், மேலும் இந்த இன்சல்ட்ஸ் ஐ யாரிடம் பயன்படுத்துகிறீர்கள் என்பதில் கவனமாக இருக்க வேண்டும். இந்த செயலியானது முதிர்ந்த பயனர்களுக்கு மட்டுமே.
+<b>⚠️ Warning ⚠️</b>
+Many insults that are generated by the app will offend some people, and as such, you should be careful with whom you use these insults on. This app is for mature users only.
