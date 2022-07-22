@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 এভিল ইনসাল্ট জেনারেটর
-=======
-Evil Insult Generator
->>>>>>> origin/master

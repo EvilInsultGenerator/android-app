@@ -1,0 +1,1 @@
+Kompletní přepsání a změněné jméno balíčku (nově com.evilinsult namísto com.evilinsult.android)

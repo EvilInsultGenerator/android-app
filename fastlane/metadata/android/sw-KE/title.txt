@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 Jenereta la matusi mbaya
-=======
-Evil Insult Generator
->>>>>>> origin/master

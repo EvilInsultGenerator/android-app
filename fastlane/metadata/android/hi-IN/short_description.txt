@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 यह आपको मिलने वाला सबसे बड़ा इन्सल्ट्स ऐप है|
-=======
-This is the greatest insults app you can get!
->>>>>>> origin/master
