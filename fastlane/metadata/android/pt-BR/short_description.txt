@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Este é o melhor aplicativo de insultos que você pode conseguir!
+=======
+This is the greatest insults app you can get!
+>>>>>>> origin/master

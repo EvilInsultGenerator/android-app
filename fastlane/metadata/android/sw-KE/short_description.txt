@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Programu hili ndio bora zaidi la matusi unaloweza pata!
+=======
+This is the greatest insults app you can get!
+>>>>>>> origin/master

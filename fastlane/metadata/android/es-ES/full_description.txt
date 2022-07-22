@@ -22,7 +22,13 @@ Nos esforzamos por optimizar las experiencias de los usuarios para todos. El fee
 <b> ⚠️ Advertencia ⚠️ </b>
 La fuente se puede encontrar aquí: https://github.com/EvilInsultGenerator/.
 Se agradece mucho su ayuda con la traducción de la aplicación: https://crowdin.com/project/evil-insult-generator-android.
+<<<<<<< HEAD
 - Siéntete bienvenido a enviarme tus insultos favoritos para poder añadirlos
 
 <b>⚠️ Advertencia ⚠️</b>
+=======
+- Feel very welcome to send me your favorite insults so that I can add them
+
+<b>⚠️ Warning ⚠️</b>
+>>>>>>> origin/master
 Muchos insultos que genera la aplicación ofenderán a algunas personas y, como tal, debes tener cuidado con quién usas estos insultos. Esta aplicación es solo para usuarios maduros.
