@@ -1,2 +1,0 @@
-- Add Russian Translation
-- Add Ukrainian Translation
