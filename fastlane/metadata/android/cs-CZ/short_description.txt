@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+Toto je nejlepší aplikace urážek, kterou můžete získat!
+=======
+This is the greatest insults app you can get!
+>>>>>>> origin/master

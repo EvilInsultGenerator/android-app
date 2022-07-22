@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+එවිල් ඉන්සල්ට් ජෙනරේටර්
+=======
+Evil Insult Generator
+>>>>>>> origin/master

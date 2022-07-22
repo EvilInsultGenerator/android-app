@@ -1,0 +1,34 @@
+Por que você deve baixar o Evil Insult Generator, em oposição a outro aplicativo de insulto?
+
+<b> Simplicidade </b>
+A interface é amigável e os gráficos são de alta qualidade. O aplicativo foi desenvolvido para proporcionar uma experiência prazerosa.
+Na tela principal do aplicativo, você terá a capacidade de gerar e navegar vários insultos malignos. Usar o aplicativo não poderia ser mais fácil e leva apenas um segundo para gerar novos insultos. Você pode navegar por eles com um simples toque na tela.
+
+<b> Grátis </b>
+Este aplicativo é totalmente gratuito e permanecerá assim para sempre. O código-fonte está disponível no GitHub. Você não precisa se preocupar com associações especiais, assinaturas anuais ou custos ocultos para gerar resultados e compartilhá-los com outras pessoas.
+
+<b> Compartilhando </b>
+Você poderá compartilhar insultos produzidos pelo Evil Insult Generator sem nenhum custo. Seus insultos podem ser compartilhados com amigos em vários aplicativos. 
+
+<b> Atualizado regularmente </b>
+A equipe de desenvolvimento que criou este aplicativo está sempre adicionando novos insultos a ele. Cada insulto é fácil de compartilhar e outras pessoas podem usá-los, se desejar. 
+Mas precisamos do seu apoio. Envie-nos os seus insultos e iremos analisá-los. Se gostarmos, o insulto será a mais nova adição ao aplicativo. 
+
+<b> Uma enorme coleção de insultos </b>
+Este aplicativo não tem falta de insultos que você possa usar. Muitos deles têm uma singularidade que não pode ser encontrada em nenhum outro lugar.
+Não demore - baixe o aplicativo de insultos malignos e crie linhas criativas que você pode usar em qualquer pessoa!
+Nós nos esforçamos para otimizar as experiências do usuário para todos. O feedback é algo que agradecemos. Se você tiver uma recomendação ou sugestão, gostaríamos de ouvi-la. Não hesite em entrar em contato conosco em marvin@evilinsult.com. Dessa forma, poderemos otimizar sua experiência e manter o aplicativo atualizado com insultos de ponta.
+
+<b> ⚠️ Aviso ⚠️ </b>
+A fonte pode ser encontrada aqui: https://github.com/EvilInsultGenerator/.
+Sua ajuda com a tradução do aplicativo é muito apreciada: https://crowdin.com/project/evil-insult-generator-android.
+<<<<<<< HEAD
+- Sinta-se muito bem vindo para me enviar seus insultos favoritos para que eu possa adicioná-los
+
+<b>⚠️ Aviso ⚠️</b>
+=======
+- Feel very welcome to send me your favorite insults so that I can add them
+
+<b>⚠️ Warning ⚠️</b>
+>>>>>>> origin/master
+Muitos insultos gerados pelo aplicativo ofenderão algumas pessoas e, como tal, você deve ter cuidado com quem usa esses insultos. Este aplicativo é apenas para usuários maduros.

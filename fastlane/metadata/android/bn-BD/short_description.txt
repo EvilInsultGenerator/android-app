@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+এটি আপনি পেতে পারেন সবচেয়ে বড় ইনসাল্টজনক অ্যাপ্লিকেশন!
+=======
+This is the greatest insults app you can get!
+>>>>>>> origin/master
