@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="social">Social</string>
-    <string name="contact">Contact</string>
-    <string name="legal">Legal</string>
+    <string name="social">Xã hội</string>
+    <string name="contact">Liên hệ</string>
+    <string name="legal">Hợp pháp</string>
     <string name="generate">Generate</string>
     <string name="share">Share</string>
     <string name="twitter">Twitter</string>
