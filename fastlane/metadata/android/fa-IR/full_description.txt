@@ -1,8 +1,8 @@
-Why should you download the Evil Insult Generator, as opposed to another insult app?
+چرا باید Evil Insult Generator را بر خلاف برنامه توهین دیگری دانلود کنید؟
 
-<b>Simplicity</b>
-The interface is user-friendly, and the insults are all of high quality. The app was developed to provide you with a pleasurable experience.
-On the app's main screen, you'll have the ability to generate and browse various evil insults. Using the app couldn't be easier, and it only takes a second to generate new insults. You can browse through them with a simple tap of your screen.
+<b>سادگی</b>
+رابط کاربری کاربر پسند است و توهین ها همه با کیفیت هستند. این برنامه برای ارائه یک تجربه لذت بخش برای شما ساخته شده است.
+در صفحه اصلی برنامه، شما توانایی تولید و مرور انواع توهین های شیطانی را خواهید داشت. استفاده از برنامه نمی تواند ساده تر باشد، و فقط یک ثانیه طول می کشد تا توهین های جدید ایجاد شود. می‌توانید با یک ضربه ساده روی صفحه‌نمایش، آن‌ها را مرور کنید.
 
 <b>Free & Open Source</b>
 This app is completely free to use and will stay that way forever. The source code is available on GitHub. You do not have to worry about special memberships, annual subscriptions, or hidden costs to generate results and share them with others.
