@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 Ово је највећа апликација за увреде коју можете добити!
-=======
-This is the greatest insults app you can get!
->>>>>>> origin/master

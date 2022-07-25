@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 Perché dovresti scaricare il Malefico Generatore d'Insulti, invece d'un altro generatore d'insulti?
 
 <b>Semplicità</b>
 L'interfaccia è facile da usare, e gli insulti sono tutti di alta qualità. L'applicazione è stata sviluppata per offrirti un'esperienza piacevole.
-=======
+
 Why should you download the Evil Insult Generator, as opposed to another insult app?
 
 <b>Simplicity</b>

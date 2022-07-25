@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 Iki app ngenyek paling apik kang sampeyan iso duweni!
-=======
-This is the greatest insults app you can get!
->>>>>>> origin/master

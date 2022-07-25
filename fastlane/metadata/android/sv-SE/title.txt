@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 Ondska Insult Generator
-=======
-Evil Insult Generator
->>>>>>> origin/master

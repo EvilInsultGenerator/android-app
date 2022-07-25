@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 Ond Fornærmelse Generator
-=======
-Evil Insult Generator
->>>>>>> origin/master
