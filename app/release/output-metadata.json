@@ -11,9 +11,9 @@
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 34,
-      "versionName": "3.4",
-      "outputFile": "com.evilinsult-v3.4-release.apk"
+      "versionCode": 35,
+      "versionName": "3.5",
+      "outputFile": "com.evilinsult-v3.5-release.apk"
     }
   ],
   "elementType": "File"

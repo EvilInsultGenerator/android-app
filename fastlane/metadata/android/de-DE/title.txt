@@ -1,1 +1,5 @@
+<<<<<<< HEAD
+Böser Beleidigungsgenerator
+=======
 Evil Insult Generator
+>>>>>>> origin/master

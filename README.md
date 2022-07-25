@@ -54,7 +54,7 @@ We love to get in touch with you. Feel welcome to email your questions and feedb
 
 ### Translation
 
-Translations are hosted on [Crowdin](https://crowdin.com/project/evil-insult-generator-android) and in the ```fastlane``` folder.
+Translations are hosted on [Crowdin](https://crowdin.com/project/evil-insult-generator-android). You may open a PR with translated screenshots in the ```fastlane``` folder.
 
 ### License
 > This is free and unencumbered software released into the public domain.
