@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 מחולל עלבונות מרושעים
+=======
+Evil Insult Generator
+>>>>>>> origin/master

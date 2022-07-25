@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Gerador de Insulta do Mal
+=======
+Evil Insult Generator
+>>>>>>> origin/master

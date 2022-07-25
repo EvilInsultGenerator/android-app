@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 邪悪なインスルトジェネレーター
+=======
+Evil Insult Generator
+>>>>>>> origin/master

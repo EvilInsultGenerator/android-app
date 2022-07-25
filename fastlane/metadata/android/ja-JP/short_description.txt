@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 これはあなたが得ることができる最大の侮辱アプリです!
+=======
+This is the greatest insults app you can get!
+>>>>>>> origin/master

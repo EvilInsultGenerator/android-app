@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 This is the greatest insults app you can get!
+=======
+ඔබට ලබා ගත හැකි හොඳම අපහාස යෙදුම මෙයයි!
+>>>>>>> origin/master

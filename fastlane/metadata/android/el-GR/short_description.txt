@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Αυτή είναι η μεγαλύτερη προσβολή εφαρμογή που μπορείτε να πάρετε!
+=======
+This is the greatest insults app you can get!
+>>>>>>> origin/master

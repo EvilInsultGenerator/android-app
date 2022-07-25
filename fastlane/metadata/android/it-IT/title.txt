@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Malefico Generatore d'Insulti
+=======
+Evil Insult Generator
+>>>>>>> origin/master

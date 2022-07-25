@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Questo è il più grande generatore d'insulti mai creato!
+=======
+This is the greatest insults app you can get!
+>>>>>>> origin/master

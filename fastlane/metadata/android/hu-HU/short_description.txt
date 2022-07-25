@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Ez a legnagyobb sértő alkalmazás, amit kaphat!
+=======
+This is the greatest insults app you can get!
+>>>>>>> origin/master

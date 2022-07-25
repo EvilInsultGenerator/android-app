@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 นี่คือแอพดูถูกที่ยิ่งใหญ่ที่สุดที่คุณจะได้รับ!
+=======
+This is the greatest insults app you can get!
+>>>>>>> origin/master
