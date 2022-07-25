@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 Diabelski Generator Wyrażeń
-=======
-Evil Insult Generator
->>>>>>> origin/master

@@ -29,8 +29,4 @@ Wir bemühen uns, die Nutzererlebnisse für alle zu optimieren. Feedback hören 
 - Fühlt euch herzlichst willkommen, eure Lieblings-Beleidigungen zu schicken, damit ich sie hinzufügen kann
 
 <b>⚠️ Warnung ⚠️</b>
-<<<<<<< HEAD
 Viele der Beleidigungen der App können (und werden) einige Menschen verletzen. Diese App ist nur für erwachsene Benutzer.
-=======
-Viele der Beleidigungen der App können (und werden) einige Menschen verletzen. Diese App ist nur für Erwachsene.</div>
->>>>>>> origin/master
