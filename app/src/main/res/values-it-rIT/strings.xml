@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="social">Social</string>
-    <string name="contact">Contact</string>
-    <string name="legal">Legal</string>
-    <string name="generate">Generate</string>
-    <string name="share">Share</string>
+    <string name="contact">Contatti</string>
+    <string name="legal">Informazioni legali</string>
+    <string name="generate">Genera</string>
+    <string name="share">Condividi</string>
     <string name="twitter">Twitter</string>
     <string name="newsletter">Newsletter</string>
-    <string name="website">Website</string>
-    <string name="proposal">Proposal</string>
-    <string name="support">Support</string>
-    <string name="language">Language</string>
-    <string name="error">Error</string>
-    <string name="network_connection_required">%1$s requires an active internet connection. Please try again later.</string>
-    <string name="spanish">Spanish</string>
-    <string name="english">English</string>
-    <string name="italian">Italian</string>
+    <string name="website">Sito Web</string>
+    <string name="proposal">Proposta</string>
+    <string name="support">Supporto</string>
+    <string name="language">Lingua</string>
+    <string name="error">Errore</string>
+    <string name="network_connection_required">%1$s richiede una connessione ad internet attiva. Riprova più tardi.</string>
+    <string name="spanish">Spagnolo</string>
+    <string name="english">Inglese</string>
+    <string name="italian">Italiano</string>
     <string name="chinese">Chinese</string>
     <string name="hindi">Hindi</string>
     <string name="arabic">Arabic</string>
