@@ -7,7 +7,11 @@ In der App hast du die Möglichkeit, verschiedene bösartige Beleidigungen zu ge
 <b>Teilen</b>
 Diese App ist völlig kostenlos und wird es auch für immer bleiben. Der Quellcode ist auf GitHub verfügbar. Du musst dir keine Sorgen über spezielle Abos oder versteckte Kosten machen, um Ergebnisse zu generieren und sie mit anderen zu teilen.
 
+<<<<<<< HEAD
 <b>Teilen</b>
+=======
+</b>
+>>>>>>> origin/master
 Wir haben uns bemüht, den Prozess der Verwendung dieser App zu vereinfachen. Du kannst die vom Evil Insult Generator erzeugten Beleidigungen kostenlos teilen. Du kannst sie auch deinen Freunden über andere Apps schicken. 
 
 <b>Regelmäßige Updates</b>
