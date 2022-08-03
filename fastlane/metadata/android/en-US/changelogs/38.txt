@@ -1,0 +1,6 @@
+- 🗺️ Updated translations
+- 🖌️ Fixed graphics for F-Droid
+- 🚀 Under the hood improvements (hopefully)
+
+Feel welcome to join on https://crowdin.com/project/evil-insult-generator-android and help with translations. 🙊
+And don't forget to submit your favorite insults! 😈
