@@ -19,15 +19,9 @@ Esta aplicación no escasea de insultos que puedas usar. Muchos de ellos tienen 
 No se demore: descargue la aplicación Evil Insult Generator y cree frases creativas que pueda usar con casi cualquier persona!
 Nos esforzamos por optimizar las experiencias de los usuarios para todos. El feedback es algo que agradecemos. Si tiene alguna recomendación o sugerencia, nos gustaría escucharla. No dude en ponerse en contacto con nosotros en marvin@evilinsult.com. Al hacerlo, podremos optimizar su experiencia y mantener la aplicación actualizada con insultos de vanguardia.
 
-<<<<<<< HEAD
 <b>⚠️ Advertencia ⚠️</b>
 - La fuente se puede encontrar aquí: https://github.com/EvilInsultGenerator/
 - Se agradece mucho su ayuda con la traducción de la aplicación: https://crowdin.com/project/evil-insult-generator-android
-=======
-<b> ⚠️ Advertencia ⚠️ </b>
-La fuente se puede encontrar aquí: https://github.com/EvilInsultGenerator/.
-Se agradece mucho su ayuda con la traducción de la aplicación: https://crowdin.com/project/evil-insult-generator-android.
->>>>>>> origin/master
 - Siéntete bienvenido a enviarme tus insultos favoritos para poder añadirlos
 
 <b>⚠️ Advertencia ⚠️</b>
