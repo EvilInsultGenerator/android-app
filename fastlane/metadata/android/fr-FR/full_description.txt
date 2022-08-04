@@ -19,17 +19,10 @@ Cette application ne manque pas d'insultes que vous pouvez utiliser. Beaucoup d'
 Si vous manquez d'inspiration et vous pouvez de l'aide, cette application d'insultes est là pour vous !
 Nous nous efforçons d'optimiser l'expérience utilisateur pour tout le monde. Les commentaires sont les bienvenus. Si vous avez une recommandation ou une suggestion, nous aimerions les entendre. N'hésitez pas à nous contacter à marvin@evilinsult.com. Ce faisant, nous serons en mesure d'optimiser votre expérience et de tenir l'application à jour avec des insultes de pointe.
 
-<<<<<<< HEAD
 <b>ℹ️ Note ℹ️</b>
 - La source peut être trouvée ici : https://github.com/EvilInsultGenerator/
 - Votre aide pour la traduction de l'application est très appréciée : https://crowdin.com/project/evil-insult-generator-android
 - Soyez les bienvenus pour m'envoyer vos insultes préférées afin que je puisse les ajouter
-=======
-<b>i Note i</b>
-La source peut être trouvée ici : https://github.com/EvilInsultGenerator/.
-Votre aide pour la traduction de l'application est très appréciée : https://crowdin.com/project/evil-insult-generator-android.
-Soyez les bienvenus pour m'envoyer vos insultes préférées afin que je puisse les ajouter
->>>>>>> origin/master
 
 <b>⚠️ Avertissement ⚠️</b>
 Beaucoup d'insultes générées par l'application vont offenser certaines personnes, et en tant que tel, vous devriez être prudent avec qui vous utilisez ces insultes. Cette application est réservée aux utilisateurs adultes.
