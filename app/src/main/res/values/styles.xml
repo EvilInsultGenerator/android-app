@@ -24,8 +24,8 @@
     <style name="AppTheme.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
         <item name="backgroundTint">@color/outlined_btn_bg_color</item>
         <item name="rippleColor">@color/outlined_btn_ripple_color</item>
-        <item name="strokeColor">@color/outlined_btn_stroke_color</item>
-        <item name="android:textColor">@color/outlined_btn_stroke_color</item>
+        <item name="strokeColor">#B05C22</item>
+        <item name="android:textColor">#B05C22</item>
         <item name="android:minHeight">48dp</item>
     </style>
 
