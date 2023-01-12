@@ -1,0 +1,5 @@
+- Dependency updates
+- Support Themed Icons on Android 13+
+- Translation updates
+
+I am saying thank you to all contributors (insults, bug reports, code and/or translations)! 😘
