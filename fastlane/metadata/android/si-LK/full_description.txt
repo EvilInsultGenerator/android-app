@@ -1,13 +1,13 @@
 වෙනත් අපහාස යෙදුමක් වෙනුවට, ඔබ Evil Insult Generator බාගත කළ යුත්තේ ඇයි?
 
 <b>සරල බව</b>
-The interface is user-friendly, and the insults are all of high quality. The app was developed to provide you with a pleasurable experience.
-On the app's main screen, you'll have the ability to generate and browse various evil insults. Using the app couldn't be easier, and it only takes a second to generate new insults. You can browse through them with a simple tap of your screen.
+අතුරු මුහුණත පරිශීලක-මිත්‍ර වන අතර, සියලුම අපහාස උසස් තත්ත්වයේ පවතී. ඔබට සතුටුදායක අත්දැකීමක් ලබා දීම සඳහා මෙම යෙදුම සංවර්ධනය කර ඇත.
+යෙදුමේ ප්‍රධාන තිරයේදී ඔබට විවිධ නපුරු අපහාස ජනනය කරගැනීමට සහ සෙවුම් කිරීමට හැකියාව ඇත. යෙදුම භාවිතා කිරීම ඉතාමත් පහසු මෙන්ම, නව අපහාස උත්පාදනය කිරීමට ගත වන්නේ තත්පරයක් වැනි කෙටි කාලයකි. ඔබේ තිරයේ එක සරල තට්ටු කිරීමකින් ඔබට ඒවා අතර සෙවීම් සිදු කළ හැක.
 
-<b>Free & Open Source</b>
-This app is completely free to use and will stay that way forever. The source code is available on GitHub. You do not have to worry about special memberships, annual subscriptions, or hidden costs to generate results and share them with others.
+<b>නිදහස් සහ විවෘත මූලාශ්‍රය</b>
+මෙම යෙදුම සම්පූර්ණයෙන්ම නොමිලේ භාවිතා කල හැකි අතර එය දිගටම නොමිලේ භාවිතයට ඉඩ ලැබෙනු ඇත. මූලාශ්‍ර කේතය GitHub වෙතින් ලබා ගත හැක. ප්‍රතිඵල ජනනය කිරීමට සහ ඒවා අන් අය සමඟ බෙදා ගැනීමට ඔබට විශේෂ සාමාජිකත්වයක්, වාර්ෂික දායකත්වයක් හෝ සැඟවුණු ගාස්තු ගැන කරදර විය යුතු නැත.
 
-<b>Sharing</b>
+<b>බෙදාගැනීම</b>
 We endeavored to simplify the process of using this app. You will be able to share insults produced by the Evil Insult Generator at no charge. Your insults can be shared with friends on various apps. 
 
 <b>Updated Regularly</b>
