@@ -35,10 +35,7 @@
    <locale android:name="ro"/> <!-- Romanian -->
    <locale android:name="ru"/> <!-- Russian -->
    <locale android:name="si"/> <!-- Sinhala -->
-   <locale android:name="sk"/> <!-- Slovak -->
-   <locale android:name="sl"/> <!-- Slovenian -->
    <locale android:name="sr"/> <!-- Serbian (Cyrillic) -->
-   <locale android:name="sr-Latn"/> <!-- Serbian (Latin) -->
    <locale android:name="sv"/> <!-- Swedish -->
    <locale android:name="sw"/> <!-- Swahili -->
    <locale android:name="ta"/> <!-- Tamil -->
