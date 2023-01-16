@@ -29,7 +29,6 @@ android {
         versionCode 39
         versionName "3.9"
         vectorDrawables.useSupportLibrary true
-        resConfigs "en", "en-GB", "en-US", "af", "ar", "bg", "bn", "ca", "cs", "da", "de", "el", "es", "fi", "fr", "hi", "hu", "in", "it", "iw", "ja", "kn", "ko", "mr", "my", "nb", "ne" , "nl", "pa", "pl", "pt-BR", "pt-PT", "ro", "ru", "si", "sr", "sv", "sw", "ta", "te", "th", "tr", "uk", "ur", "vi", "zh-CN", "zh-HK", "zh-TW"
     }
 
     buildTypes {
