@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 url="$(echo "$APK_URL")"
 url=$(echo ${url} | cut -d "\"" -f 2)
 url=$(echo "${url//\"\r\n\"/$ln}")
