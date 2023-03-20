@@ -1,0 +1,67 @@
+name: Publish
+
+on:
+  release:
+    types:
+      - released
+
+jobs:
+  apk:
+    name: Build apk, upload to release and notify Discord
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK 11
+        uses: actions/setup-java@v2
+        with:
+          distribution: adopt
+          java-version: 11
+
+      - name: Delete some caches
+        run: rm -f ~/.gradle/caches/modules-2/modules-2.lock; rm -fr ~/.gradle/caches/*/plugin-resolution/
+
+      - name: Cache Gradle
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.android/build-cache
+            ~/.m2
+            ~/.gradle
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('gradle/wrapper/gradle-wrapper.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+
+      - name: Delete previous outputs
+        run: rm -rf $TRAVIS_BUILD_DIR/app/build/outputs
+
+      - name: Make gradlew executable
+        run: chmod +x gradlew; chmod +x gradle/wrapper/gradle-wrapper.jar
+
+      - name: Build master app
+        run: ./gradlew clean :app:assembleRelease --full-stacktrace
+
+      - name: Get release information
+        env:
+          GITHUB_API_KEY: ${{ secrets.GITHUB_TOKEN }}
+        run: chmod +x ./scripts/get_release_data.sh; ./scripts/get_release_data.sh
+
+      - name: Upload APK to release
+        id: upload_apk
+        uses: svenstaro/upload-release-action@v2
+        with:
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          file: "./app/build/outputs/apk/release/${{ env.apk_file }}"
+          asset_name: "EvilInsultGenerator-${{ env.release_tag }}.apk"
+          tag: ${{ env.release_tag }}
+          overwrite: true
+
+      - name: Notify Telegram channel
+        env:
+          RELEASE_TAG: ${{ env.release_tag }}
+          APK_URL: ${{ steps.upload_apk.outputs.browser_download_url }}
+          CHANGELOG: ${{ env.release_changes }}
+        run: chmod +x ./scripts/notify_telegram.sh; ./scripts/notify_telegram.sh
