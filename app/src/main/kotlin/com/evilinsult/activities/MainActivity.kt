@@ -174,7 +174,7 @@ class MainActivity : AppCompatActivity() {
     private fun dismissDialog() {
         try {
             alertDialog?.dismiss()
-        } catch (e: Exception) {
+        } catch (_: Exception) {
         }
         alertDialog = null
     }
