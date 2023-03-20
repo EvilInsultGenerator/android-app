@@ -72,9 +72,7 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
                 ) {
                 }
 
-                override fun getAcceptedIssuers(): Array<X509Certificate?>? {
-                    return arrayOf()
-                }
+                override fun getAcceptedIssuers(): Array<X509Certificate?> = arrayOf()
             }
         )
 
@@ -109,7 +107,7 @@ class InsultViewModel(application: Application) : AndroidViewModel(application) 
     }
 
     fun observe(owner: LifecycleOwner, onUpdate: (String) -> Unit) {
-        insultData.observe(owner, Observer { onUpdate(it) })
+        insultData.observe(owner) { onUpdate(it) }
     }
 
     fun destroy(owner: LifecycleOwner) {
