@@ -64,6 +64,7 @@ android {
         checkReleaseBuilds true
         disable 'MissingTranslation', 'GoogleAppIndexingWarning'
     }
+    namespace 'com.evilinsult'
 }
 
 dependencies {
