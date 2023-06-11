@@ -1,5 +1,5 @@
 # Evil Insult Generator Android App
-[![Build Status](https://www.travis-ci.com/EvilInsultGenerator/android-app.svg?branch=master)](https://app.travis-ci.com/EvilInsultGenerator/android-app)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/EvilInsultGenerator/android-app/build.yml)
 ![License](https://img.shields.io/github/license/EvilInsultGenerator/android-app.svg)
 [![Last commit](https://img.shields.io/github/last-commit/EvilInsultGenerator/android-app.svg?style=flat)](https://github.com/EvilInsultGenerator/android-app/commits)
 [![Releases](https://img.shields.io/github/downloads/EvilInsultGenerator/android-app/total.svg?style=flat)](https://github.com/EvilInsultGenerator/android-app/releases)
