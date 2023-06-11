@@ -10,7 +10,7 @@
 [![codecov](https://codecov.io/gh/EvilInsultGenerator/android-app/branch/master/graph/badge.svg)](https://codecov.io/gh/EvilInsultGenerator/android-app)
 [![codebeat badge](https://codebeat.co/badges/3bd8e967-a081-4045-b363-6991220a2afe)](https://codebeat.co/projects/github-com-evilinsultgenerator-android-app-master)
 [![Crowdin](https://badges.crowdin.net/evil-insult-generator-android/localized.svg)](https://crowdin.com/project/evil-insult-generator-android)
-[![Known Vulnerabilities](https://snyk.io/test/github/EvilInsultGenerator/android-app/badge.svg?targetFile=app/build.gradle)](https://snyk.io/test/github/EvilInsultGenerator/android-app?targetFile=app/build.gradle)
+[![Known Vulnerabilities](https://snyk.io/test/github/EvilInsultGenerator/android-app/badge.svg?targetFile=app/build.gradle.kts)](https://snyk.io/test/github/EvilInsultGenerator/android-app?targetFile=app/build.gradle.kts)
 [![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21)
 [![F-Droid](https://img.shields.io/f-droid/v/com.evilinsult.svg)](https://f-droid.org/app/com.evilinsult)
 [![Google Play](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)](https://play.google.com/store/apps/details?id=com.evilinsult)
