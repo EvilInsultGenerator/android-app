@@ -36,5 +36,6 @@
     <string name="urdu">উর্দু</string>
     <string name="greek">গ্রীক</string>
     <string name="czech">চেক</string>
+    <string name="finnish">Finnish</string>
     <string name="latin">ল্যাটিন</string>
 </resources>

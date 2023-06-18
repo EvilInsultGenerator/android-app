@@ -36,5 +36,6 @@
     <string name="urdu">الأردية</string>
     <string name="greek">اليونانية</string>
     <string name="czech">التشيكية</string>
+    <string name="finnish">Finnish</string>
     <string name="latin">لاتيني</string>
 </resources>

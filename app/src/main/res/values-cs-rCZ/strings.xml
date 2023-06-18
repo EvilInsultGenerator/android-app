@@ -36,5 +36,6 @@
     <string name="urdu">Urdština</string>
     <string name="greek">Řečtina</string>
     <string name="czech">Čeština</string>
+    <string name="finnish">Finnish</string>
     <string name="latin">Latina</string>
 </resources>
