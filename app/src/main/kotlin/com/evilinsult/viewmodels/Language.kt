@@ -27,5 +27,6 @@ enum class Language(@StringRes val languageId: Int, val languageCode: String) {
     GREEK(R.string.greek, "el"),
     ITALIAN(R.string.italian, "it"),
     CZECH(R.string.czech, "cs"),
+    FINNISH(R.string.finnish, "fi"),
     LATIN(R.string.latin, "la"),
 }
