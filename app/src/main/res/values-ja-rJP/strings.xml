@@ -36,5 +36,6 @@
     <string name="urdu">ウルドゥ語</string>
     <string name="greek">ギリシャ語</string>
     <string name="czech">チェコ語</string>
+    <string name="finnish">Finnish</string>
     <string name="latin">ラテン語</string>
 </resources>
