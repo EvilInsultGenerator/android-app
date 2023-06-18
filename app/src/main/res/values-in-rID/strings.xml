@@ -36,5 +36,6 @@
     <string name="urdu">Bahasa Urdu</string>
     <string name="greek">Bahasa Yunani</string>
     <string name="czech">Bahasa Ceko</string>
+    <string name="finnish">Finnish</string>
     <string name="latin">Bahasa Latin</string>
 </resources>
