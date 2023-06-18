@@ -36,5 +36,6 @@
     <string name="urdu">乌尔都语</string>
     <string name="greek">希腊语</string>
     <string name="czech">捷克语</string>
+    <string name="finnish">Finnish</string>
     <string name="latin">拉丁语</string>
 </resources>
