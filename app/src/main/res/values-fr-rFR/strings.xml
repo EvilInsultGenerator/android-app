@@ -36,5 +36,6 @@
     <string name="urdu">Ourdou</string>
     <string name="greek">Grec</string>
     <string name="czech">Tchèque</string>
+    <string name="finnish">Finnish</string>
     <string name="latin">Latin</string>
 </resources>
