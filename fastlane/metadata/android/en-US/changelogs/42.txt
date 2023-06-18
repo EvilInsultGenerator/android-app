@@ -1,4 +1,4 @@
-- Show Finnish Insults 🇫🇮
+- Show More Insults 😈
 - Translation Updates 🗺️
 - Dependency Updates ⚙️
 
