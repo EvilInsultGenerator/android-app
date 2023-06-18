@@ -35,7 +35,7 @@ enum class Language(@StringRes val languageId: Int, val languageCode: String) {
     DUTCH(R.string.dutch, "nl"),
     HEBREW(R.string.hebrew, "he"),
     HUNGARIAN(R.string.hungarian, "hu"),
-    INDONESIAN(R.string.indoesian, "id"),
+    INDONESIAN(R.string.indonesian, "id"),
     KANNADA(R.string.kannada, "kn"),
     NORWEGIAN(R.string.norwegian, "no"),
     PERSIAN(R.string.persian, "fa"),
