@@ -22,8 +22,8 @@ android {
         applicationId = "com.evilinsult"
         minSdk = 21
         targetSdk = 34
-        versionCode = 43
-        versionName = "4.3"
+        versionCode = 42
+        versionName = "4.2"
         vectorDrawables.useSupportLibrary = true
     }
 
