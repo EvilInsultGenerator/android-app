@@ -36,5 +36,25 @@
     <string name="urdu">Urdština</string>
     <string name="greek">Řečtina</string>
     <string name="czech">Čeština</string>
+    <string name="finnish">Finština</string>
+    <string name="afrikaans">Afrikánština</string>
+    <string name="bulgarian">Bulharština</string>
+    <string name="catalan">Katalánština</string>
+    <string name="danish">Dánština</string>
+    <string name="dutch">Holandština</string>
+    <string name="hebrew">Hebrejština</string>
+    <string name="hungarian">Maďarština</string>
+    <string name="indonesian">Indonéština</string>
+    <string name="kannada">Kannarština</string>
+    <string name="norwegian">Norština</string>
+    <string name="persian">Perština</string>
+    <string name="polish">Polština</string>
+    <string name="punjabi">Paňdžábština</string>
+    <string name="romanian">Rumunština</string>
+    <string name="serbian">Srbština</string>
+    <string name="sinhala">Sinhálština</string>
+    <string name="swedish">Švědština</string>
+    <string name="thai">Thajština</string>
+    <string name="ukrainian">Ukrajinština</string>
     <string name="latin">Latina</string>
 </resources>

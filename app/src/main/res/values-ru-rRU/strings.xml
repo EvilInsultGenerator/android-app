@@ -36,5 +36,25 @@
     <string name="urdu">Урду</string>
     <string name="greek">Греческий</string>
     <string name="czech">Чешский</string>
+    <string name="finnish">Финский</string>
+    <string name="afrikaans">Африкаанс</string>
+    <string name="bulgarian">Болгарский</string>
+    <string name="catalan">Каталонский</string>
+    <string name="danish">Датский</string>
+    <string name="dutch">Голландский</string>
+    <string name="hebrew">Иврит</string>
+    <string name="hungarian">Венгерский</string>
+    <string name="indonesian">Индонезийский</string>
+    <string name="kannada">Каннада</string>
+    <string name="norwegian">Норвежский</string>
+    <string name="persian">Персидский</string>
+    <string name="polish">Польский</string>
+    <string name="punjabi">Панджаби</string>
+    <string name="romanian">Румынский</string>
+    <string name="serbian">Сербский</string>
+    <string name="sinhala">Сингальский</string>
+    <string name="swedish">Шведский</string>
+    <string name="thai">Тайский</string>
+    <string name="ukrainian">Украинский</string>
     <string name="latin">Латинский</string>
 </resources>

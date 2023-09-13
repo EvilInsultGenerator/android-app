@@ -21,9 +21,9 @@ android {
     defaultConfig {
         applicationId = "com.evilinsult"
         minSdk = 21
-        targetSdk = 33
-        versionCode = 41
-        versionName = "4.1"
+        targetSdk = 34
+        versionCode = 42
+        versionName = "4.2"
         vectorDrawables.useSupportLibrary = true
     }
 
@@ -80,8 +80,8 @@ android {
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     implementation(kotlin("stdlib"))
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1")
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.2")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.9.0")
     implementation("androidx.activity:activity-ktx:1.7.2")

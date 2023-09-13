@@ -36,5 +36,25 @@
     <string name="urdu">Urdu</string>
     <string name="greek">Grieks</string>
     <string name="czech">Tsjechisch</string>
+    <string name="finnish">Fins</string>
+    <string name="afrikaans">Afrikaans</string>
+    <string name="bulgarian">Bulgaars</string>
+    <string name="catalan">Catalaans</string>
+    <string name="danish">Deens</string>
+    <string name="dutch">Nederlands</string>
+    <string name="hebrew">Hebreeuws</string>
+    <string name="hungarian">Hongaars</string>
+    <string name="indonesian">Indonees</string>
+    <string name="kannada">Kannada</string>
+    <string name="norwegian">Noors</string>
+    <string name="persian">Perzisch</string>
+    <string name="polish">Pools</string>
+    <string name="punjabi">Punjabi</string>
+    <string name="romanian">Roemeens</string>
+    <string name="serbian">Servisch</string>
+    <string name="sinhala">Singalees</string>
+    <string name="swedish">Zweeds</string>
+    <string name="thai">Thais</string>
+    <string name="ukrainian">Oekraïens</string>
     <string name="latin">Latijns</string>
 </resources>
