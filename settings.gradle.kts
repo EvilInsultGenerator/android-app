@@ -15,5 +15,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "EvilInsultGenerate"
+rootProject.name = "Evil Insult Generator"
 include(":app")
