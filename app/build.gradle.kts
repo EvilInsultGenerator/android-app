@@ -19,7 +19,7 @@ android {
       }
     }
 
-    compileSdk = VersionCodes.TIRAMISU
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.evilinsult"
