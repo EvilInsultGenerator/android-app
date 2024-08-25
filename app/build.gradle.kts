@@ -14,6 +14,9 @@ android {
             storeFile = file("eig.jks")
             storePassword = "evilinsultgenerator"
         }
+    androidResources {
+        generateLocaleConfig = true
+      }
     }
 
     compileSdk = VersionCodes.TIRAMISU
