@@ -36,8 +36,8 @@
     <string name="urdu">উর্দু</string>
     <string name="greek">গ্রীক</string>
     <string name="czech">চেক</string>
-    <string name="finnish">Finnish</string>
-    <string name="afrikaans">Afrikaans</string>
+    <string name="finnish">ফিনীয়</string>
+    <string name="afrikaans">আফ্রিকান</string>
     <string name="bulgarian">বুলগেরীয়</string>
     <string name="catalan">কাতালান</string>
     <string name="danish">ড্যানিশ</string>
@@ -51,10 +51,10 @@
     <string name="polish">পোলিশ</string>
     <string name="punjabi">পাঞ্জাবি</string>
     <string name="romanian">রোমানীয়</string>
-    <string name="serbian">Serbian</string>
+    <string name="serbian">সার্বিয়</string>
     <string name="sinhala">সিংহলী</string>
     <string name="swedish">সুইডিশ</string>
     <string name="thai">থাই</string>
-    <string name="ukrainian">Ukrainian</string>
+    <string name="ukrainian">ইউক্রেনিয়ান</string>
     <string name="latin">ল্যাটিন</string>
 </resources>
