@@ -32,7 +32,7 @@ class NotificationWorker(
     }
 }
 fun scheduleDailyInsultNotification(context: Context){
-    val dailyWorkRequest = PeriodicWorkRequestBuilder<NotificationWorker>(15, TimeUnit.MINUTES)
+    val dailyWorkRequest = PeriodicWorkRequestBuilder<NotificationWorker>(1, TimeUnit.DAYS)
         .build()
 
     WorkManager.getInstance(context)
