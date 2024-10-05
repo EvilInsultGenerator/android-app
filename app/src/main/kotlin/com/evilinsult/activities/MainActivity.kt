@@ -1,6 +1,8 @@
 package com.evilinsult.activities
 
 import android.content.Intent
+import android.content.pm.PackageManager
+import android.os.Build
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -8,14 +10,17 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ListView
 import android.widget.ProgressBar
+import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
+import androidx.core.content.ContextCompat
 import androidx.core.view.isVisible
 import com.evilinsult.R
 import com.evilinsult.extensions.isNetworkAvailable
 import com.evilinsult.extensions.openLink
+import com.evilinsult.extensions.scheduleDailyInsultNotification
 import com.evilinsult.extensions.tintMenu
 import com.evilinsult.viewmodels.InsultViewModel
 import com.evilinsult.viewmodels.Language
@@ -25,6 +30,21 @@ import java.nio.charset.StandardCharsets
 
 @Suppress("RemoveExplicitTypeArguments")
 class MainActivity : AppCompatActivity() {
+
+    private val requestNotificationPermissionLauncher = registerForActivityResult(
+        ActivityResultContracts.RequestPermission()){}
+    private fun checkNotificationPermission(){
+        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU){
+            if(ContextCompat.checkSelfPermission(this,android.Manifest.permission.POST_NOTIFICATIONS)
+                == PackageManager.PERMISSION_GRANTED){
+                scheduleDailyInsultNotification(this)
+            }else{
+                requestNotificationPermissionLauncher.launch(android.Manifest.permission.POST_NOTIFICATIONS)
+            }
+        }else{
+            scheduleDailyInsultNotification(this)
+        }
+    }
 
     private val proposalUrl: String by lazy {
         "mailto:marvin@evilinsult.com?subject=" +
@@ -68,6 +88,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
         initListeners()
         generateInsult(true)
+        checkNotificationPermission() //notification channel call
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
