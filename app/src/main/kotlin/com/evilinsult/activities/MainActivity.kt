@@ -2,12 +2,16 @@ package com.evilinsult.activities
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.Gravity
 import android.view.Menu
 import android.view.MenuItem
+import android.view.ViewTreeObserver.OnGlobalLayoutListener
 import android.widget.Button
 import android.widget.EditText
+import android.widget.FrameLayout
 import android.widget.ListView
 import android.widget.ProgressBar
+import android.widget.ScrollView
 import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -54,9 +58,12 @@ class MainActivity : AppCompatActivity() {
     }
 
     private var alertDialog: AlertDialog? = null
+    private var isScrollable: Boolean = false
     private val insultViewModel: InsultViewModel by viewModels()
 
     private val toolbar: Toolbar? by lazy { findViewById<Toolbar?>(R.id.toolbar) }
+    private val scrollView: ScrollView? by lazy { findViewById<ScrollView?>(R.id.scroll_view) }
+    private val frameLayout: FrameLayout? by lazy { findViewById<FrameLayout?>(R.id.frame_layout) }
     private val progressBar: ProgressBar? by lazy { findViewById<ProgressBar?>(R.id.progress_bar) }
     private val insultEditText: EditText? by lazy { findViewById<EditText?>(R.id.insult_text_view) }
     private val generateBtn: Button? by lazy { findViewById<Button?>(R.id.generate_btn) }
@@ -104,6 +111,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun showInsult(insult: String) {
         insultEditText?.setText(insult)
+        checkScrollable()
         insultEditText?.isVisible = insult.isNotEmpty()
         progressBar?.isVisible = false
         shareBtn?.isEnabled = insult.isNotEmpty()
@@ -177,6 +185,29 @@ class MainActivity : AppCompatActivity() {
         } catch (_: Exception) {
         }
         alertDialog = null
+    }
+
+    private fun checkScrollable() {
+        val listener = object : OnGlobalLayoutListener {
+            override fun onGlobalLayout() {
+                val height = scrollView?.height ?: return
+                val childHeight = scrollView?.getChildAt(0)?.height ?: return
+
+                val isScrollable = height < childHeight
+                val layoutParams = frameLayout?.layoutParams as? FrameLayout.LayoutParams
+
+                if (!isScrollable) {
+                    layoutParams?.gravity = Gravity.CENTER
+                } else {
+                    layoutParams?.gravity = Gravity.NO_GRAVITY
+                }
+                frameLayout?.layoutParams = layoutParams
+
+                scrollView?.viewTreeObserver?.removeOnGlobalLayoutListener(this)
+            }
+        }
+
+        scrollView?.viewTreeObserver?.addOnGlobalLayoutListener(listener)
     }
 
     companion object {
