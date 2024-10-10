@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/translate"
+        android:icon="@drawable/ic_translate"
+        android:title="@string/language"
+        app:showAsAction="ifRoom" />
+
+    <item android:title="@string/social">
+        <menu>
+            <item
+                android:id="@+id/twitter"
+                android:title="@string/twitter" />
+            <item
+                android:id="@+id/website"
+                android:title="@string/website" />
+        </menu>
+    </item>
+
+    <item android:title="@string/contact">
+        <menu>
+            <item
+                android:id="@+id/proposal"
+                android:title="@string/proposal" />
+            <item
+                android:id="@+id/support"
+                android:title="@string/support" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/legal"
+        android:title="@string/legal" />
+
+</menu>

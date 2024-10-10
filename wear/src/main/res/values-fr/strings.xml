@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="social">Réseaux Sociaux</string>
+    <string name="contact">Contact</string>
+    <string name="legal">Mentions légales</string>
+    <string name="generate">Générer</string>
+    <string name="share">Partager</string>
+    <string name="twitter">Twitter</string>
+    <string name="newsletter">Bulletin d\'information</string>
+    <string name="website">Site internet</string>
+    <string name="proposal">Proposition</string>
+    <string name="support">Assistance technique</string>
+    <string name="language">Langue</string>
+    <string name="error">Erreur</string>
+    <string name="network_connection_required">%1$s nécessite une connexion internet. Veuillez réessayer plus tard.</string>
+    <string name="spanish">Espagnol</string>
+    <string name="english">Anglais</string>
+    <string name="italian">Italien</string>
+    <string name="chinese">Chinois</string>
+    <string name="hindi">Hindi</string>
+    <string name="arabic">Arabe</string>
+    <string name="portuguese">Portugais</string>
+    <string name="bengali">Bengali</string>
+    <string name="russian">Russe</string>
+    <string name="japanese">Japonais</string>
+    <string name="javanese">Javanais</string>
+    <string name="swahili">Swahili</string>
+    <string name="german">Allemand</string>
+    <string name="korean">Coréen</string>
+    <string name="french">Français</string>
+    <string name="telugu">Télougou</string>
+    <string name="marathi">Marathi</string>
+    <string name="turkish">Turc</string>
+    <string name="tamil">Tamoul</string>
+    <string name="vietnamese">Vietnamien</string>
+    <string name="urdu">Ourdou</string>
+    <string name="greek">Grec</string>
+    <string name="czech">Tchèque</string>
+    <string name="latin">Latin</string>
+</resources>
