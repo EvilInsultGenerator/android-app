@@ -1,5 +1,8 @@
 package com.evilinsult.activities
 
+import android.appwidget.AppWidgetManager
+import android.content.ComponentName
+import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.view.Gravity
@@ -21,8 +24,8 @@ import com.evilinsult.R
 import com.evilinsult.extensions.isNetworkAvailable
 import com.evilinsult.extensions.openLink
 import com.evilinsult.extensions.tintMenu
-import com.evilinsult.viewmodels.InsultViewModel
 import com.evilinsult.viewmodels.Language
+import com.evilinsult.activities.InsultWidgetProvider // Import your widget provider
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import java.net.URLEncoder
 import java.nio.charset.StandardCharsets
@@ -116,6 +119,8 @@ class MainActivity : AppCompatActivity() {
         progressBar?.isVisible = false
         shareBtn?.isEnabled = insult.isNotEmpty()
         generateBtn?.isEnabled = true
+        saveInsultToLocalStorage(insult) // Save insult to local storage
+        updateWidgetWithNewInsult() // Update the widget with the new insult
     }
 
     private fun generateInsult(force: Boolean = false) {
@@ -187,6 +192,22 @@ class MainActivity : AppCompatActivity() {
         alertDialog = null
     }
 
+    private fun saveInsultToLocalStorage(insult: String) {
+        val sharedPreferences = getSharedPreferences("InsultPrefs", Context.MODE_PRIVATE)
+        val editor = sharedPreferences.edit()
+        editor.putString("lastInsult", insult)
+        editor.apply() // Save the insult to local storage
+    }
+
+    private fun updateWidgetWithNewInsult() {
+        val intent = Intent(this, InsultWidgetProvider::class.java)
+        intent.action = AppWidgetManager.ACTION_APPWIDGET_UPDATE
+        val ids = AppWidgetManager.getInstance(application).getAppWidgetIds(
+            ComponentName(application, InsultWidgetProvider::class.java)
+        )
+        intent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_IDS, ids)
+        sendBroadcast(intent) // Notify the widget to update
+
     private fun checkScrollable() {
         val listener = object : OnGlobalLayoutListener {
             override fun onGlobalLayout() {
@@ -208,6 +229,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         scrollView?.viewTreeObserver?.addOnGlobalLayoutListener(listener)
+
     }
 
     companion object {

@@ -1,10 +1,11 @@
-package com.evilinsult.viewmodels
+package com.evilinsult.activities
 
 import android.annotation.SuppressLint
 import android.app.Application
 import android.content.Context
 import android.content.SharedPreferences
 import androidx.lifecycle.*
+import com.evilinsult.viewmodels.Language
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
