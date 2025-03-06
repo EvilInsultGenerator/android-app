@@ -51,10 +51,10 @@
     <string name="polish">पोलिश</string>
     <string name="punjabi">पंजाबी</string>
     <string name="romanian">रोमानियन</string>
-    <string name="serbian">Serbian</string>
-    <string name="sinhala">Sinhala</string>
-    <string name="swedish">Swedish</string>
-    <string name="thai">Thai</string>
-    <string name="ukrainian">Ukrainian</string>
+    <string name="serbian">सर्बियन</string>
+    <string name="sinhala">सिंहली</string>
+    <string name="swedish">स्वीडिश</string>
+    <string name="thai">थाई</string>
+    <string name="ukrainian">युक्रेनियन</string>
     <string name="latin">लॅटिन</string>
 </resources>
