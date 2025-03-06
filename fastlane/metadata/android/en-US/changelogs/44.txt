@@ -1,0 +1,10 @@
+- Homescreen widget 🏠
+- Option to activate an "Insult of the day" notification 📆
+- Spring cleaning (Wear OS part is modularized now) 🧽
+- Target Android 16 🤖
+- Dependency updates ⚙️
+- Translation updates 🗺️
+
+Thank you so much to all contributors, translators and reporters, especially Jenu and Ruben! 😘
+Feel welcome to join on https://crowdin.com/project/evil-insult-generator-android and help with translations. 🙊
+And don't forget to submit your favorite insults! 😈
