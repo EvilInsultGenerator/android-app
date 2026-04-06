@@ -19,14 +19,14 @@ android {
       }
     }
 
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.evilinsult"
         minSdk = 21
-        targetSdk = 35
-        versionCode = 43
-        versionName = "4.3"
+        targetSdk = 36
+        versionCode = 44
+        versionName = "4.4"
         vectorDrawables.useSupportLibrary = true
     }
 
