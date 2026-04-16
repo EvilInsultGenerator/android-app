@@ -2,6 +2,28 @@
 <resources>
     <string name="social">社交</string>
     <string name="contact">聯絡</string>
+    <string name="daily_insult">Daily Insult</string>
+    <string name="status">Status</string>
+    <string name="enable_daily_insult">Enable daily insult notification</string>
+    <string name="rhythm">Rhythm</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="time">Time</string>
+    <string name="day_of_week">Day of week</string>
+    <string name="day_of_month">Day of month</string>
+    <string name="app_language">App Language</string>
+    <string name="notification_permission_denied">Notification permission denied. Cannot enable daily insult.</string>
+    <string name="select_day">Select Day</string>
+    <string name="select_day_of_month">Select Day of Month</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="language">語言</string>
     <string name="legal">法律</string>
     <string name="generate">生成</string>
     <string name="share">分享</string>
@@ -10,7 +32,6 @@
     <string name="website">網站</string>
     <string name="proposal">提議</string>
     <string name="support">支援</string>
-    <string name="language">語言</string>
     <string name="error">錯誤</string>
     <string name="network_connection_required">%1$s 需要有效的網路連接。請稍後重試。</string>
     <string name="spanish">西班牙語</string>
