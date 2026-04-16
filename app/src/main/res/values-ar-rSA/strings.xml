@@ -2,6 +2,28 @@
 <resources>
     <string name="social">اجتماعي</string>
     <string name="contact">اتصل</string>
+    <string name="daily_insult">Daily Insult</string>
+    <string name="status">Status</string>
+    <string name="enable_daily_insult">Enable daily insult notification</string>
+    <string name="rhythm">Rhythm</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="time">Time</string>
+    <string name="day_of_week">Day of week</string>
+    <string name="day_of_month">Day of month</string>
+    <string name="app_language">App Language</string>
+    <string name="notification_permission_denied">Notification permission denied. Cannot enable daily insult.</string>
+    <string name="select_day">Select Day</string>
+    <string name="select_day_of_month">Select Day of Month</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="language">لغة</string>
     <string name="legal">قانوني</string>
     <string name="generate">يولد</string>
     <string name="share">شارك</string>
@@ -10,7 +32,6 @@
     <string name="website">موقع إلكتروني</string>
     <string name="proposal">عرض</string>
     <string name="support">يدعم</string>
-    <string name="language">لغة</string>
     <string name="error">خطأ</string>
     <string name="network_connection_required">%1$s يتطلب اتصال إنترنت نشط. الرجاء معاودة المحاولة في وقت لاحق.</string>
     <string name="spanish">الأسبانية</string>
