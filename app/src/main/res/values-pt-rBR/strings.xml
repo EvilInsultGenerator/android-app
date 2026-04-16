@@ -2,6 +2,28 @@
 <resources>
     <string name="social">Redes Sociais</string>
     <string name="contact">Contato</string>
+    <string name="daily_insult">Daily Insult</string>
+    <string name="status">Status</string>
+    <string name="enable_daily_insult">Enable daily insult notification</string>
+    <string name="rhythm">Rhythm</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="time">Time</string>
+    <string name="day_of_week">Day of week</string>
+    <string name="day_of_month">Day of month</string>
+    <string name="app_language">App Language</string>
+    <string name="notification_permission_denied">Notification permission denied. Cannot enable daily insult.</string>
+    <string name="select_day">Select Day</string>
+    <string name="select_day_of_month">Select Day of Month</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="language">Idioma</string>
     <string name="legal">Aspetos legais</string>
     <string name="generate">Gerar</string>
     <string name="share">Compartilhar</string>
@@ -10,7 +32,6 @@
     <string name="website">Site</string>
     <string name="proposal">Proposta</string>
     <string name="support">Suporte</string>
-    <string name="language">Idioma</string>
     <string name="error">Erro</string>
     <string name="network_connection_required">%1$s requer uma conexão ativa com a internet. Por favor, tente novamente mais tarde.</string>
     <string name="spanish">Espanhol</string>
