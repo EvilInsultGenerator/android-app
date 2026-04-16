@@ -2,6 +2,28 @@
 <resources>
     <string name="social">Sociaal</string>
     <string name="contact">Contact</string>
+    <string name="daily_insult">Daily Insult</string>
+    <string name="status">Status</string>
+    <string name="enable_daily_insult">Enable daily insult notification</string>
+    <string name="rhythm">Rhythm</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="time">Time</string>
+    <string name="day_of_week">Day of week</string>
+    <string name="day_of_month">Day of month</string>
+    <string name="app_language">App Language</string>
+    <string name="notification_permission_denied">Notification permission denied. Cannot enable daily insult.</string>
+    <string name="select_day">Select Day</string>
+    <string name="select_day_of_month">Select Day of Month</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="language">Taal</string>
     <string name="legal">Wettelijk</string>
     <string name="generate">Genereren</string>
     <string name="share">Delen</string>
@@ -10,7 +32,6 @@
     <string name="website">Website</string>
     <string name="proposal">Voorstel</string>
     <string name="support">Ondersteuning</string>
-    <string name="language">Taal</string>
     <string name="error">Fout</string>
     <string name="network_connection_required">%1$s vereist een actieve internetverbinding. Probeer het later nog eens.</string>
     <string name="spanish">Spaans</string>
