@@ -23,7 +23,7 @@ android {
 
     defaultConfig {
         applicationId = "com.evilinsult"
-        minSdk = 21
+        minSdk = 23
         targetSdk = 36
         versionCode = 44
         versionName = "4.4"
@@ -41,7 +41,6 @@ android {
     buildTypes {
         named("release") {
             isDebuggable = false
-            isZipAlignEnabled = true
             isMinifyEnabled = true
             isShrinkResources = false
             setProguardFiles(listOf(getDefaultProguardFile("proguard-android-optimize.txt"),
@@ -69,9 +68,12 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
-    kotlinOptions {
-        jvmTarget = "17"
+    kotlin {
+        compilerOptions {
+            jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
+        }
     }
+
     lint {
         abortOnError = false
         checkReleaseBuilds = true
@@ -93,4 +95,6 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0")
     implementation("org.jsoup:jsoup:1.21.2")
     implementation("androidx.constraintlayout:constraintlayout:2.2.1")
+    implementation("androidx.work:work-runtime-ktx:2.9.1")
+
 }

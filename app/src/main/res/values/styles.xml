@@ -14,7 +14,8 @@
         <item name="colorOnSecondary">@color/onAccent</item>
 
         <item name="android:colorEdgeEffect">?colorSecondary</item>
-
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:windowLightStatusBar">false</item>
         <item name="android:windowBackground">@color/background</item>
         <item name="android:navigationBarColor">@color/navigationBarColor</item>
         <item name="android:navigationBarDividerColor">@color/navigationBarDividerColor</item>
@@ -34,6 +35,13 @@
         <item name="rippleColor">@color/colored_btn_ripple_color</item>
         <item name="android:textColor">@color/colored_btn_text_color</item>
         <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="AppTheme.TimeButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textSize">16sp</item>
+        <item name="rippleColor">@color/colorPrimaryDark</item>
     </style>
 
 </resources>
