@@ -2,6 +2,28 @@
 <resources>
     <string name="social">사회의</string>
     <string name="contact">연락하다</string>
+    <string name="daily_insult">Daily Insult</string>
+    <string name="status">Status</string>
+    <string name="enable_daily_insult">Enable daily insult notification</string>
+    <string name="rhythm">Rhythm</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="time">Time</string>
+    <string name="day_of_week">Day of week</string>
+    <string name="day_of_month">Day of month</string>
+    <string name="app_language">App Language</string>
+    <string name="notification_permission_denied">Notification permission denied. Cannot enable daily insult.</string>
+    <string name="select_day">Select Day</string>
+    <string name="select_day_of_month">Select Day of Month</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="language">언어</string>
     <string name="legal">합법적 인</string>
     <string name="generate">생성하다</string>
     <string name="share">공유하다</string>
@@ -10,7 +32,6 @@
     <string name="website">웹사이트</string>
     <string name="proposal">제안</string>
     <string name="support">지원하다</string>
-    <string name="language">언어</string>
     <string name="error">오류</string>
     <string name="network_connection_required">%1$s 은(는) 활성 인터넷 연결이 필요합니다. 나중에 다시 시도 해주십시오.</string>
     <string name="spanish">스페인의</string>
