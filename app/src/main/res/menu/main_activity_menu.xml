@@ -34,4 +34,9 @@
         android:id="@+id/legal"
         android:title="@string/legal" />
 
+    <item
+        android:id="@+id/notification"
+        android:title="@string/daily_insult">
+    </item>
+
 </menu>
