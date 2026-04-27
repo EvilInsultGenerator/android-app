@@ -2,6 +2,28 @@
 <resources>
     <string name="social">Xã hội</string>
     <string name="contact">Liên hệ</string>
+    <string name="daily_insult">Daily Insult</string>
+    <string name="status">Status</string>
+    <string name="enable_daily_insult">Enable daily insult notification</string>
+    <string name="rhythm">Rhythm</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="time">Time</string>
+    <string name="day_of_week">Day of week</string>
+    <string name="day_of_month">Day of month</string>
+    <string name="app_language">App Language</string>
+    <string name="notification_permission_denied">Notification permission denied. Cannot enable daily insult.</string>
+    <string name="select_day">Select Day</string>
+    <string name="select_day_of_month">Select Day of Month</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="language">Ngôn ngữ</string>
     <string name="legal">Hợp pháp</string>
     <string name="generate">Tạo ra</string>
     <string name="share">Chia sẻ</string>
@@ -10,7 +32,6 @@
     <string name="website">Website</string>
     <string name="proposal">Đề nghị</string>
     <string name="support">Hỗ trợ</string>
-    <string name="language">Ngôn ngữ</string>
     <string name="error">Lỗi</string>
     <string name="network_connection_required">%1$s Yêu cầu kết nối internet. Vui lòng thử lại sau.</string>
     <string name="spanish">Tiếng Tây Ban Nha</string>

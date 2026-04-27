@@ -2,6 +2,28 @@
 <resources>
     <string name="social">సామాజిక</string>
     <string name="contact">సంప్రదించండి</string>
+    <string name="daily_insult">Daily Insult</string>
+    <string name="status">Status</string>
+    <string name="enable_daily_insult">Enable daily insult notification</string>
+    <string name="rhythm">Rhythm</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="time">Time</string>
+    <string name="day_of_week">Day of week</string>
+    <string name="day_of_month">Day of month</string>
+    <string name="app_language">App Language</string>
+    <string name="notification_permission_denied">Notification permission denied. Cannot enable daily insult.</string>
+    <string name="select_day">Select Day</string>
+    <string name="select_day_of_month">Select Day of Month</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="language">లాంగ్వేజ్</string>
     <string name="legal">చట్టపరమైన</string>
     <string name="generate">సృష్టించు</string>
     <string name="share">షేర్ చేయండి</string>
@@ -10,7 +32,6 @@
     <string name="website">వెబ్ సైట్</string>
     <string name="proposal">ప్రపోజల్</string>
     <string name="support">సపోర్ట్</string>
-    <string name="language">లాంగ్వేజ్</string>
     <string name="error">ఎర్రర్</string>
     <string name="network_connection_required">%1$sకి పనిచేస్తున్న ఇంటర్నెట్ కనెక్షన్ అవసరం. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి.</string>
     <string name="spanish">స్పానిష్</string>

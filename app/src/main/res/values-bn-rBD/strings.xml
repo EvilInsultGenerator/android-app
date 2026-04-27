@@ -2,6 +2,28 @@
 <resources>
     <string name="social">সামাজিক</string>
     <string name="contact">যোগাযোগ</string>
+    <string name="daily_insult">Daily Insult</string>
+    <string name="status">Status</string>
+    <string name="enable_daily_insult">Enable daily insult notification</string>
+    <string name="rhythm">Rhythm</string>
+    <string name="daily">Daily</string>
+    <string name="weekly">Weekly</string>
+    <string name="monthly">Monthly</string>
+    <string name="time">Time</string>
+    <string name="day_of_week">Day of week</string>
+    <string name="day_of_month">Day of month</string>
+    <string name="app_language">App Language</string>
+    <string name="notification_permission_denied">Notification permission denied. Cannot enable daily insult.</string>
+    <string name="select_day">Select Day</string>
+    <string name="select_day_of_month">Select Day of Month</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="language">ভাষা</string>
     <string name="legal">আইনি</string>
     <string name="generate">তৈরি করা</string>
     <string name="share">ভাগ</string>
@@ -10,7 +32,6 @@
     <string name="website">ওয়েবসাইট</string>
     <string name="proposal">প্রস্তাব</string>
     <string name="support">সমর্থন</string>
-    <string name="language">ভাষা</string>
     <string name="error">ত্রুটি</string>
     <string name="network_connection_required">%1$s-এর একটি সক্রিয় অন্তর্জাল সংযোগ প্রয়োজন৷ অনুগ্রহ করে একটু পরে আবার চেষ্টা করুন.</string>
     <string name="spanish">স্পেনীয়</string>
